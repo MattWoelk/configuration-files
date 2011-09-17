@@ -2,4 +2,4 @@
 # This takes all of the files in path-list.txt and makes a file structure
 # in the current directory and copies them into it.
 
-cat path-list.txt | xargs -I{} echo {} | cpio -pd --quiet . 2> /dev/null
+cat path-list.txt | xargs -I{} echo {} | cpio -pduL --quiet . 

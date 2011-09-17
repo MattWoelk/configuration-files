@@ -1,1 +1,21 @@
-Dropbox/.pentadactylrc
+"2.1 (created: 2009/05/21 13:13:06)
+
+"set runtimepath=/Users/matthewwoelk/.vimperator
+"source! /Users/matthewwoelk/.vimperatorrc.local
+
+set complete=slf
+set editor='/usr/bin/gvim -f'
+set guioptions=bCrsn
+"set vb=false
+set showtabline=multitab
+
+autocmd LocationChange .* js modes.passAllKeys = /(www|mail)\.google\.com/.test(buffer.URL)
+
+command! -nargs=* bmlist tabopen about:mybookmarks 
+command! -nargs=1 popup execute "open " + content.location.host
+
+"press yt to view a YouTube video as fullscreened within the window
+map yt -js dactyl.open( String.replace(buffer.URL, /watch/, "watch_popup") )
+
+"press yd to break the current tab into its own window
+map yd -ex tabdetach
