@@ -1,1 +1,3 @@
 these are all of my configuration files, as they would be seen in the filesystem. This should make starting from scratch in the future a breeze.
+
+If it doesn't have a big fancy path, then it's supposed to sit in the home directory
