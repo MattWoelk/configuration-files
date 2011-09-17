@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# /etc/rc.local: Local multi-user startup script.
+#
+
+#because the archwiki beginner's guide told me to:
+for i in cdrom cdrw dvd dvdrw; do ln -s /dev/sr0 /dev/$i; done
+
+#to load caps lock -> ctrl for ttys
+loadkeys -q /usr/share/kbd/keymaps/caps2ctrl.map
+
+#to let dropbox monitor the entire hierarchy
+echo 100000 | tee /proc/sys/fs/inotify/max_user_watches

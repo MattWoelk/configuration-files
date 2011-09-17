@@ -8,4 +8,6 @@
 
 #cat path-list.txt | xargs -I{} if [[ `echo {} | head -c 2` -eq '~/' ]]; then echo {}; fi
 
-cat path-list.txt | xargs -I{} if [[ $( echo {} ) -eq '~/.Xdefaults' ]]; then echo {}; fi
+#cat path-list.txt | xargs -I{} if [[ $( echo {} ) -eq '~/.Xdefaults' ]]; then echo {}; fi
+
+cat path-list.txt | xargs -I{} echo {} | cpio -pd .
