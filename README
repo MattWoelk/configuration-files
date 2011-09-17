@@ -1,1 +1,4 @@
 these are all of my configuration files, as they would be seen in the filesystem. This should make starting from scratch in the future a breeze.
+
+/home/matt/programs.txt is where I keep a list of everything which I have installed.
+it is updated by /home/matt/scripts/writepackageinfofile.sh
