@@ -91,9 +91,11 @@ virtualbox      : Optional dependencies for virtualbox
 --OCR:
 yagf  : front end for cuneiForm OCR
 
---KEYBINDINGS:
+--CUSTOMIZATION:
 xbindkeys : to set special keys (use xbindkeys -mk to see codes of what you press in the window that pops up, then add them to ~/.xbindkeysrc)
 xev     : type and it will tell you which key you pressed (key code)
+xwininfo: then click a window and it will tell you what x knows about it (information)
+xprop   : window information, similar to xwininfo
 
 --LIBRARIES:
 antiword    : microsoft word support
@@ -159,7 +161,6 @@ openssh
 opera
 patch
 pcmciautils
-pinfo
 pkg-config
 pkgtools
 playonlinux

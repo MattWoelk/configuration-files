@@ -33,27 +33,43 @@ xbindkeys &
 
 #start up a vnc server
 #echo %%% START VLC
+echo GOT HERE a
 /usr/bin/x11vnc -nap -noxdamage -forever -o /var/log/x11vnc.log -bg &
 
 #start artha (ctrl+alt+w)
 #echo %%% ARTHA
+echo GOT HERE b
 artha &
 
 #start the vlc http server so that i can start music with my phone.
 #echo %%% VLC
+echo GOT HERE c
 vlc -I http &
 
 #start up a terminal so that I know the window manager has started
-urxvt -bg black -fg white +sb
+echo GOT HERE d
+urxvt -bg black -fg white +sb &
 
-#start up nm-applet and stalonetray
+#start up nm-applet
+echo GOT HERE 1
 (sleep 3 && /usr/bin/nm-applet --sm-disable) &
-stalonetray > /dev/null 2>/dev/null &
+echo GOT HERE 2
+
+#start the tray
+trayer --edge left --SetDockType true --SetPartialStrut true --transparent true --alpha 0 --tint 0x080808
+
+#put a clock in the systray:
+trayclock &
+
+#put battery indicator in the systray:
+qbat &
 
 #start dropbox
 #echo %%% DROPBOX
+echo GOT HERE 3
 (sleep 10 && dropboxd) &
 
 #start up window manager
+echo GOT HERE 4
 exec ck-launch-session xmonad
 #exec qtile # This hasn't yet worked

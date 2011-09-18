@@ -16,5 +16,6 @@
 /home/matt/.vimrc
 /home/matt/.xbindkeysrc
 /home/matt/.xinitrc
+/home/matt/.xmonad/xmonad.hs
 /home/matt/programs.txt
 /home/matt/scripts/writepackageinfofile.sh
