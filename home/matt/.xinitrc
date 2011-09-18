@@ -44,7 +44,7 @@ artha &
 vlc -I http &
 
 #start up a terminal so that I know the window manager has started
-xterm&
+urxvt -bg black -fg white +sb
 
 #start up nm-applet and stalonetray
 (sleep 3 && /usr/bin/nm-applet --sm-disable) &

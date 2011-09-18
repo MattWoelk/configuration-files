@@ -30,6 +30,7 @@ pacman-color  : pacman ... in colour!! (currently aliased)
 
 --NETWORK THINGS:
 nmap [ip address ending in .0]/24 to scan everything local on every port and see what's available. (example: nmap 10.0.100.0/24) The 24 is the same as what we see when we run `ip addr`
+      it can also be used to find the mac address of something which you have the ip address of like this: "nmap -O 10.0.100.1" (the O is to find which operating system it is running)
 network-manager-applet    : to connect to wireless and wired networks.
 
 --COMMUNICATIONS:
@@ -75,6 +76,7 @@ libreoffice-kde4
 libreoffice-math
 libreoffice-sdk-doc
 libreoffice-writer
+kile                : apparently a good IDE for LaTeX
 
 --WINDOW MANAGERS:
 xmonad
@@ -150,7 +152,6 @@ initscripts
 iputils
 jfsutils
 jokosher
-kile
 less
 lib32-giflib
 lib32-lcms
@@ -176,6 +177,7 @@ openssh
 opera
 patch
 pcmciautils
+pinfo
 pkg-config
 pkgtools
 playonlinux
@@ -194,7 +196,6 @@ stellarium
 sudo
 syslog-ng
 tar
-texlive-core
 transmission-cli
 transmission-qt
 uniconvertor
@@ -202,7 +203,6 @@ unrtf
 untex
 usbutils
 uzbl-tabbed
-vi
 vte
 wget
 wine_gecko
