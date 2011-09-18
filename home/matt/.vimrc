@@ -1,7 +1,8 @@
 set nocompatible
 syn on
 
-" allow the mouse
+" allow the mouse (for middle-clicking, which can also be done with the *
+" register)
 set mouse=a
 
 set softtabstop=2
@@ -30,7 +31,7 @@ set ignorecase
 set smartcase
 
 set wildmenu "shows a tab-completion list in the command line"
-set wildmode=list:longest, "Complete longest common string, then each full match
+set wildmode=longest,full "Complete longest common string, then each full match
 
 
 if has("gui_running")
@@ -64,7 +65,8 @@ noremap M M0
 nnoremap <c-n> gt
 nnoremap <c-p> gT
 
-"to be able to undo c-u & c-w in insert mode
+"to be able to undo c-u & c-w in insert mode (because it happens all too often
+"by accident)
 inoremap <c-u> <c-g>u<c-u>
 inoremap <c-w> <c-g>u<c-w>
 

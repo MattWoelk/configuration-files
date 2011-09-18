@@ -2,8 +2,8 @@ import XMonad
 
 main = do
   xmonad $ defaultConfig
-    { terminal  = "urxvt"
+    { terminal  = "urxvt -bg black -fg white +sb"
     , borderWidth = 2
-    , normalBorderColor   = "#000000"
+    , normalBorderColor   = "#111111"
     , focusedBorderColor  = "#00CC00"
     }
