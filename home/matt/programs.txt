@@ -83,28 +83,10 @@ xmonad
 
 --VIRTUALIZATION:
 virtualbox-additions: so that guest additions can be installed in virtualboxes
-virtualbox      : 
-  ===> In order to run VirtualBox, you have to  be in the 'vboxusers' group.
-  ===>
-  ===> If you want to be able to install guest additions, you have to install
-  ===> 'virtualbox-additions' package.
-  ===>
-  ===> You must load vboxdrv module before starting VirtualBox:
-  ===> # modprobe vboxdrv
-  ===>
-  ===> For networking you must load vboxnetflt or vboxnetadp.
-  ===>
-  ===> For PCI passthrough support load vboxpci module.
-  ===>
-  ===> To load it automatically, add vboxdrv module
-  ===> to the MODULES array in /etc/rc.conf.
-
-  *** To compile the modules do rc.d setup vboxdrv ***
-
-  Optional dependencies for virtualbox
-      qt: for VirtualBox GUI
-      vde2: Virtual Distributed Ethernet support
-      virtualbox-sdk: developer kit
+virtualbox      : Optional dependencies for virtualbox
+                    qt: for VirtualBox GUI
+                    vde2: Virtual Distributed Ethernet support
+                    virtualbox-sdk: developer kit
 
 --OCR:
 yagf  : front end for cuneiForm OCR
