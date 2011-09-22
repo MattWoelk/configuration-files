@@ -33,30 +33,22 @@ xbindkeys &
 
 #start up a vnc server
 #echo %%% START VLC
-echo GOT HERE a
+#echo GOT HERE a
 /usr/bin/x11vnc -nap -noxdamage -forever -o /var/log/x11vnc.log -bg &
-
-#start artha (ctrl+alt+w)
-#echo %%% ARTHA
-echo GOT HERE b
-artha &
 
 #start the vlc http server so that i can start music with my phone.
 #echo %%% VLC
-echo GOT HERE c
+#echo GOT HERE c
 vlc -I http &
 
 #start up a terminal so that I know the window manager has started
-echo GOT HERE d
+#echo GOT HERE d
 urxvt -bg black -fg white +sb &
 
 #start up nm-applet
-echo GOT HERE 1
+#echo GOT HERE 1
 (sleep 3 && /usr/bin/nm-applet --sm-disable) &
-echo GOT HERE 2
-
-#start the tray
-trayer --edge left --SetDockType true --SetPartialStrut true --transparent true --alpha 0 --tint 0x080808
+#echo GOT HERE 2
 
 #put a clock in the systray:
 trayclock &
@@ -64,12 +56,24 @@ trayclock &
 #put battery indicator in the systray:
 qbat &
 
+#put volume indicator in the systray:
+volumeicon &
+
+#start artha (ctrl+alt+w)
+#echo %%% ARTHA
+#echo GOT HERE b
+artha &
+
 #start dropbox
 #echo %%% DROPBOX
-echo GOT HERE 3
+#echo GOT HERE 3
 (sleep 10 && dropboxd) &
 
+#start the tray
+#(sleep 9 && trayer --edge left --SetDockType true --SetPartialStrut true --transparent true --alpha 0 --tint 0x080808) &
+stalonetray -bg '#0C0C0C' &
+
 #start up window manager
-echo GOT HERE 4
+#echo GOT HERE 4
 exec ck-launch-session xmonad
 #exec qtile # This hasn't yet worked

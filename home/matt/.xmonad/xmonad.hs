@@ -13,5 +13,5 @@ main = do
     , focusedBorderColor  = "#00CC00"
 --    , layoutHook=avoidStruts $ mylayoutHook
     , layoutHook=mylayoutHook
-    , manageHook=manageDocks <+> manageHook defaultConfig
+    , manageHook=manageDocks <+> manageHook defaultConfig <+> (className =? "stalonetray" --> doIgnore)
     }

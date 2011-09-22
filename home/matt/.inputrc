@@ -1,0 +1,7 @@
+$include /etc/inputrc
+set completion-ignore-case on
+set completion-prefix-display-length 3
+
+# this is so that ls<up> will only show history beginning with ls
+"\e[A":history-search-backward
+"\e[B":history-search-forward

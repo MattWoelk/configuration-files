@@ -23,3 +23,6 @@ complete -cf man
 
 #--ENVIRONMENTAL VARIABLES--
 export EDITOR="vim"
+
+# ignore duplicates in bash history
+export HISTCONTROL=ignoredups

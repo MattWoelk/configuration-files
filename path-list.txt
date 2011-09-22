@@ -1,6 +1,7 @@
 /etc/asound.conf
 /etc/fstab
 /etc/fstab.backup
+/etc/inittab
 /etc/issue
 /etc/issue.backup
 /etc/pacman.conf
@@ -11,6 +12,7 @@
 /home/matt/.Xdefaults
 /home/matt/.Xresources
 /home/matt/.bashrc
+/home/matt/.inputrc
 /home/matt/.pentadactylrc
 /home/matt/.stalonetrayrc
 /home/matt/.vimrc
