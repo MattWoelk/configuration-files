@@ -73,6 +73,9 @@ artha &
 #(sleep 9 && trayer --edge left --SetDockType true --SetPartialStrut true --transparent true --alpha 0 --tint 0x080808) &
 stalonetray -bg '#0C0C0C' &
 
+#start daemon to watch for changed files on behalf of recoll
+/usr/share/recoll/examples/rclmon.sh start &
+
 #start up window manager
 #echo GOT HERE 4
 exec ck-launch-session xmonad
