@@ -1,4 +1,6 @@
-these are all of my configuration files, as they would be seen in the filesystem. This should make starting from scratch in the future a breeze.
+These are all of my configuration files, as they would be seen in the filesystem. This should make starting from scratch in the future a breeze.
+
+It is updated by running scan.sh, which goes through path-list.txt and copies those things into the proper folders.
 
 /home/matt/programs.txt is where I keep a list of everything which I have installed.
 it is updated by /home/matt/scripts/writepackageinfofile.sh
