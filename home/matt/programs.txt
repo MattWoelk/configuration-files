@@ -12,6 +12,9 @@ vipe  : edit what is being sent through a pipe in vim (ex: `ls | vipe | grep hom
 vidir : edit a directory in vim. delete, rename, etc. It's crazy!
 chronic : silence output...unless it fails
 cpio    : copy into and out of zips and tars and things (archives)
+dmesg   : more detail about boot messages
+free    : see how much ram is being used and whether the swap partition is being mounted (free -m)
+fdisk   : see what HDDs are mounted on the system (sudo fdisk -l)
 
 --FILE HANDLERS:
 gv		: pdf viewer
@@ -103,6 +106,7 @@ aspell-en   : english dictionary
 cups-pdf    : print to a pdf
 
 --UNSORTED:
+arduino
 artha
 audacity
 autoconf
@@ -137,6 +141,7 @@ inotify-tools
 iputils
 jfsutils
 jokosher
+ldm-git
 less
 lib32-giflib
 lib32-lcms
@@ -175,6 +180,7 @@ qtoctave
 ranger
 recoll
 reiserfsprogs
+rubix
 rxvt-unicode
 screen
 stalonetray
