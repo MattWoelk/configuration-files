@@ -79,4 +79,5 @@ stalonetray -bg '#0C0C0C' &
 #start up window manager
 #echo GOT HERE 4
 exec ck-launch-session xmonad
+#exec ck-launch-session qtile
 #exec qtile # This hasn't yet worked

@@ -11,6 +11,7 @@ alias pacman=pacman-color
 alias vlc-for-remote='vlc -I http'
 alias bc='bc -q'
 alias info='info --vi-keys'
+alias grep='grep -i --color'
 
 #--PROMPT--
 #PS1='[\u@\h \W]\$ ' #The arch default
@@ -26,3 +27,9 @@ export EDITOR="vim"
 
 # ignore duplicates in bash history
 export HISTCONTROL=ignoredups
+
+# append history from each terminal upon exit
+shopt -s histappend
+
+# make bash history ... HUGE!
+HISTSIZE=100000

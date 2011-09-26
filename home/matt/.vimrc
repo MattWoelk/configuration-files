@@ -78,7 +78,8 @@ au BufWritePost,BufLeave,WinLeave ?* mkview
 "replace for whatever you type in next 
 "(especially useful for searching with *)
 "used with \r in normal mode
-nmap <leader>r <Esc>:%s/<C-r>///g<left><left>
+nmap <leader>r <Esc>:%s/\(<C-r>/\)//g<left><left>
+nmap <leader>R <Esc>:%s/\(<C-r>/\)//gc<left><left><left>
 
 set showtabline=2 " always show tabs in gvim, but not vim
 " set up tab labels with tab number, buffer name, number of windows

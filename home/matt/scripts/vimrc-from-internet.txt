@@ -1,0 +1,4 @@
+vim -u NORC -N --cmd "runtime plugin/netrwPlugin.vim" --cmd "source scp://HOSTNAME/.vimrc"
+
+#to find this, search for :Ns in vim help
+# might need netrwPlugin.vim to be in the plugin folder...
