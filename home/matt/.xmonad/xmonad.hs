@@ -12,6 +12,6 @@ main = do
     , normalBorderColor   = "#080808"
     , focusedBorderColor  = "#00CC00"
 --    , layoutHook=avoidStruts $ mylayoutHook
-    , layoutHook=mylayoutHook
-    , manageHook=manageDocks <+> manageHook defaultConfig <+> (className =? "stalonetray" --> doIgnore)
+    , layoutHook = smartBorders (mylayoutHook)
+    , manageHook = manageDocks <+> manageHook defaultConfig <+> (className =? "stalonetray" --> doIgnore)
     }

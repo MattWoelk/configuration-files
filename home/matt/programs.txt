@@ -21,6 +21,7 @@ cpio    : copy into and out of zips and tars and things (archives)
 free    : see how much ram is being used and whether the swap partition is being mounted (free -m)
 fdisk   : see what HDDs are mounted on the system (sudo fdisk -l)
 xdotool : (xdotool mousemove 1900 1080) to move mouse to a corner using keys
+k3b     : disk burner for disk images and dvds and cds and things
 
 --FILE HANDLERS:
 gv		: pdf viewer
@@ -117,6 +118,7 @@ artha
 audacity
 autoconf
 automake
+banshee
 bison
 brscan3
 catdoc
@@ -124,12 +126,18 @@ celt
 consolekit
 cryptsetup
 ctags
+devmon
+dosfstools
+dvd+rw-tools
 dwarffortress
+emovix
 espeak
 fakeroot
 flashplugin
 flex
 foxitreader
+frozensynapse
+funnyboat
 giggle
 gimp-devel
 gksu
@@ -157,7 +165,6 @@ lib32-libxml2
 lib32-mpg123
 lib32-v4l-utils
 libffado
-libgpod
 libwpg
 licenses
 linux
@@ -168,6 +175,7 @@ man-db
 man-pages
 mdadm
 moreutils
+mtools
 nano
 nautilus
 ntfsprogs
@@ -175,6 +183,8 @@ openssh
 opera
 patch
 pcmciautils
+pdfedit
+pdftk
 pkg-config
 pkgtools
 playonlinux
@@ -192,9 +202,11 @@ rubix
 rxvt-unicode
 stalonetray
 stellarium
+sublime-text
 sudo
 syslog-ng
 tar
+transcode
 transmission-cli
 transmission-qt
 trayclock
@@ -204,6 +216,7 @@ unrtf
 untex
 usbutils
 uzbl-tabbed
+vcdimager
 volumeicon
 vte
 wget
@@ -220,5 +233,6 @@ xorg-utils
 xorg-xclock
 xorg-xinit
 xorg-xkill
+xplanet
 xpyb-git
 xsane

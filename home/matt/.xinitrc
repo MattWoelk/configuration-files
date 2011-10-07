@@ -67,7 +67,7 @@ artha &
 #start dropbox
 #echo %%% DROPBOX
 #echo GOT HERE 3
-(sleep 10 && dropboxd) &
+(sleep 15 && dropboxd) &
 
 #start the tray
 #(sleep 9 && trayer --edge left --SetDockType true --SetPartialStrut true --transparent true --alpha 0 --tint 0x080808) &
@@ -75,6 +75,9 @@ stalonetray -bg '#0C0C0C' &
 
 #start daemon to watch for changed files on behalf of recoll
 /usr/share/recoll/examples/rclmon.sh start &
+
+#start program which auto-mounts usb sticks and optical drives (dvd, cd, etc.)
+devmon & 
 
 #start up window manager
 #echo GOT HERE 4
