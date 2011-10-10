@@ -22,6 +22,7 @@ free    : see how much ram is being used and whether the swap partition is being
 fdisk   : see what HDDs are mounted on the system (sudo fdisk -l)
 xdotool : (xdotool mousemove 1900 1080) to move mouse to a corner using keys
 k3b     : disk burner for disk images and dvds and cds and things
+which   : shows the whole path of where a program is located
 
 --FILE HANDLERS:
 gv		: pdf viewer
@@ -29,6 +30,7 @@ apvlv		: pdf viewer like vim
 xpdf		: pdf viewer (a good one)
 epdfview	: pdf viewer (a good one)
 evince		: xps viewer (does pdfs too)
+kdegraphics-okular : THE BEST PDF READER with annotations, too. :) (run with `okular`)
 
 --VNC:
 x11vnc
@@ -48,9 +50,10 @@ skype
 
 --SOUND/AUDIO-RELATED:
 qjackctl	: used to start a jack server (BEFORE starting renoise)
-renoise-demo	: sequencer / tracker / awesome!!
+renoise-demo	: sequencer / tracker / awesome!! (run with `renoise`)
 alsa-utils	: used to let alsa a jack play nice (related: /etc/asound.conf)
 cmus
+amarok      : like itunes
 
 --MATHEMATICS:
 bc		: simple calculator
@@ -61,6 +64,7 @@ units     : convert units (usage: `units` 1.5m<CR> feet<CR> * -> answer / -> the
 --BROWSERS:
 firefox
 chromium
+arora   : webkit-based browser
 elinks
 links		: current favourite
 lynx
@@ -178,6 +182,7 @@ moreutils
 mtools
 nano
 nautilus
+networkled-git
 ntfsprogs
 openssh
 opera

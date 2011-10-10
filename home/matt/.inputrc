@@ -2,6 +2,9 @@ $include /etc/inputrc
 set completion-ignore-case on
 set completion-prefix-display-length 3
 
+# make bash autocomplete symlinked directories with the slash at the end, like it does for regular directores, instead of leaving it out.
+set mark-symlinked-directories on
+
 # this is so that ls<up> will only show history beginning with ls
 "\e[A":history-search-backward
 "\e[B":history-search-forward

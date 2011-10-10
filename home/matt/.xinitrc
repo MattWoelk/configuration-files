@@ -64,6 +64,9 @@ volumeicon &
 #echo GOT HERE b
 artha &
 
+#start network indicator lights
+networkled wlan0 &
+
 #start dropbox
 #echo %%% DROPBOX
 #echo GOT HERE 3
