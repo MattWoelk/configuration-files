@@ -6,5 +6,6 @@ set completion-prefix-display-length 3
 set mark-symlinked-directories on
 
 # this is so that ls<up> will only show history beginning with ls
+# [current not working...]
 "\e[A":history-search-backward
 "\e[B":history-search-forward

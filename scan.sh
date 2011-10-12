@@ -5,5 +5,4 @@
 # to make this cronabble
 cd $(dirname $0)
 
-#                   v-- is this middle pipe'd part even necessary...?
-cat path-list.txt | xargs -I{} echo {} | cpio -pduL --quiet . 
+cat path-list.txt | cpio -pduL --quiet . 

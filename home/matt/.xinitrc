@@ -26,7 +26,7 @@ xinput set-prop "TPPS/2 IBM TrackPoint" 263 50
 
 #disable touchpad
 #echo %%% DISABLE TOUCHPAD
-xinput set-prop "SynPS/2 Synaptics TouchPad" "Device Enabled" 0
+(sleep 3 && xinput set-prop "SynPS/2 Synaptics TouchPad" "Device Enabled" 0)
 
 #get special keys to work (mute, volume, etc.)
 xbindkeys &
@@ -82,8 +82,19 @@ stalonetray -bg '#0C0C0C' &
 #start program which auto-mounts usb sticks and optical drives (dvd, cd, etc.)
 devmon & 
 
+#start dbus or something??? (https://wiki.archlinux.org/index.php/Dbus)
+# Source scripts in /etc/X11/xinit/xinitrc.d/
+###if [ -d /etc/X11/xinit/xinitrc.d ]; then
+###  for f in /etc/X11/xinit/xinitrc.d/*; do
+###    [ -x "$f" ] && . "$f"
+###  done
+###  unset f
+###fi
+
 #start up window manager
 #echo GOT HERE 4
 exec ck-launch-session xmonad
 #exec ck-launch-session qtile
 #exec qtile # This hasn't yet worked
+
+# could start window manager before other programs by using https://wiki.archlinux.org/index.php/Xinitrc#Starting_the_WM_first
