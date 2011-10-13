@@ -60,6 +60,17 @@ bc		: simple calculator
 octave		: like matlab, but better/worse
 gnuplot		: for octave; lets it show diagrams
 units     : convert units (usage: `units` 1.5m<CR> feet<CR> * -> answer / -> the other way)
+v--parts of num-utils--v
+numsum    :
+normalize :
+interval  :
+average   :
+bound     :
+numgrep   :
+numprocess:
+random    :
+range     :
+round     :
 
 --BROWSERS:
 firefox
