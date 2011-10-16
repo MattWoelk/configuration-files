@@ -157,6 +157,7 @@ flex
 foxitreader
 frozensynapse
 funnyboat
+gftp
 giggle
 gimp-devel
 gksu
@@ -201,6 +202,7 @@ nano
 nautilus
 networkled-git
 ntfsprogs
+num-utils
 openssh
 opera
 patch
@@ -229,6 +231,8 @@ sublime-text
 sudo
 syslog-ng
 tar
+texlive-latexextra
+texlive-publishers
 thinkfinger
 transcode
 transmission-cli
