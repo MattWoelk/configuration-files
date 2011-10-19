@@ -6,3 +6,6 @@
 cd $(dirname $0)
 
 cat path-list.txt | cpio -pduL --quiet . 
+#cat path-list.txt | find | cpio -pduL --quiet . 
+#                     ^-- find should repeat any file name, and list all subitems of a directory
+# THIS WILL BREAK THE DIRECTORY CURRENTLY (not sure why...)
