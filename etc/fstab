@@ -5,3 +5,4 @@
 tmpfs		/tmp	tmpfs	nodev,nosuid	0	0
 /dev/sda4 / ext3 defaults 0 1
 /dev/sda2 /media/WINDOWS ntfs-3g defaults,user,noatime	0 0
+/swapfile swap swap defaults 0 0

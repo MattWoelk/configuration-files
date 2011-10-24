@@ -28,7 +28,7 @@ set grepprg=ack
 set hlsearch
 set incsearch
 set ignorecase
-set smartcase
+""set smartcase
 
 set wildmenu "shows a tab-completion list in the command line"
 set wildmode=longest,full "Complete longest common string, then each full match

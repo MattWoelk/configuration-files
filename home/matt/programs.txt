@@ -6,6 +6,14 @@
 /var/log/boot         : pretty much identical to what is sown on the screen.
 dmesg   : more detail about boot messages
 
+--GAMES:
+rubix     : excellent rubix's cube simulator
+trine     : wizard game? from humble bundle
+spacechem : sweet game; fake chemistry; it's like programming
+trauma    : point-and-click game about navigating someone's dreams to piece together their memories.
+funnyboat : doesn't work...
+icebreaker: clone of jezzball
+
 --HARDWARE MONITORING:
 yacpi		: monitor battery level with ncurses
 xclock		: check the time
@@ -23,6 +31,14 @@ fdisk   : see what HDDs are mounted on the system (sudo fdisk -l)
 xdotool : (xdotool mousemove 1900 1080) to move mouse to a corner using keys
 k3b     : disk burner for disk images and dvds and cds and things
 which   : shows the whole path of where a program is located
+sudo    : do a task as root (the super user)
+xdiskusage  : graphical display of disc usage (really awesome)
+ranger  : vi/vim-like file manager/browser
+gvim    : best text-editor on the planet
+nano    : a simple text-editor
+nautilus  : file browser
+artha   : dictionary and thesaurus program
+giggle  : git viewer
 
 --FILE HANDLERS:
 gv		: pdf viewer
@@ -44,6 +60,7 @@ pacman-color  : pacman ... in colour!! (currently aliased)
 nmap [ip address ending in .0]/24 to scan everything local on every port and see what's available. (example: nmap 10.0.100.0/24) The 24 is the same as what we see when we run `ip addr`
       it can also be used to find the mac address of something which you have the ip address of like this: "nmap -O 10.0.100.1" (the O is to find which operating system it is running)
 network-manager-applet    : to connect to wireless and wired networks.
+wget      : download files from the internet
 
 --COMMUNICATIONS:
 skype
@@ -72,13 +89,14 @@ random    :
 range     :
 round     :
 
---BROWSERS:
+--WEB BROWSERS:
 firefox
 chromium
 arora   : webkit-based browser
 elinks
 links		: current favourite
 lynx
+uzbl-tabbed : unixy browser
 
 --IMAGE EDITORS/DISPLAYERS:
 feh		: image viewer (use feh -. to fit it to the window
@@ -105,6 +123,8 @@ kile                : apparently a good IDE for LaTeX
 
 --WINDOW MANAGERS:
 xmonad
+xmonad-contrib  : third-party extensions for xmonad
+xorg-twm  : xorg default wm
 
 --VIRTUALIZATION:
 virtualbox-additions: so that guest additions can be installed in virtualboxes
@@ -127,14 +147,21 @@ antiword    : microsoft word support
 aspell-en   : english dictionary
 cups-pdf    : print to a pdf
 
+--SYSTEM TRAY RELATED
+networkled-git  : show network usage in tray
+trayclock       : clock for the tray
+volumeicon      : volume indicator for tray
+stalonetray     : stand-alone tray program
+trayer          : stand-alone tray program
+
 --UNSORTED:
 arduino
-artha
 audacity
 autoconf
 automake
 banshee
 bison
+braid
 brscan3
 bumblebee-thinkpad_w520_t520_t420
 catdoc
@@ -144,29 +171,30 @@ cryptsetup
 ctags
 dasher
 devmon
+dosbox
 dosfstools
 dvd+rw-tools
 dwarffortress
 emovix
 espeak
+ethtool
 fakeroot
 festival-english
 festival-us
 flashplugin
 flex
+fontforge
 foxitreader
 frozensynapse
-funnyboat
+gfontview
 gftp
-giggle
 gimp-devel
 gksu
+gnome-screenruler
 gpart
 gparted
 grub
-gvim
 heirloom-mailx
-icebreaker
 icedtea-web
 id3lib
 iftop
@@ -177,6 +205,7 @@ iputils
 ivory-mahjongg-bin
 jfsutils
 jokosher
+kdegraphics-kruler
 ldm-git
 less
 lib32-giflib
@@ -189,7 +218,6 @@ lib32-virtualgl
 libffado
 libwpg
 licenses
-linux
 logrotate
 loudmouth
 lvm2
@@ -198,9 +226,6 @@ man-pages
 mdadm
 moreutils
 mtools
-nano
-nautilus
-networkled-git
 ntfsprogs
 num-utils
 openssh
@@ -212,6 +237,7 @@ pdftk
 pkg-config
 pkgtools
 playonlinux
+processing
 promptool-git
 pstoedit
 pstotext
@@ -219,45 +245,34 @@ pulseaudio
 qbat
 qirssi
 qtoctave
-ranger
 recoll
 reiserfsprogs
-rubix
 rxvt-unicode
-spacechem
-stalonetray
+smartmontools
 stellarium
 sublime-text
-sudo
 syslog-ng
-tar
 texlive-latexextra
 texlive-publishers
 thinkfinger
+tlp
+tp_smapi
 transcode
 transmission-cli
 transmission-qt
-trauma
-trayclock
-trayer
-trine
+trayfreq
 uniconvertor
 unrtf
 untex
+urandr
 usbutils
-uzbl-tabbed
 vcdimager
-volumeicon
 vte
-wget
 wine_gecko
-xdiskusage
 xf86-video-intel
 xfsprogs
-xmonad-contrib
 xorg-server-utils
 xorg-server-xephyr
-xorg-twm
 xorg-xclock
 xorg-xinit
 xorg-xkill
