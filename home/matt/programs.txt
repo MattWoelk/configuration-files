@@ -209,6 +209,7 @@ jokosher
 kdegraphics-kruler
 ldm-git
 less
+lib32-alsa-oss
 lib32-giflib
 lib32-lcms
 lib32-libxml2
@@ -231,6 +232,7 @@ ntfsprogs
 num-utils
 openssh
 opera
+paprefs
 patch
 pcmciautils
 pdfedit
@@ -242,7 +244,7 @@ processing
 promptool-git
 pstoedit
 pstotext
-pulseaudio
+pulseaudio-alsa
 qbat
 qirssi
 qtoctave
