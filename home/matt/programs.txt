@@ -39,6 +39,7 @@ nano    : a simple text-editor
 nautilus  : file browser
 artha   : dictionary and thesaurus program
 giggle  : git viewer
+gpasswd : add a user to a group with the following: sudo gpasswd -a username groupname
 
 --FILE HANDLERS:
 gv		: pdf viewer
