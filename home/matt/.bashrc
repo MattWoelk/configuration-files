@@ -15,6 +15,12 @@ alias grep='grep -i --color'
 alias urxvt='urxvt -bg black -fg white +sb'
 alias r='ranger-cd'
 
+#so that I don't have to think when untarring things:
+alias 'tar-tar'='tar xvf'
+alias 'tar-tar.gz'='tar xvfz'
+alias 'tar-tgz'='tar xvfz'
+alias 'tar-tar.bz2'='tar xvfj'
+
 #--PROMPT--
 #PS1='[\u@\h \W]\$ ' #The arch default
 PS1="\[\033[0;32m\][\u@\h \w]$\[\033[0m\] "
