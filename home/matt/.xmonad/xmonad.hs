@@ -6,6 +6,7 @@ import XMonad.Layout.Accordion
 mylayoutHook = (avoidStruts $ Tall 1 (3/100) (488/792)) ||| noBorders (Full)
 
 main = do
+  spawn "sh /home/matt/.xmonad/autostart.sh"
   xmonad $ defaultConfig
     { terminal  = "urxvt -bg black -fg white +sb"
     , borderWidth = 2

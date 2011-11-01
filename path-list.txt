@@ -12,6 +12,7 @@
 /home/matt/.cmus/autosave
 /home/matt/.config/qtile/config.py
 /home/matt/.xmonad/xmonad.hs
+/home/matt/.xmonad/autostart.sh
 /home/matt/.Xdefaults
 /home/matt/.Xresources
 /home/matt/.bashrc

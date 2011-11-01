@@ -62,6 +62,23 @@
   m:0x10 + c:213
   Mod2 + XF86Suspend
 
+#play/pause stop, next, in cmus
+"cmus-remote -u"
+  m:0x0 + c:172
+  XF86AudioPlay
+
+"cmus-remote -s"
+  m:0x0 + c:174
+  XF86AudioStop
+
+"cmus-remote -n"
+  m:0x0 + c:171
+  XF86AudioNext
+
+"cmus-remote -r"
+  m:0x0 + c:173
+  XF86AudioPrev
+
 # Examples of commands:
 
 #"xbindkeys_show" 
