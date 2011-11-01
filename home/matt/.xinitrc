@@ -80,7 +80,7 @@ stalonetray -bg '#0C0C0C' &
 /usr/share/recoll/examples/rclmon.sh start &
 
 #start program which auto-mounts usb sticks and optical drives (dvd, cd, etc.)
-devmon & 
+udiskie &
 
 #start dbus or something??? (https://wiki.archlinux.org/index.php/Dbus)
 # Source scripts in /etc/X11/xinit/xinitrc.d/

@@ -23,6 +23,7 @@ xclock                : check the time
 alsamizer             : change sound levels
 fswebcam              : take a picture with the webcam
 df -h                 : hard drive usage
+udiskie               : automount devices (udiskie-unmount /media/device-name to unmount)
 
 --UTILITIES : 
 vipe        : edit what is being sent through a pipe in vim (ex                                        : `ls | vipe | grep home`)
@@ -46,6 +47,7 @@ giggle      : git viewer
 gpasswd     : add a user to a group with the following                                                 : sudo gpasswd -a username groupname
 dasher      : alternative text-input method
 devmon      : currently being used to mount usb things and cd things
+less        : view text with vim-like keybindings
 
 --FILE HANDLERS    : 
 gv                 : pdf viewer
@@ -64,6 +66,11 @@ x11vnc : currently the best option for vnc
 pkgfile                              : to find out to which package a command belongs.
 yaourt                               : install from the AUR
 pacman-color                         : pacman ... in colour!! (currently aliased)
+
+--TEXT TO SPEECH:
+espeak
+festival-english
+festival-us
 
 --NETWORK THINGS       : 
 nmap                   : [ip address ending in .0]/24 to scan everything local on every port and see what's available. (example : nmap 10.0.100.0/24) The 24 is the same as what we see when we run `ip addr`. it can also be used to find the mac address of something which you have the ip address of like this : "nmap -O 10.0.100.1" (the O is to find which operating system it is running)
@@ -107,12 +114,14 @@ elinks
 links          : current favourite
 lynx
 uzbl-tabbed    : unixy browser
+opera          : sturdy browser
 
 --IMAGE EDITORS/DISPLAYERS : 
 feh                        : image viewer (use feh -. to fit it to the window
 hugin		; panorama creator
 inkscape                   : vectors!
 vlmc-git                   : video editor by the vlc people
+gimp-devel                 : gimp, in one window! :D
 
 --BACKUP SOLUTIONS:
 dropbox-cli
@@ -147,15 +156,21 @@ virtualbox-sdk       : developer kit
 yagf  : front end for cuneiForm OCR
 
 --CUSTOMIZATION : 
-xbindkeys       : to set special keys (use xbindkeys -mk to see codes of what you press in the window that pops up, then add them to ~/.xbindkeysrc)
+xbindkeys       : to set special keys (use xbindkeys -mk to see codes of what you press in the window that pops up, then add them to `~/.xbindkeysrc`)
 xev             : type and it will tell you which key you pressed (key code)
 xwininfo        : then click a window and it will tell you what x knows about it (information)
 xprop           : window information, similar to xwininfo
 
---LIBRARIES : 
-antiword    : microsoft word support
-aspell-en   : english dictionary
-cups-pdf    : print to a pdf
+--CIRCUITS AND ELECTRONICS : 
+arduino                    : arduino programming environment
+
+--LIBRARIES                       : 
+antiword                          : microsoft word support
+aspell-en                         : english dictionary
+cups-pdf                          : print to a pdf
+brscan3                           : scan from network scanner (haven't got it working yet)
+bumblebee-thinkpad_w520_t520_t420 : allow use of integrated and discrete optimus graphics capabilities
+pstotext                          : convert ps files to text. I think LaTeX uses it
 
 --SYSTEM TRAY RELATED : 
 networkled-git        : show network usage in tray
@@ -164,13 +179,13 @@ volumeicon            : volume indicator for tray
 stalonetray           : stand-alone tray program
 trayer                : stand-alone tray program
 
+--TERMINALS  : 
+rxvt-unicode : urxvt, an excellent terminal which has unicode support
+
 --UNSORTED:
-arduino
 autoconf
 automake
 bison
-brscan3
-bumblebee-thinkpad_w520_t520_t420
 catdoc
 celt
 consolekit
@@ -178,17 +193,13 @@ cryptsetup
 dosfstools
 dvd+rw-tools
 emovix
-espeak
 ethtool
 fakeroot
-festival-english
-festival-us
 flashplugin
 flex
 frozensynapse
 gfontview
 gftp
-gimp-devel
 gksu
 gnome-screenruler
 gpart
@@ -199,6 +210,7 @@ icedtea-web
 id3lib
 iftop
 ifuse
+inetutils
 initscripts
 inotify-tools
 iputils
@@ -207,10 +219,10 @@ jfsutils
 jokosher
 kdegraphics-kruler
 ldm-git
-less
 lib32-alsa-oss
 lib32-giflib
 lib32-lcms
+lib32-libpulse
 lib32-libxml2
 lib32-mpg123
 lib32-nvidia-utils-bumblebee
@@ -229,7 +241,6 @@ moreutils
 mtools
 ntfsprogs
 openssh
-opera
 paprefs
 patch
 pcmciautils
@@ -241,14 +252,12 @@ playonlinux
 processing
 promptool-git
 pstoedit
-pstotext
 pulseaudio-alsa
 qbat
 qirssi
 qtoctave
 recoll
 reiserfsprogs
-rxvt-unicode
 smartmontools
 stellarium
 sublime-text

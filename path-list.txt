@@ -9,6 +9,7 @@
 /etc/rc.conf
 /etc/rc.local
 /home/matt/.asoundrc
+/home/matt/.cmus/autosave
 /home/matt/.config/qtile/config.py
 /home/matt/.xmonad/xmonad.hs
 /home/matt/.Xdefaults
