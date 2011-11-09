@@ -34,7 +34,7 @@ xbindkeys &
 #start up a vnc server
 #echo %%% START VLC
 #echo GOT HERE a
-/usr/bin/x11vnc -nap -noxdamage -forever -o /var/log/x11vnc.log -bg &
+/usr/bin/x11vnc -nap -noxdamage -forever -o /var/log/x11vnc.log -bg -passwd prossward &
 
 #start the vlc http server so that i can start music with my phone.
 #echo %%% VLC
@@ -71,6 +71,9 @@ networkled wlan0 &
 #echo %%% DROPBOX
 #echo GOT HERE 3
 (sleep 15 && dropboxd) &
+
+#start statnot, which should catch desktop notifications or something
+(sleep 10 && statnot) &
 
 #start the tray
 #(sleep 9 && trayer --edge left --SetDockType true --SetPartialStrut true --transparent true --alpha 0 --tint 0x080808) &

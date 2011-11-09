@@ -16,6 +16,8 @@ icebreaker    : clone of jezzball
 braid         : best time-altering game ever.
 dosbox        : dos emulator (may be part of WINE eventually)
 dwarffortress : game which is auto-generated before you play it
+processing    : a game development and interactive graphics environment which I wished worked properly...
+stellarium    : amazing sky-viewer. stars, planets, constellations: it's got them all.
 
 --HARDWARE MONITORING : 
 yacpi                 : monitor battery level with ncurses
@@ -25,29 +27,35 @@ fswebcam              : take a picture with the webcam
 df -h                 : hard drive usage
 udiskie               : automount devices (udiskie-umount /media/device-name to unmount). An alternative might be to use nautilus -n or something to get it to do the things in the background. Or thunar; it can do it too.
 
---UTILITIES : 
-vipe        : edit what is being sent through a pipe in vim (ex                                        : `ls | vipe | grep home`)
-vidir       : edit a directory in vim. delete, rename, etc. It's crazy!
-chronic     : silence output...unless it fails
-cpio        : copy into and out of zips and tars and things (archives)
-free        : see how much ram is being used and whether the swap partition is being mounted (free -m)
-fdisk       : see what HDDs are mounted on the system (sudo fdisk -l)
-xdotool     : (xdotool mousemove 1900 1080) to move mouse to a corner using keys
-k3b         : disk burner for disk images and dvds and cds and things
-which       : shows the whole path of where a program is located
-sudo        : do a task as root (the super user)
-xdiskusage  : graphical display of disc usage (really awesome)
-ranger      : vi/vim-like file manager/browser
-gvim        : best text-editor on the planet
-ctags       : addon for vim                                                                            : organizes and displays file methods and classes
-nano        : a simple text-editor
-nautilus    : file browser
-artha       : dictionary and thesaurus program
-giggle      : git viewer
-gpasswd     : add a user to a group with the following                                                 : sudo gpasswd -a username groupname
-dasher      : alternative text-input method
-devmon      : currently being used to mount usb things and cd things
-less        : view text with vim-like keybindings
+--UTILITIES        : 
+vipe               : edit what is being sent through a pipe in vim (ex                                        : `ls | vipe | grep home`)
+vidir              : edit a directory in vim. delete, rename, etc. It's crazy!
+chronic            : silence output...unless it fails
+cpio               : copy into and out of zips and tars and things (archives)
+free               : see how much ram is being used and whether the swap partition is being mounted (free -m)
+fdisk              : see what HDDs are mounted on the system (sudo fdisk -l)
+xdotool            : (xdotool mousemove 1900 1080) to move mouse to a corner using keys
+k3b                : disk burner for disk images and dvds and cds and things
+which              : shows the whole path of where a program is located
+sudo               : do a task as root (the super user)
+xdiskusage         : graphical display of disc usage (really awesome)
+ranger             : vi/vim-like file manager/browser
+gvim               : best text-editor on the planet
+ctags              : addon for vim                                                                            : organizes and displays file methods and classes
+nano               : a simple text-editor
+nautilus           : file browser
+artha              : dictionary and thesaurus program
+giggle             : git viewer
+gpasswd            : add a user to a group with the following                                                 : sudo gpasswd -a username groupname
+dasher             : alternative text-input method
+devmon             : currently being used to mount usb things and cd things
+less               : view text with vim-like keybindings
+xorg-server-xephyr : run an x server inside an x server
+xorg-xkill         : kill a program by clicking on it
+arandr             : adjust external monitors and resolutions of displays
+bison              : The GNU general-purpose parser generator (whatever that means...)
+gparted            : the best way to partition or reformat a drive or media. Totally kicks the butt.
+recoll             : find anything on your computer in zero seconds.
 
 --FILE HANDLERS    : 
 gv                 : pdf viewer
@@ -79,6 +87,11 @@ wget                   : download files from the internet
 
 --COMMUNICATIONS : 
 skype            : currently the best option for video calls : (
+tyrs             : ncurses twitter client
+qirssi           : show irssi notifications
+gpodder          : download podcasts
+transmission-cli : cli interface for transmission torrent downloader
+transmission-qt  : torrent downloader
 
 --SOUND/AUDIO/MUSIC-RELATED : 
 qjackctl                    : used to start a jack server (BEFORE starting renoise)
@@ -88,6 +101,7 @@ cmus
 amarok                      : like itunes
 audacity                    : excellent sound file editor
 banshee                     : crappy audio player
+pulseaudio-alsa             : necessary to get audio working with pulseaudio and alsa
 
 --MATHEMATICS : 
 bc            : simple calculator
@@ -105,6 +119,7 @@ numprocess    :
 random        : 
 range         : 
 round         : 
+qtoctave      : matlab clone. does a good job. this is the gui frontend
 
 --WEB BROWSERS : 
 firefox
@@ -115,6 +130,8 @@ links          : current favourite
 lynx
 uzbl-tabbed    : unixy browser
 opera          : sturdy browser
+icedtea-web    : provides a Free Software web browser plugin running applets written in the Java programming language and an implementation of Java Web Start, originally based on the NetX project (whatever that means...)
+flashplugin    : flash...sigh :(
 
 --IMAGE EDITORS/DISPLAYERS : 
 feh                        : image viewer (use feh -. to fit it to the window
@@ -171,6 +188,11 @@ cups-pdf                          : print to a pdf
 brscan3                           : scan from network scanner (haven't got it working yet)
 bumblebee-thinkpad_w520_t520_t420 : allow use of integrated and discrete optimus graphics capabilities
 pstotext                          : convert ps files to text. I think LaTeX uses it
+dvd+rw-tools                      : will hopefully allow me to use by cd/dvd burner
+xf86-video-intel
+xorg-server-utils
+tlp                               : powersaving scripts for thinkpads
+vorbis-tools
 
 --SYSTEM TRAY RELATED : 
 networkled-git        : show network usage in tray
@@ -178,6 +200,7 @@ trayclock             : clock for the tray
 volumeicon            : volume indicator for tray
 stalonetray           : stand-alone tray program
 trayer                : stand-alone tray program
+statnot               : notifications daemon (not sure if it does anything yet...)
 
 --TERMINALS  : 
 rxvt-unicode : urxvt, an excellent terminal which has unicode support
@@ -185,17 +208,14 @@ rxvt-unicode : urxvt, an excellent terminal which has unicode support
 --UNSORTED:
 autoconf
 automake
-bison
 catdoc
 celt
 consolekit
 cryptsetup
 dosfstools
-dvd+rw-tools
 emovix
 ethtool
 fakeroot
-flashplugin
 flex
 frozensynapse
 gfontview
@@ -203,10 +223,8 @@ gftp
 gksu
 gnome-screenruler
 gpart
-gparted
 grub
 heirloom-mailx
-icedtea-web
 id3lib
 iftop
 ifuse
@@ -229,6 +247,7 @@ lib32-nvidia-utils-bumblebee
 lib32-v4l-utils
 lib32-virtualgl
 libffado
+libva-driver-intel
 libwpg
 licenses
 logrotate
@@ -245,47 +264,31 @@ paprefs
 patch
 pcmciautils
 pdfedit
-pdftk
 pkg-config
 pkgtools
 playonlinux
-processing
 promptool-git
 pstoedit
-pulseaudio-alsa
+pywebkitgtk
 qbat
-qirssi
-qtoctave
-recoll
 reiserfsprogs
 smartmontools
-stellarium
-sublime-text
 syslog-ng
 texlive-latexextra
 texlive-publishers
 thinkfinger
-tlp
 tp_smapi
 transcode
-transmission-cli
-transmission-qt
-trayfreq
 uniconvertor
 unrtf
 untex
-urandr
 usbutils
 vcdimager
+vdpau-video
 vte
 wine_gecko
-xf86-video-intel
 xfsprogs
-xorg-server-utils
-xorg-server-xephyr
 xorg-xclock
 xorg-xinit
-xorg-xkill
-xplanet
 xpyb-git
 xsane

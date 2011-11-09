@@ -129,3 +129,9 @@ cmap w!! w !sudo tee >/dev/null %
 
 "automaticcaly change working directory to directory of current buffer:
 "autocmd BufEnter * lcd %:p:h
+
+
+"SPECIAL THINGS FOR THE MWWM WIKI CONVENIENCE:"
+inoremap <Right> &rarr;
+inoremap <Up> &uarr;
+inoremap <Down> &darr;
