@@ -15,6 +15,8 @@ alias grep='grep -i --color'
 alias urxvt='urxvt -bg black -fg white +sb'
 alias r='ranger-cd'
 alias unmount='udiskie-umount'
+alias twitter='tyrs'
+alias feh='feh -B black -.'
 
 #so that I don't have to think when untarring things:
 alias 'tar-tar'='tar xvf'

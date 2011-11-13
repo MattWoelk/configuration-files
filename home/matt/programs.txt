@@ -206,10 +206,13 @@ statnot               : notifications daemon (not sure if it does anything yet..
 rxvt-unicode : urxvt, an excellent terminal which has unicode support
 
 --UNSORTED:
+atool
 autoconf
 automake
+blocks-that-matter
 catdoc
 celt
+chocolate-castle
 consolekit
 cryptsetup
 dosfstools
@@ -222,9 +225,10 @@ gfontview
 gftp
 gksu
 gnome-screenruler
-gpart
+google-talkplugin
 grub
 heirloom-mailx
+highlight
 id3lib
 iftop
 ifuse
@@ -240,13 +244,14 @@ ldm-git
 lib32-alsa-oss
 lib32-giflib
 lib32-lcms
-lib32-libpulse
+lib32-libvdpau
 lib32-libxml2
 lib32-mpg123
 lib32-nvidia-utils-bumblebee
 lib32-v4l-utils
 lib32-virtualgl
 libffado
+libreoffice-extension-wiki-publisher
 libva-driver-intel
 libwpg
 licenses
@@ -256,9 +261,12 @@ lvm2
 man-db
 man-pages
 mdadm
+mediainfo
+mediainfo-gui
 moreutils
 mtools
 ntfsprogs
+openresolv
 openssh
 paprefs
 patch
@@ -276,6 +284,7 @@ smartmontools
 syslog-ng
 texlive-latexextra
 texlive-publishers
+the-binding-of-isaac
 thinkfinger
 tp_smapi
 transcode
@@ -285,6 +294,7 @@ untex
 usbutils
 vcdimager
 vdpau-video
+voxatron
 vte
 wine_gecko
 xfsprogs
@@ -292,3 +302,5 @@ xorg-xclock
 xorg-xinit
 xpyb-git
 xsane
+xsnow
+zen-puzzle-garden

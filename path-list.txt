@@ -11,6 +11,9 @@
 /home/matt/.asoundrc
 /home/matt/.cmus/autosave
 /home/matt/.config/qtile/config.py
+/home/matt/.config/ranger/apps.py
+/home/matt/.config/ranger/commands.py
+/home/matt/.config/ranger/rc.conf
 /home/matt/.xmonad/xmonad.hs
 /home/matt/.xmonad/autostart.sh
 /home/matt/.Xdefaults
