@@ -1,0 +1,37 @@
+
+Section "Module"
+  Load  "glx"
+  Load  "extmod"
+  Load  "dbe"
+  Load  "dri"  --> this line was deleted by nvidia
+  Load  "dri2"
+  Load  "record"
+EndSection
+...
+...
+...
+...
+  Identifier  "Card0"
+  Driver      "nvidia"
+...from...
+  Identifier  "Card0"
+  Driver      "intel"
+  BusID       "PCI:0:2:0"
+.... so if I disable the graphics card, x will probably complain and not start
+...
+...
+...
+...
+Section "Screen"
+  Identifier "Screen0"
+  Device     "Card0"
+  Monitor    "Monitor0"
+  SubSection "Display"
+    Viewport   0 0
+    Depth     1  --> this line was deleted by nvidia
+  EndSubSection
+  SubSection "Display"
+    Viewport   0 0
+    Depth     4
+  EndSubSection
+  SubSection "Display"
