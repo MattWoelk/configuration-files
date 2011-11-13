@@ -26,6 +26,7 @@ alsamizer             : change sound levels
 fswebcam              : take a picture with the webcam
 df -h                 : hard drive usage
 udiskie               : automount devices (udiskie-umount /media/device-name to unmount). An alternative might be to use nautilus -n or something to get it to do the things in the background. Or thunar; it can do it too.
+mkinitcpio            : See which kernel modules are available with `mkinitcpio -M`
 
 --UTILITIES        : 
 vipe               : edit what is being sent through a pipe in vim (ex                                        : `ls | vipe | grep home`)
