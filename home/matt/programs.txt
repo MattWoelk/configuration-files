@@ -103,6 +103,9 @@ amarok                      : like itunes
 audacity                    : excellent sound file editor
 banshee                     : crappy audio player
 pulseaudio-alsa             : necessary to get audio working with pulseaudio and alsa
+exfalso                     : bundled with quod libet; tag audio files by folder with excellent file renaming and grabbing metadeta from filename, too.
+kid3                        : good tagger for converting between .mp3 ID3 versions
+puddletag                   : good tagger for finding all related artists and albums in a bunch of folders
 
 --MATHEMATICS : 
 bc            : simple calculator
@@ -213,6 +216,7 @@ automake
 blocks-that-matter
 catdoc
 celt
+cheese
 chocolate-castle
 consolekit
 cryptsetup
@@ -230,7 +234,6 @@ google-talkplugin
 grub
 heirloom-mailx
 highlight
-id3lib
 iftop
 ifuse
 inetutils
@@ -278,8 +281,10 @@ pkgtools
 playonlinux
 promptool-git
 pstoedit
+python-musicbrainz2
 pywebkitgtk
 qbat
+quodlibet
 reiserfsprogs
 smartmontools
 syslog-ng
