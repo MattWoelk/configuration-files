@@ -1,3 +1,4 @@
+blacklist pcspkr
 blacklist aty128fb
 blacklist atyfb
 blacklist cirrusfb
