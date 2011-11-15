@@ -241,6 +241,7 @@ initscripts
 inotify-tools
 iputils
 ivory-mahjongg-bin
+jaspers-journeys-hb
 jfsutils
 jokosher
 kdegraphics-kruler
@@ -259,6 +260,7 @@ libreoffice-extension-wiki-publisher
 libva-driver-intel
 libwpg
 licenses
+lmms
 logrotate
 loudmouth
 lvm2
@@ -284,13 +286,14 @@ pstoedit
 python-musicbrainz2
 pywebkitgtk
 qbat
+qtractor
 quodlibet
 reiserfsprogs
 smartmontools
+stk
 syslog-ng
 texlive-latexextra
 texlive-publishers
-the-binding-of-isaac
 thinkfinger
 tp_smapi
 transcode

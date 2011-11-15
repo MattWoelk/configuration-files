@@ -8,8 +8,7 @@ set editor='/usr/bin/gvim -f'
 set guioptions=bCrsn
 "set vb=false
 set showtabline=multitab
-
-autocmd LocationChange .* js modes.passAllKeys = /(www|mail)\.google\.com/.test(buffer.URL)
+set defsearch=duckduckgo
 
 command! -nargs=* bmlist tabopen about:mybookmarks 
 command! -nargs=1 popup execute "open " + content.location.host
