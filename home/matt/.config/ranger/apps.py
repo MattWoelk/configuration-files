@@ -97,7 +97,7 @@ class CustomApplications(Applications):
 
 		if f.extension is not None:
 			if f.extension in ('pdf', ):
-				return self.either(c, 'evince', 'zathura', 'apvlv')
+				return self.either(c, 'okular', 'evince', 'zathura', 'apvlv')
 			if f.extension == 'djvu':
 				return self.either(c, 'evince')
 			if f.extension in ('xml', ):
@@ -281,7 +281,7 @@ class CustomApplications(Applications):
 CustomApplications.generic('fceux', 'wine', 'zsnes', deps=['X'])
 
 # Add those which should only run in X AND should be detached/forked here:
-CustomApplications.generic('opera', 'firefox', 'apvlv', 'evince',
+CustomApplications.generic('opera', 'firefox', 'apvlv', 'okular','evince',
 		'zathura', 'gimp', 'mirage', 'eog', 'jumanji',
 			flags='d', deps=['X'])
 

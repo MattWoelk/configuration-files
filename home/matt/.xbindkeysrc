@@ -37,6 +37,20 @@
 #keystate_capslock = enable
 #keystate_scrolllock= enable
 
+#take a quick picture using the webcam
+"fswebcam --no-banner --resolution 1280x720 ~/Pictures/Webcam_$(date +%Y-%M-%d-%k-%M-%S).jpg"
+    m:0x4c + c:10
+    Control+Alt+Mod4 + 1
+
+#screenshot the entire screen
+"scrot ~/Pictures/Screenshot_$(date +%Y-%M-%d-%k-%M-%S).jpg"
+    m:0x4c + c:12
+    Control+Alt+Mod4 + 3
+#screenshot a selection of the screen
+"sleep 0.2; scrot -s ~/Pictures/Screenshot_$(date +%Y-%M-%d-%k-%M-%S).jpg"
+    m:0x4c + c:13
+    Control+Alt+Mod4 + 4
+
 #mute and volume keys:
 "amixer set Master toggle"
   m:0x10 + c:121
