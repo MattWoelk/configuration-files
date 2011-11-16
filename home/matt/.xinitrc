@@ -4,7 +4,13 @@ xmodmap -e 'remove Lock = Caps_Lock'
 xmodmap -e 'keysym Caps_Lock = Control_L'
 xmodmap -e 'add Control = Control_L'
 # use the menu key as a compose key (so i can type menu+(`,a) to input an accented a)
+#   list of characters and combinations is located in /usr/share/X11/locale/en_US.UTF-8/Compose
 xmodmap -e 'keycode 135 = Multi_key'
+
+# set the screen blackout timout to half an hour:
+xset s 1800 1800
+# set the key delay and repeat rate (in milliseconds) to be nicer
+xset r rate 330 20
 
 #enable middle button scrolling
 #echo %%% TRACKPOINT SCROLLING
