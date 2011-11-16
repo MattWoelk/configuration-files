@@ -178,7 +178,8 @@ yagf  : front end for cuneiForm OCR
 
 --CUSTOMIZATION : 
 xbindkeys       : to set special keys (use xbindkeys -mk to see codes of what you press in the window that pops up, then add them to `~/.xbindkeysrc`)
-xev             : type and it will tell you which key you pressed (key code)
+xev             : type and it will tell you which key you pressed (key code); this is good for xmodmap
+xmodmap         : change what a key does
 xwininfo        : then click a window and it will tell you what x knows about it (information)
 xprop           : window information, similar to xwininfo
 
@@ -289,6 +290,7 @@ qbat
 qtractor
 quodlibet
 reiserfsprogs
+scrot
 smartmontools
 stk
 syslog-ng

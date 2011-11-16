@@ -3,6 +3,8 @@
 xmodmap -e 'remove Lock = Caps_Lock'
 xmodmap -e 'keysym Caps_Lock = Control_L'
 xmodmap -e 'add Control = Control_L'
+# use the menu key as a compose key (so i can type menu+(`,a) to input an accented a)
+xmodmap -e 'keycode 135 = Multi_key'
 
 #enable middle button scrolling
 #echo %%% TRACKPOINT SCROLLING
