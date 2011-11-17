@@ -83,6 +83,9 @@ networkled wlan0 &
 #start statnot, which should catch desktop notifications or something
 (sleep 10 && statnot) &
 
+#start clipit, which sits in task bar and shows me clipboard history
+clipit&
+
 #start the tray
 #(sleep 9 && trayer --edge left --SetDockType true --SetPartialStrut true --transparent true --alpha 0 --tint 0x080808) &
 stalonetray -bg '#0C0C0C' &

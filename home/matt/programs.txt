@@ -219,6 +219,7 @@ catdoc
 celt
 cheese
 chocolate-castle
+clipit
 consolekit
 cryptsetup
 dosfstools
