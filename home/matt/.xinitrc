@@ -7,8 +7,6 @@ xmodmap -e 'add Control = Control_L'
 #   list of characters and combinations is located in /usr/share/X11/locale/en_US.UTF-8/Compose
 xmodmap -e 'keycode 135 = Multi_key'
 
-# set the screen blackout timout to half an hour:
-xset s 1800 1800
 # set the key delay and repeat rate (in milliseconds) to be nicer
 xset r rate 330 20
 

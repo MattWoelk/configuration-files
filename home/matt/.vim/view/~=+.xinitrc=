@@ -101,11 +101,11 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 87 - ((55 * winheight(0) + 40) / 81)
+let s:l = 10 - ((9 * winheight(0) + 40) / 80)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-87
+10
 normal! 0
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost

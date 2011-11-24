@@ -37,6 +37,11 @@
 #keystate_capslock = enable
 #keystate_scrolllock= enable
 
+#speak the selected text
+"xclip -o | festival --tts"
+    m:0xc + c:26
+    Control+Alt + e
+
 #take a quick picture using the webcam
 "fswebcam --no-banner --resolution 1280x720 ~/Pictures/Webcam_$(date +%Y-%M-%d-%k-%M-%S).jpg"
     m:0x4c + c:10

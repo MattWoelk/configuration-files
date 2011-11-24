@@ -18,6 +18,7 @@ dosbox        : dos emulator (may be part of WINE eventually)
 dwarffortress : game which is auto-generated before you play it
 processing    : a game development and interactive graphics environment which I wished worked properly...
 stellarium    : amazing sky-viewer. stars, planets, constellations: it's got them all.
+vvvvvv        : sidescroller, from humble bundle
 
 --HARDWARE MONITORING : 
 yacpi                 : monitor battery level with ncurses
@@ -57,6 +58,8 @@ arandr             : adjust external monitors and resolutions of displays
 bison              : The GNU general-purpose parser generator (whatever that means...)
 gparted            : the best way to partition or reformat a drive or media. Totally kicks the butt.
 recoll             : find anything on your computer in zero seconds.
+xclip              : get and set the clipboard(s) (usage: pipe to it to copy into the clipboard; xclip -o to print the selection to standard out; -selection (primary (the default) | secondary | clipboard))
+scrot              : take screenshots from the terminal
 
 --FILE HANDLERS    : 
 gv                 : pdf viewer
@@ -106,6 +109,7 @@ pulseaudio-alsa             : necessary to get audio working with pulseaudio and
 exfalso                     : bundled with quod libet; tag audio files by folder with excellent file renaming and grabbing metadeta from filename, too.
 kid3                        : good tagger for converting between .mp3 ID3 versions
 puddletag                   : good tagger for finding all related artists and albums in a bunch of folders
+quodlibet                   : simple audio player; not sure why I have it -- likely an optional dependency
 
 --MATHEMATICS : 
 bc            : simple calculator
@@ -143,6 +147,7 @@ hugin		; panorama creator
 inkscape                   : vectors!
 vlmc-git                   : video editor by the vlc people
 gimp-devel                 : gimp, in one window! :D
+fbff-git                   : framebuffer video viewer, for the ttys
 
 --BACKUP SOLUTIONS:
 dropbox-cli
@@ -182,6 +187,7 @@ xev             : type and it will tell you which key you pressed (key code); th
 xmodmap         : change what a key does
 xwininfo        : then click a window and it will tell you what x knows about it (information)
 xprop           : window information, similar to xwininfo
+xset            : used to set screen timeout off wait time, key repeats, and likely more things
 
 --CIRCUITS AND ELECTRONICS : 
 arduino                    : arduino programming environment
@@ -198,6 +204,10 @@ xf86-video-intel
 xorg-server-utils
 tlp                               : powersaving scripts for thinkpads
 vorbis-tools
+python-musicbrainz2               : audo-tag music
+pstoedit                          : Translates PostScript and PDF graphics into other vector formats
+smartmontools                     : "Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives." -- whatever that means...
+syslog-ng                         : part of core, "Next-generation syslogd with advanced networking and filtering capabilities"
 
 --SYSTEM TRAY RELATED : 
 networkled-git        : show network usage in tray
@@ -206,6 +216,8 @@ volumeicon            : volume indicator for tray
 stalonetray           : stand-alone tray program
 trayer                : stand-alone tray program
 statnot               : notifications daemon (not sure if it does anything yet...)
+clipit                : clipboard manager for the tray
+qbat                  : show battery level in tray
 
 --TERMINALS  : 
 rxvt-unicode : urxvt, an excellent terminal which has unicode support
@@ -219,13 +231,16 @@ catdoc
 celt
 cheese
 chocolate-castle
-clipit
+cogs
 consolekit
+crayonphysicsdeluxe
 cryptsetup
 dosfstools
 emovix
 ethtool
 fakeroot
+festival-us-awb-multisyn
+festival-us-jmk-multisyn
 flex
 frozensynapse
 gfontview
@@ -234,6 +249,7 @@ gksu
 gnome-screenruler
 google-talkplugin
 grub
+handbrake
 heirloom-mailx
 highlight
 iftop
@@ -252,18 +268,20 @@ lib32-alsa-oss
 lib32-giflib
 lib32-lcms
 lib32-libvdpau
-lib32-libxml2
 lib32-mpg123
 lib32-nvidia-utils-bumblebee
 lib32-v4l-utils
 lib32-virtualgl
+libdvdcss
 libffado
 libreoffice-extension-wiki-publisher
 libva-driver-intel
 libwpg
 licenses
+lico-update
 lmms
 logrotate
+lomoco
 loudmouth
 lvm2
 man-db
@@ -284,17 +302,9 @@ pkg-config
 pkgtools
 playonlinux
 promptool-git
-pstoedit
-python-musicbrainz2
 pywebkitgtk
-qbat
-qtractor
-quodlibet
 reiserfsprogs
-scrot
-smartmontools
 stk
-syslog-ng
 texlive-latexextra
 texlive-publishers
 thinkfinger
@@ -311,6 +321,7 @@ vte
 wine_gecko
 xfsprogs
 xorg-xclock
+xorg-xeyes
 xorg-xinit
 xpyb-git
 xsane

@@ -26,6 +26,7 @@ blacklist vt8623fb
 blacklist nouveau
 install ohci_hcd /sbin/modprobe ehci_hcd ; /sbin/modprobe --ignore-install ohci_hcd $CMDLINE_OPTS
 install uhci_hcd /sbin/modprobe ehci_hcd ; /sbin/modprobe --ignore-install uhci_hcd $CMDLINE_OPTS
+alias RedBoot redboot
 alias USBVision usbvision
 alias acpi acpi_cpufreq
 alias acpi*::* tpm_tis
@@ -245,6 +246,7 @@ alias char_major_116_33 snd_timer
 alias char_major_14_* soundcore
 alias char_major_161_* ircomm_tty
 alias char_major_166_* cdc_acm
+alias char_major_195_* nvidia
 alias char_major_19_* cyclades
 alias char_major_204_* altera_uart
 alias char_major_206_* osst
@@ -304,12 +306,15 @@ alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*P460*:rn*P460*: samsung_laptop
 alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*R410P*:rn*R460*: samsung_laptop
 alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*R518*:rn*R518*: samsung_laptop
 alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*R519/R719*:rn*R519/R719*: samsung_laptop
+alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*R528/R728*:rn*R528/R728*: samsung_laptop
 alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*R530/R730*:rn*R530/R730*: samsung_laptop
 alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*R70/R71*:rn*R70/R71*: samsung_laptop
 alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*SQ45S70S*:rn*SQ45S70S*: samsung_laptop
+alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*SR700*:rn*SR700*: samsung_laptop
 alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*X120/X170*:rn*X120/X170*: samsung_laptop
 alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*X125*:rn*X125*: samsung_laptop
 alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*X360*:rn*X360*: samsung_laptop
+alias dmi*:svn*SAMSUNGELECTRONICSCO.,LTD.*:pn*X520*:rn*X520*: samsung_laptop
 alias dmi*:svn*SAMSUNGElectronics*:pn*NQ25*: samsung_q10
 alias dmi*:svn*SAMSUNGElectronics*:pn*SENSQ20*: samsung_q10
 alias dmi*:svn*Samsung*:pn*SQ10*: samsung_q10
@@ -498,9 +503,18 @@ alias hid:b0003v000005ACp00000244 hid_apple
 alias hid:b0003v000005ACp00000245 hid_apple
 alias hid:b0003v000005ACp00000246 hid_apple
 alias hid:b0003v000005ACp00000247 hid_apple
+alias hid:b0003v000005ACp00000249 hid_apple
+alias hid:b0003v000005ACp0000024A hid_apple
+alias hid:b0003v000005ACp0000024B hid_apple
+alias hid:b0003v000005ACp0000024C hid_apple
+alias hid:b0003v000005ACp0000024D hid_apple
+alias hid:b0003v000005ACp0000024E hid_apple
 alias hid:b0003v000005ACp0000024F hid_apple
 alias hid:b0003v000005ACp00000250 hid_apple
 alias hid:b0003v000005ACp00000251 hid_apple
+alias hid:b0003v000005ACp00000252 hid_apple
+alias hid:b0003v000005ACp00000253 hid_apple
+alias hid:b0003v000005ACp00000254 hid_apple
 alias hid:b0003v000005ACp00000304 hid_apple
 alias hid:b0003v000005ACp0000030A hid_apple
 alias hid:b0003v000005ACp0000030B hid_apple
@@ -571,6 +585,7 @@ alias hid:b0003v00001E7Dp00002D50 hid_roccat_kovaplus
 alias hid:b0003v00001E7Dp00002D51 hid_roccat_koneplus
 alias hid:b0003v00001E7Dp000030D4 hid_roccat_arvo
 alias hid:b0003v00001F87p00000002 hid_multitouch
+alias hid:b0003v00001FD2p00000064 hid_multitouch
 alias hid:b0003v00001FF7p00000013 hid_multitouch
 alias hid:b0003v00002006p00000118 hid_emsff
 alias hid:b0003v0000202Ep00000006 hid_multitouch
@@ -605,6 +620,7 @@ alias hid:b0005v000005ACp0000022E hid_apple
 alias hid:b0005v000005ACp00000239 hid_apple
 alias hid:b0005v000005ACp0000023A hid_apple
 alias hid:b0005v000005ACp0000023B hid_apple
+alias hid:b0005v000005ACp00000256 hid_apple
 alias hid:b0005v000005ACp0000030D hid_magicmouse
 alias hid:b0005v000005ACp0000030E hid_magicmouse
 alias hpilo hpilo
@@ -3110,6 +3126,8 @@ alias pci:v000010DBd0000802Esv*sd*bc*sc*i* gpio_ml_ioh
 alias pci:v000010DBd00008802sv*sd*bc02sc00i* pch_gbe
 alias pci:v000010DEd*sv*sd*bc03sc*i* nvidiafb
 alias pci:v000010DEd*sv*sd*bc03sc*i* nouveau
+alias pci:v000010DEd*sv*sd*bc03sc00i00* nvidia
+alias pci:v000010DEd*sv*sd*bc03sc02i00* nvidia
 alias pci:v000010DEd*sv*sd*bc04sc03i00* snd_hda_intel
 alias pci:v000010DEd00000020sv*sd*bc*sc*i* rivafb
 alias pci:v000010DEd00000028sv*sd*bc*sc*i* rivafb
@@ -3292,6 +3310,7 @@ alias pci:v000010DEd000007F9sv*sd*bc*sc*i* ahci
 alias pci:v000010DEd000007FAsv*sd*bc*sc*i* ahci
 alias pci:v000010DEd000007FBsv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000AA2sv*sd*bc*sc*i* i2c_nforce2
+alias pci:v000010DEd00000AA3sv*sd*bc0Bsc40i00* nvidia
 alias pci:v000010DEd00000AB0sv*sd*bc*sc*i* forcedeth
 alias pci:v000010DEd00000AB1sv*sd*bc*sc*i* forcedeth
 alias pci:v000010DEd00000AB2sv*sd*bc*sc*i* forcedeth
@@ -3334,6 +3353,7 @@ alias pci:v000010DEd00000D8Csv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000D8Dsv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000D8Esv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000D8Fsv*sd*bc*sc*i* ahci
+alias pci:v000010DEd00000E00sv*sd*bc04sc80i00* nvidia
 alias pci:v000010DFd00001AE5sv*sd*bc*sc*i* lpfc
 alias pci:v000010DFd0000E100sv*sd*bc*sc*i* lpfc
 alias pci:v000010DFd0000E131sv*sd*bc*sc*i* lpfc
@@ -7886,6 +7906,7 @@ alias usb:v0130p0130d*dc*dsc*dp*ic*isc*ip* gspca_spca508
 alias usb:v03E8p0004d*dc*dsc*dp*ic*isc*ip* gspca_se401
 alias usb:v03E8p0008d*dc*dsc*dp*ic*isc*ip* kaweth
 alias usb:v03EBp0002d*dc*dsc*dp*ic*isc*ip* lirc_igorplugusb
+alias usb:v03EBp0030d*dc*dsc*dp*ic*isc*ip* cdc_acm
 alias usb:v03EBp2002d0100dc*dsc*dp*ic*isc*ip* usb_storage
 alias usb:v03EBp2109d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v03EBp21FEd*dc*dsc*dp*ic*isc*ip* lirc_igorplugusb
@@ -7925,6 +7946,7 @@ alias usb:v03F0p3116d*dc*dsc*dp*ic*isc*ip* ipaq
 alias usb:v03F0p311Dd*dc*dsc*dp*ic*isc*ip* ath3k
 alias usb:v03F0p3216d*dc*dsc*dp*ic*isc*ip* ipaq
 alias usb:v03F0p3524d*dc*dsc*dp*ic*isc*ip* pl2303
+alias usb:v03F0p371Dd*dc*dsc*dp*ic*isc*ip* qcserial
 alias usb:v03F0p4002d0001dc*dsc*dp*ic*isc*ip* usb_storage
 alias usb:v03F0p4016d*dc*dsc*dp*ic*isc*ip* ipaq
 alias usb:v03F0p4116d*dc*dsc*dp*ic*isc*ip* ipaq
@@ -7961,6 +7983,7 @@ alias usb:v0403pBCA2d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pBCA4d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pBCD8d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pBCD9d*dc*dsc*dp*ic*isc*ip* ftdi_sio
+alias usb:v0403pBCDAd*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pBDC8d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pBFD8d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pBFD9d*dc*dsc*dp*ic*isc*ip* ftdi_sio
@@ -8160,6 +8183,8 @@ alias usb:v0403pFC71d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pFC72d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pFC73d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pFC82d*dc*dsc*dp*ic*isc*ip* ftdi_sio
+alias usb:v0403pFC8Ad*dc*dsc*dp*ic*isc*ip* ftdi_sio
+alias usb:v0403pFC8Bd*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pFD60d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pFE38d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pFF00d*dc*dsc*dp*ic*isc*ip* ftdi_sio
@@ -9394,6 +9419,7 @@ alias usb:v057Cp2200d*dc*dsc*dp*ic*isc*ip* bfusb
 alias usb:v057Cp3800d*dc*dsc*dp*ic*isc*ip* btusb
 alias usb:v057Cp8401d*dc*dsc*dp*ic*isc*ip* carl9170
 alias usb:v057Cp8402d*dc*dsc*dp*ic*isc*ip* carl9170
+alias usb:v057Cp8403d*dc*dsc*dp*ic*isc*ip* ath9k_htc
 alias usb:v0582p0000d*dc*dsc*dp*ic*isc*ip* snd_usb_audio
 alias usb:v0582p0002d*dc*dsc*dp*ic*isc*ip* snd_usb_audio
 alias usb:v0582p0003d*dc*dsc*dp*ic*isc*ip* snd_usb_audio
@@ -9702,7 +9728,6 @@ alias usb:v060BpA001d*dc*dsc*dp*ic*isc*ip* gspca_spca561
 alias usb:v061CpC084d*dc*dsc*dp*ic*isc*ip* iforce
 alias usb:v061CpC0A4d*dc*dsc*dp*ic*isc*ip* iforce
 alias usb:v061DpC020d*dc*dsc*dp*ic*isc*ip* ssu100
-alias usb:v061DpC020d*dc*dsc*dp*ic*isc*ip* serqt_usb2
 alias usb:v061DpC030d*dc*dsc*dp*ic*isc*ip* serqt_usb2
 alias usb:v061DpC040d*dc*dsc*dp*ic*isc*ip* serqt_usb2
 alias usb:v061DpC050d*dc*dsc*dp*ic*isc*ip* serqt_usb2
@@ -10623,6 +10648,7 @@ alias usb:v0B49p064Fd*dc*dsc*dp*ic*isc*ip* trancevibrator
 alias usb:v0B57p*d*dc*dsc*dp*ic03isc01ip02* hanwang
 alias usb:v0B62p0059d*dc*dsc*dp*ic*isc*ip* gspca_ov519
 alias usb:v0B63p6530d*dc*dsc*dp*ic*isc*ip* pl2303
+alias usb:v0B8Cp2303d*dc*dsc*dp*ic*isc*ip* pl2303
 alias usb:v0B95p1720d*dc*dsc*dp*ic*isc*ip* asix
 alias usb:v0B95p1780d*dc*dsc*dp*ic*isc*ip* asix
 alias usb:v0B95p7720d*dc*dsc*dp*ic*isc*ip* asix
@@ -11629,6 +11655,7 @@ alias usb:v1199p9008d*dc*dsc*dp*ic*isc*ip* qcserial
 alias usb:v1199p9009d*dc*dsc*dp*ic*isc*ip* qcserial
 alias usb:v1199p900Ad*dc*dsc*dp*ic*isc*ip* qcserial
 alias usb:v1199p9011d*dc*dsc*dp*ic*isc*ip* qcserial
+alias usb:v1199p9013d*dc*dsc*dp*ic*isc*ip* qcserial
 alias usb:v11ADp0001d*dc*dsc*dp*ic*isc*ip* pl2303
 alias usb:v11BAp1001d*dc*dsc*dp*ic*isc*ip* pvrusb2
 alias usb:v11BAp1003d*dc*dsc*dp*ic*isc*ip* pvrusb2
@@ -17723,6 +17750,11 @@ alias symbol:nlmsvc_ops lockd
 alias symbol:nlmsvc_unlock_all_by_ip lockd
 alias symbol:nlmsvc_unlock_all_by_sb lockd
 alias symbol:notify_wx_assoc_event_rsl r8192u_usb
+alias symbol:nvidia_p2p_destroy_mapping nvidia
+alias symbol:nvidia_p2p_free_page_table nvidia
+alias symbol:nvidia_p2p_get_pages nvidia
+alias symbol:nvidia_p2p_init_mapping nvidia
+alias symbol:nvidia_p2p_put_pages nvidia
 alias symbol:nvram_check_checksum nvram
 alias symbol:nvram_read_byte nvram
 alias symbol:nvram_write_byte nvram
@@ -18245,6 +18277,7 @@ alias symbol:rpc_mkpipe sunrpc
 alias symbol:rpc_ntop sunrpc
 alias symbol:rpc_peeraddr sunrpc
 alias symbol:rpc_peeraddr2str sunrpc
+alias symbol:rpc_pipe_generic_upcall sunrpc
 alias symbol:rpc_print_iostats sunrpc
 alias symbol:rpc_proc_register sunrpc
 alias symbol:rpc_proc_unregister sunrpc
@@ -20333,6 +20366,7 @@ alias symbol:w1_ds2760_store_eeprom w1_ds2760
 alias symbol:w1_ds2760_write w1_ds2760
 alias symbol:w1_ds2780_eeprom_cmd w1_ds2780
 alias symbol:w1_ds2780_io w1_ds2780
+alias symbol:w1_ds2780_io_nolock w1_ds2780
 alias symbol:w1_next_pullup wire
 alias symbol:w1_read_8 wire
 alias symbol:w1_read_block wire

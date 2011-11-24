@@ -135,3 +135,7 @@ cmap w!! w !sudo tee >/dev/null %
 inoremap <Right> &rarr;
 inoremap <Up> &uarr;
 inoremap <Down> &darr;
+
+"this is good to use in python maybe, but not as much generally. I wonder if I can set
+"it...
+"set foldmethod=indent"
