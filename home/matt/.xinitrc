@@ -63,7 +63,8 @@ trayclock &
 qbat &
 
 #put volume indicator in the systray:
-volumeicon &
+#volumeicon &
+pnmixer & #pretty much the same, but has direct access to pavucontrol, which I really like. :)
 
 #start artha (ctrl+alt+w)
 #echo %%% ARTHA

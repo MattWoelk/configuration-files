@@ -110,6 +110,7 @@ exfalso                     : bundled with quod libet; tag audio files by folder
 kid3                        : good tagger for converting between .mp3 ID3 versions
 puddletag                   : good tagger for finding all related artists and albums in a bunch of folders
 quodlibet                   : simple audio player; not sure why I have it -- likely an optional dependency
+pavucontrol                 : adjust individual programs' volume level!!!!!!!!!!!! awesome!!!
 
 --MATHEMATICS : 
 bc            : simple calculator
@@ -218,6 +219,7 @@ trayer                : stand-alone tray program
 statnot               : notifications daemon (not sure if it does anything yet...)
 clipit                : clipboard manager for the tray
 qbat                  : show battery level in tray
+pnmixer               : like volumeicon, but better! has direct access to pavucontrol
 
 --TERMINALS  : 
 rxvt-unicode : urxvt, an excellent terminal which has unicode support
@@ -295,6 +297,7 @@ ntfsprogs
 openresolv
 openssh
 paprefs
+pasystray-git
 patch
 pcmciautils
 pdfedit
