@@ -30,8 +30,8 @@ setlocal diff
 setlocal equalprg=
 setlocal errorformat=
 setlocal expandtab
-if &filetype != 'xf86conf'
-setlocal filetype=xf86conf
+if &filetype != 'conf'
+setlocal filetype=conf
 endif
 setlocal foldcolumn=2
 setlocal foldenable
@@ -51,8 +51,8 @@ setlocal iminsert=2
 setlocal imsearch=2
 setlocal include=
 setlocal includeexpr=
-setlocal indentexpr=GetXF86ConfIndent()
-setlocal indentkeys=!^F,o,O,=End
+setlocal indentexpr=
+setlocal indentkeys=0{,0},:,0#,!^F,o,O,e
 setlocal noinfercase
 setlocal iskeyword=@,48-57,_,192-255
 setlocal keywordprg=
@@ -88,8 +88,8 @@ setlocal statusline=
 setlocal suffixesadd=
 setlocal swapfile
 setlocal synmaxcol=3000
-if &syntax != 'xf86conf'
-setlocal syntax=xf86conf
+if &syntax != 'conf'
+setlocal syntax=conf
 endif
 setlocal tabstop=2
 setlocal tags=
@@ -100,11 +100,11 @@ setlocal nowinfixheight
 setlocal nowinfixwidth
 setlocal nowrap
 setlocal wrapmargin=0
-let s:l = 76 - ((75 * winheight(0) + 40) / 80)
+let s:l = 7 - ((6 * winheight(0) + 40) / 80)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-76
+7
 normal! 0
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost

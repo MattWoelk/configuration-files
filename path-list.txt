@@ -13,7 +13,6 @@
 /etc/X11/xorg.conf
 /etc/X11/xorg.conf.backup
 /etc/X11/xorg.conf.backup.workingwithonemonitorperfectly
-/etc/X11/xorg.conf.d/10-monitor.conf
 /home/matt/.Xdefaults
 /home/matt/.Xresources
 /home/matt/.asoundrc

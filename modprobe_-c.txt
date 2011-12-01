@@ -1642,6 +1642,7 @@ alias pci:v00001001d00000014sv*sd*bc*sc*i* ke_counter
 alias pci:v00001002d*sv*sd*bc04sc03i00* snd_hda_intel
 alias pci:v00001002d00003150sv*sd*bc*sc*i* radeonfb
 alias pci:v00001002d00003150sv*sd*bc*sc*i* radeon
+alias pci:v00001002d00003151sv*sd*bc*sc*i* radeon
 alias pci:v00001002d00003152sv*sd*bc*sc*i* radeon
 alias pci:v00001002d00003154sv*sd*bc*sc*i* radeonfb
 alias pci:v00001002d00003154sv*sd*bc*sc*i* radeon
@@ -1798,6 +1799,7 @@ alias pci:v00001002d00004C66sv*sd*bc*sc*i* radeonfb
 alias pci:v00001002d00004C66sv*sd*bc*sc*i* radeon
 alias pci:v00001002d00004C67sv*sd*bc*sc*i* radeonfb
 alias pci:v00001002d00004C67sv*sd*bc*sc*i* radeon
+alias pci:v00001002d00004C6Esv*sd*bc*sc*i* radeon
 alias pci:v00001002d00004D46sv*sd*bc*sc*i* aty128fb
 alias pci:v00001002d00004D4Csv*sd*bc*sc*i* aty128fb
 alias pci:v00001002d00004E44sv*sd*bc*sc*i* radeonfb
@@ -3123,7 +3125,9 @@ alias pci:v000010DBd00008014sv*sd*bc*sc*i* gpio_pch
 alias pci:v000010DBd0000801Asv*sd*bc*sc*i* pch_phub
 alias pci:v000010DBd0000801Dsv*sd*bc0Csc03iFE* pch_udc
 alias pci:v000010DBd0000802Esv*sd*bc*sc*i* gpio_ml_ioh
+alias pci:v000010DBd00008801sv*sd*bc*sc*i* pch_phub
 alias pci:v000010DBd00008802sv*sd*bc02sc00i* pch_gbe
+alias pci:v000010DBd00008808sv*sd*bc0Csc03iFE* pch_udc
 alias pci:v000010DEd*sv*sd*bc03sc*i* nvidiafb
 alias pci:v000010DEd*sv*sd*bc03sc*i* nouveau
 alias pci:v000010DEd*sv*sd*bc03sc00i00* nvidia
@@ -11860,6 +11864,7 @@ alias usb:v12D1p14CCd*dc*dsc*dp*icFFisc01ip31* option
 alias usb:v12D1p14CCd*dc*dsc*dp*icFFisc01ip32* option
 alias usb:v12D1p1506d*dc*dsc*dp*icFFisc01ip01* option
 alias usb:v12D1p1803d*dc*dsc*dp*icFFiscFFipFF* option
+alias usb:v12D1p1C05d*dc*dsc*dp*icFFiscFFipFF* option
 alias usb:v12EFp0100d*dc*dsc*dp*ic*isc*ip* visor
 alias usb:v12FDp1001d*dc*dsc*dp*ic*isc*ip* at76c50x_usb
 alias usb:v1308pC001d*dc*dsc*dp*ic*isc*ip* mceusb
@@ -12687,6 +12692,9 @@ alias usb:v19D2p1299d*dc*dsc*dp*icFFiscFFipFF* option
 alias usb:v19D2p1300d*dc*dsc*dp*icFFiscFFipFF* option
 alias usb:v19D2p2002d*dc*dsc*dp*icFFiscFFipFF* option
 alias usb:v19D2p2003d*dc*dsc*dp*icFFiscFFipFF* option
+alias usb:v19D2pFFE8d*dc*dsc*dp*icFFiscFFipFF* option
+alias usb:v19D2pFFEBd*dc*dsc*dp*icFFiscFFipFF* option
+alias usb:v19D2pFFEDd*dc*dsc*dp*icFFiscFFipFF* option
 alias usb:v19D2pFFF1d*dc*dsc*dp*icFFiscFFipFF* option
 alias usb:v19D2pFFF2d*dc*dsc*dp*ic*isc*ip* qcserial
 alias usb:v19D2pFFF3d*dc*dsc*dp*ic*isc*ip* qcserial
@@ -13368,7 +13376,6 @@ alias usb:v413Cp8186d*dc*dsc*dp*ic*isc*ip* qcserial
 alias usb:v413Cp9500d*dc*dsc*dp*ic*isc*ip* cp210x
 alias usb:v4146pBA01d0100dc*dsc*dp*ic*isc*ip* usb_storage
 alias usb:v4348p5523d*dc*dsc*dp*ic*isc*ip* ch341
-alias usb:v4348p5523d*dc*dsc*dp*ic*isc*ip* pl2303
 alias usb:v4428p0012d*dc*dsc*dp*ic*isc*ip* irda_usb
 alias usb:v4505p0010d*dc*dsc*dp*ic*isc*ip* ipaq
 alias usb:v4752p0011d*dc*dsc*dp*ic*isc*ip* snd_usb_audio
