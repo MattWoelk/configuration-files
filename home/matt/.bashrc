@@ -64,3 +64,4 @@ alias ranger='ranger-cd'
 # Humble Bundle Keys
 export _humblevoxatronkey=`cat .humblekeys/voxatron.txt`
 export _humblebundle3key=`cat .humblekeys/humbleindiebundle3.txt`
+export _humbleintbundlekey=`cat .humblekeys/introversion.txt`

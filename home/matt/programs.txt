@@ -6,19 +6,25 @@
 /var/log/boot       : pretty much identical to what is sown on the screen.
 dmesg               : more detail about boot messages
 
---GAMES       : 
-rubix         : excellent rubix's cube simulator
-trine         : wizard game? from humble bundle
-spacechem     : sweet game; fake chemistry; it's like programming
-trauma        : point-and-click game about navigating someone's dreams to piece together their memories.
-funnyboat     : doesn't work...
-icebreaker    : clone of jezzball
-braid         : best time-altering game ever.
-dosbox        : dos emulator (may be part of WINE eventually)
-dwarffortress : game which is auto-generated before you play it
-processing    : a game development and interactive graphics environment which I wished worked properly...
-stellarium    : amazing sky-viewer. stars, planets, constellations: it's got them all.
-vvvvvv        : sidescroller, from humble bundle
+--GAMES             : 
+rubix               : excellent rubix's cube simulator
+trine               : wizard game? from humble bundle
+spacechem           : sweet game; fake chemistry; it's like programming
+trauma              : point-and-click game about navigating someone's dreams to piece together their memories.
+funnyboat           : doesn't work...
+icebreaker          : clone of jezzball
+braid               : best time-altering game ever.
+dosbox              : dos emulator (may be part of WINE eventually)
+dwarffortress       : game which is auto-generated before you play it
+processing          : a game development and interactive graphics environment which I wished worked properly...
+stellarium          : amazing sky-viewer. stars, planets, constellations; it's got them all.
+vvvvvv              : sidescroller, from humble bundle
+darwinia            : a game about ... being inside a computer and fighting a virus infection? Looks sweet.
+multiwinia          : sequel to darwinia
+uplink-hib          : a game about hacking into computer systems
+crayonphysicsdeluxe : amazing game about drawing things which have physics acting on them
+dungeons-of-dredmor : new-age dungeon crawler. biased toward wizards apparently
+aquaria-hib-hg      : excellent game. can't really describe it. side-scrolling, I guess...
 
 --HARDWARE MONITORING : 
 yacpi                 : monitor battery level with ncurses
@@ -60,6 +66,7 @@ gparted            : the best way to partition or reformat a drive or media. Tot
 recoll             : find anything on your computer in zero seconds.
 xclip              : get and set the clipboard(s) (usage: pipe to it to copy into the clipboard; xclip -o to print the selection to standard out; -selection (primary (the default) | secondary | clipboard))
 scrot              : take screenshots from the terminal
+xcalib             : used to invert the screen colours (usage: xcalib -invert -alter)
 
 --FILE HANDLERS    : 
 gv                 : pdf viewer
@@ -129,6 +136,10 @@ random        :
 range         : 
 round         : 
 qtoctave      : matlab clone. does a good job. this is the gui frontend
+nwdiag        : easily create network diagrams (blockdiag.com)
+seqdiag       : easily create sequential diagrams (blockdiag.com)
+actdiag       : easily create activity diagrams (blockdiag.com)
+blockdiag     : easily create block diagrams (blockdiag.com)
 
 --WEB BROWSERS : 
 firefox
@@ -149,6 +160,7 @@ inkscape                   : vectors!
 vlmc-git                   : video editor by the vlc people
 gimp-devel                 : gimp, in one window! :D
 fbff-git                   : framebuffer video viewer, for the ttys
+fbpdf-git                  : framebuffer pdf viewer
 
 --BACKUP SOLUTIONS:
 dropbox-cli
@@ -235,7 +247,6 @@ cheese
 chocolate-castle
 cogs
 consolekit
-crayonphysicsdeluxe
 cryptsetup
 dosfstools
 emovix
@@ -297,7 +308,6 @@ ntfsprogs
 openresolv
 openssh
 paprefs
-pasystray-git
 patch
 pcmciautils
 pdfedit
@@ -305,6 +315,7 @@ pkg-config
 pkgtools
 playonlinux
 promptool-git
+python-pychm
 pywebkitgtk
 reiserfsprogs
 stk

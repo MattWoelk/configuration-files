@@ -139,3 +139,6 @@ inoremap <Down> &darr;
 "this is good to use in python maybe, but not as much generally. I wonder if I can set
 "it...
 "set foldmethod=indent"
+
+"ignore white space in vim diffs
+"set diffopt+=iwhite
