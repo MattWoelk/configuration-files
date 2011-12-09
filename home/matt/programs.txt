@@ -11,7 +11,6 @@ rubix               : excellent rubix's cube simulator
 trine               : wizard game? from humble bundle
 spacechem           : sweet game; fake chemistry; it's like programming
 trauma              : point-and-click game about navigating someone's dreams to piece together their memories.
-funnyboat           : doesn't work...
 icebreaker          : clone of jezzball
 braid               : best time-altering game ever.
 dosbox              : dos emulator (may be part of WINE eventually)
@@ -259,6 +258,7 @@ frozensynapse
 gfontview
 gftp
 gksu
+glances-git
 gnome-screenruler
 google-talkplugin
 grub
@@ -324,6 +324,7 @@ texlive-publishers
 thinkfinger
 tp_smapi
 transcode
+twmn
 uniconvertor
 unrtf
 untex

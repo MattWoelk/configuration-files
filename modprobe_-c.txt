@@ -246,7 +246,6 @@ alias char_major_116_33 snd_timer
 alias char_major_14_* soundcore
 alias char_major_161_* ircomm_tty
 alias char_major_166_* cdc_acm
-alias char_major_195_* nvidia
 alias char_major_19_* cyclades
 alias char_major_204_* altera_uart
 alias char_major_206_* osst
@@ -3130,8 +3129,6 @@ alias pci:v000010DBd00008802sv*sd*bc02sc00i* pch_gbe
 alias pci:v000010DBd00008808sv*sd*bc0Csc03iFE* pch_udc
 alias pci:v000010DEd*sv*sd*bc03sc*i* nvidiafb
 alias pci:v000010DEd*sv*sd*bc03sc*i* nouveau
-alias pci:v000010DEd*sv*sd*bc03sc00i00* nvidia
-alias pci:v000010DEd*sv*sd*bc03sc02i00* nvidia
 alias pci:v000010DEd*sv*sd*bc04sc03i00* snd_hda_intel
 alias pci:v000010DEd00000020sv*sd*bc*sc*i* rivafb
 alias pci:v000010DEd00000028sv*sd*bc*sc*i* rivafb
@@ -3314,7 +3311,6 @@ alias pci:v000010DEd000007F9sv*sd*bc*sc*i* ahci
 alias pci:v000010DEd000007FAsv*sd*bc*sc*i* ahci
 alias pci:v000010DEd000007FBsv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000AA2sv*sd*bc*sc*i* i2c_nforce2
-alias pci:v000010DEd00000AA3sv*sd*bc0Bsc40i00* nvidia
 alias pci:v000010DEd00000AB0sv*sd*bc*sc*i* forcedeth
 alias pci:v000010DEd00000AB1sv*sd*bc*sc*i* forcedeth
 alias pci:v000010DEd00000AB2sv*sd*bc*sc*i* forcedeth
@@ -3357,7 +3353,6 @@ alias pci:v000010DEd00000D8Csv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000D8Dsv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000D8Esv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000D8Fsv*sd*bc*sc*i* ahci
-alias pci:v000010DEd00000E00sv*sd*bc04sc80i00* nvidia
 alias pci:v000010DFd00001AE5sv*sd*bc*sc*i* lpfc
 alias pci:v000010DFd0000E100sv*sd*bc*sc*i* lpfc
 alias pci:v000010DFd0000E131sv*sd*bc*sc*i* lpfc
@@ -17757,11 +17752,6 @@ alias symbol:nlmsvc_ops lockd
 alias symbol:nlmsvc_unlock_all_by_ip lockd
 alias symbol:nlmsvc_unlock_all_by_sb lockd
 alias symbol:notify_wx_assoc_event_rsl r8192u_usb
-alias symbol:nvidia_p2p_destroy_mapping nvidia
-alias symbol:nvidia_p2p_free_page_table nvidia
-alias symbol:nvidia_p2p_get_pages nvidia
-alias symbol:nvidia_p2p_init_mapping nvidia
-alias symbol:nvidia_p2p_put_pages nvidia
 alias symbol:nvram_check_checksum nvram
 alias symbol:nvram_read_byte nvram
 alias symbol:nvram_write_byte nvram

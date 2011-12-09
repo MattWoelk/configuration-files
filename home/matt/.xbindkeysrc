@@ -37,12 +37,18 @@
 #keystate_capslock = enable
 #keystate_scrolllock= enable
 
+#banish the mouse to somewhere on the left
+"xdotool mousemove 0 400"
+    m:0x8 + c:56
+        Alt + b
+
 #Invert all screen colours
 "xcalib -invert -alter"
     m:0x4c + c:17
     Control+Alt+Mod4 + 8
+
 #speak the selected text
-"xclip -o | festival --tts"
+"xclip -o | sed 's/\[.*\]//g' | sed 's/  / /g' | festival --tts"
     m:0xc + c:26
     Control+Alt + e
 

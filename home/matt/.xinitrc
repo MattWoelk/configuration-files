@@ -80,7 +80,11 @@ networkled wlan0 &
 (sleep 15 && dropboxd) &
 
 #start statnot, which should catch desktop notifications or something
-(sleep 10 && statnot) &
+#(sleep 10 && statnot) &
+# maybe try statnot later, but it was messing with dropbox pretty severely.
+
+# twmnd - a daemon to show notifications. I'm not sure if it works yet.
+(sleep 2 && twmnd) &
 
 #start clipit, which sits in task bar and shows me clipboard history
 clipit&
