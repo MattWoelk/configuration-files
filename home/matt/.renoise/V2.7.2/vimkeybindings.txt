@@ -1,11 +1,10 @@
 Notes: - You can see what Renoise calls certain keys and key combinations by going into the preferences dialog and typing in the "New assignment" box.
 Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and it should be deleted, or there wasn't one there already, but it doesn't matter)
-        [v] - must make vim-like (change it; it already existed)
+        [v] - must make vim-like (change it because it already existed, or add one if it didn't)
         [d] - keep the default (it existed; don't change it)
-        [m] - make a hotkey for this ( because it didn't have one already)
 
     <Identifier>Global</Identifier>
-[m] - Quit                                       --> 
+[v] - Quit                                       --> Control + Q
 [d] - Preferences...                             --> Control + Comma
 [ ] - Minimize Renoise                           --> 
 [ ] - Switch to other Application                --> Alt + Tab
@@ -14,17 +13,17 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [d] - Open Song...                               --> Control + O
 [d] - Save Song...                               --> Control + S
 [d] - Save Song As...                            --> Shift + Control + S
-[v] - Undo                                       --> Control + Z
-[v] - Redo                                       --> Shift + Control + Z
+[v] - Undo                                       --> U
+[v] - Redo                                       --> Control + R
 [ ] - Select Clipboard 1                         --> 
 [ ] - Select Clipboard 2                         --> 
 [ ] - Select Clipboard 3                         --> 
 [ ] - Select Clipboard 4                         --> 
 [d] - Toggle Fullscreen/Windowed Mode            --> Alt + Return
-[m] - Show/Hide Upper Frame                      --> 
-[m] - Show/Hide Lower Frame                      --> 
-[v] - Focus Next View                            --> Control + Tab
-[v] - Focus Previous View                        --> Shift + Control + Tab
+[v] - Show/Hide Upper Frame                      --> 
+[v] - Show/Hide Lower Frame                      --> 
+[v] - Focus Next View                            --> Control + W
+[v] - Focus Previous View                        --> Shift + Control + W
 [d] - Recall View Preset 1                       --> F1
 [d] - Recall View Preset 2                       --> F2
 [d] - Recall View Preset 3                       --> F3
@@ -33,19 +32,19 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [d] - Recall View Preset 6                       --> F6
 [d] - Recall View Preset 7                       --> F7
 [d] - Recall View Preset 8                       --> F8
-[m] - Focus/Show Diskop/Scopes                   --> 
-[m] - Focus/Show Instrument Box                  --> 
-[m] - Focus/Show Sequencer                       --> 
-[m] - Focus/Show Pattern Matrix                  --> 
-[m] - Focus/Show Pattern Editor                  --> 
-[m] - Focus/Show Mixer                           --> 
-[m] - Focus/Show Key-Zone Editor                 --> 
-[m] - Focus/Show Sample Editor                   --> 
-[m] - Focus/Show Track DSP                       --> 
-[m] - Focus/Show Automation                      --> 
-[m] - Focus/Show Instrument Settings             --> 
-[m] - Focus/Show Song Settings                   --> 
-[m] - Open MIDI Mapping Dialog...                --> Control + M
+[v] - Focus/Show Diskop/Scopes                   --> 
+[v] - Focus/Show Instrument Box                  --> 
+[v] - Focus/Show Sequencer                       --> 
+[v] - Focus/Show Pattern Matrix                  --> 
+[v] - Focus/Show Pattern Editor                  --> 
+[v] - Focus/Show Mixer                           --> 
+[v] - Focus/Show Key-Zone Editor                 --> 
+[v] - Focus/Show Sample Editor                   --> 
+[v] - Focus/Show Track DSP                       --> 
+[v] - Focus/Show Automation                      --> 
+[v] - Focus/Show Instrument Settings             --> 
+[v] - Focus/Show Song Settings                   --> 
+[d] - Open MIDI Mapping Dialog...                --> Control + M
 [d] - Show Used MIDI Mappings...                 --> Shift + Control + M
 [ ] - Show Song Comments...                      --> 
 [d] - Open Render Dialog...                      --> Shift + Control + R
@@ -101,8 +100,8 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [d] - 2nd Select Previous Sample In Instrument   --> Shift + Alt + Up
 [d] - Select Next Sample In Instrument           --> Shift + NumpadPlus
 [d] - 2nd Select Next Sample In Instrument       --> Shift + Alt + Down
-[v] - Increase Octave                            --> NumpadMultiply
-[v] - Decrease Octave                            --> NumpadDivide
+[v] - Increase Octave                            --> =
+[v] - Decrease Octave                            --> -
 [d] - 2nd Increase Octave                        --> Control + RBracket
 [d] - 2nd Decrease Octave                        --> Control + LBracket
 [ ] - Set Octave to 0                            --> 
@@ -115,9 +114,9 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [ ] - Set Octave to 7                            --> 
 [ ] - Set Octave to 8                            --> 
 [d] - Mute Track                                 --> Backslash
-[v] - Mute Track Secondary                       --> Shift + Backslash
-[v] - Solo Track                                 --> Control + Backslash
-[v] - Unmute All Tracks                          --> 
+[v] - Mute Track Secondary                       --> M
+[v] - Solo Track                                 --> S
+[v] - Unmute All Tracks                          --> Shift + M
 [v] - Mute Track 1                               --> Control + Numpad1
 [v] - Mute Track 2                               --> Control + Numpad2
 [v] - Mute Track 3                               --> Control + Numpad3
@@ -153,67 +152,67 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 
     <Identifier>Pattern Editor</Identifier>
 [ ] - Toggle Advanced Edit                       --> 
-[d] - Toggle Pattern Matrix                      --> Minus
-[d] - Focus Pattern Matrix                       --> Shift + Escape
-[v] - Move to Previous Column                    --> Left
-[v] - Move to Next Column                        --> Right
-[v] - Move to Previous Row                       --> Up
-[v] - Move to Next Row                           --> Down
-[v] - Move to Previous Row with EditStep         --> Shift + Control + Up
-[v] - Move to Next Row with EditStep             --> Shift + Control + Down
-[v] - Move to Previous Row with Note             --> Shift + Control + Prior
-[v] - Move to Next Row with Note                 --> Shift + Control + Next
+[v] - Toggle Pattern Matrix                      --> Minus
+[v] - Focus Pattern Matrix                       --> Shift + Escape
+[v] - Move to Previous Column                    --> H
+[v] - Move to Next Column                        --> L
+[v] - Move to Previous Row                       --> K
+[v] - Move to Next Row                           --> J
+[v] - Move to Previous Row with EditStep         --> Control + K
+[v] - Move to Next Row with EditStep             --> Control + J
+[v] - Move to Previous Row with Note             --> Shift + N
+[v] - Move to Next Row with Note                 --> N
 [d] - Toggle Auto Capture Instrument             --> Shift + Alt + Backslash
 [d] - Capture Instrument                         --> Shift + Control + Return
 [d] - Capture Nearest Instrument                 --> Shift + Return
-[d] - Jump 16 Rows Up                            --> Prior
-[d] - Jump 16 Rows Down                          --> Next
+[v] - Jump 16 Rows Up                            --> Control + U
+[v] - Jump 16 Rows Down                          --> Control + D
 [d] - Jump to First Row                          --> Home
 [d] - Jump to Last Row                           --> End
-[v] - Jump to Row 0                              --> F9
-[v] - Jump to Row 16                             --> F10
-[v] - Jump to Row 32                             --> F11
+[v] - Jump to Row 0                              --> Shift + H
+[v] - Jump to Row 16                             --> Shift + M
+[v] - Jump to Row 32                             --> Shift + L
 [v] - Jump to Row 48                             --> F12
-[v] - Jump To Previous Column                    --> Shift + Tab
-[v] - Jump To Next Column                        --> Tab
+[v] - Jump To Previous Column                    --> Control + H
+[v] - Jump To Next Column                        --> Control + L
 [ ] - Jump to Previous Track                     --> 
 [ ] - Jump to Next Track                         --> 
 [ ] - Jump to Previous Track Page                --> 
 [ ] - Jump to Next Track Page                    --> 
-[v] - Jump To MasterTrack                        --> Shift + Control + End
-[v] - Jump To First Track                        --> Shift + Control + Home
+[v] - Jump To MasterTrack                        --> Shift + 4
+[v] - Jump To First Track                        --> 0
 [d] - Delete Current Note or Effect              --> Delete
-[v] - 2nd Delete Current Note or Effect          --> 
+[v] - 2nd Delete Current Note or Effect          --> D
 [d] - Delete Whole Row                           --> Alt + Delete
 [d] - Insert New Row                             --> Insert
-[v] - 2nd Insert New Row                         --> 
-[v] - Delete Current Row                         --> Back
+[v] - 2nd Insert New Row                         --> O
+[v] - Delete Current Row                         --> Shift + D
 [ ] - Delete Previous Row                        --> 
-[v] - Insert new Row in Column                   --> Shift + Control + Insert
-[v] - Delete current Row in Column               --> Shift + Control + Delete
+[d] - Insert new Row in Column                   --> Shift + Control + Insert
+[d] - Delete current Row in Column               --> Shift + Control + Delete
 [ ] - Delete previous Row in Column              --> 
 [ ] - Insert new Row in Pattern                  --> 
 [ ] - Delete current Row in Pattern              --> 
 [ ] - Delete previous Row in Pattern             --> 
 [ ] - Increase Pattern Length                    --> 
 [ ] - Decrease Pattern Length                    --> 
-[v] - Toggle EditMode                            --> Escape
+[v] - Toggle EditMode                            --> I
 [v] - Play current Line                          --> Return
 [d] - Render Selection To Sample                 --> Shift + Alt + Control + R
-[v] - Increase EditStep                          --> Control + Equals
-[v] - Decrease EditStep                          --> Control + Minus
-[v] - Double EditStep                            --> Alt + Equals
-[v] - Halve EditStep                             --> Alt + Minus
-[v] - Set EditStep To 0                          --> Control + 0
-[v] - Set EditStep To 1                          --> Control + 1
-[v] - Set EditStep To 2                          --> Control + 2
-[v] - Set EditStep To 3                          --> Control + 3
-[v] - Set EditStep To 4                          --> Control + 4
-[v] - Set EditStep To 5                          --> Control + 5
-[v] - Set EditStep To 6                          --> Control + 6
-[v] - Set EditStep To 7                          --> Control + 7
-[v] - Set EditStep To 8                          --> Control + 8
-[v] - Set EditStep To 9                          --> Control + 9
+[d] - Increase EditStep                          --> Control + Equals
+[d] - Decrease EditStep                          --> Control + Minus
+[d] - Double EditStep                            --> Alt + Equals
+[d] - Halve EditStep                             --> Alt + Minus
+[d] - Set EditStep To 0                          --> Control + 0
+[d] - Set EditStep To 1                          --> Control + 1
+[d] - Set EditStep To 2                          --> Control + 2
+[d] - Set EditStep To 3                          --> Control + 3
+[d] - Set EditStep To 4                          --> Control + 4
+[d] - Set EditStep To 5                          --> Control + 5
+[d] - Set EditStep To 6                          --> Control + 6
+[d] - Set EditStep To 7                          --> Control + 7
+[d] - Set EditStep To 8                          --> Control + 8
+[d] - Set EditStep To 9                          --> Control + 9
 [ ] - Set EditStep To 12                         --> 
 [ ] - Set EditStep To 16                         --> 
 [ ] - Set EditStep To 18                         --> 
@@ -238,8 +237,8 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [ ] - Set Quantization To 18                     --> 
 [ ] - Set Quantization To 24                     --> 
 [ ] - Set Quantization To 32                     --> 
-[v] - Insert Track                               --> Control + T
-[v] - Delete Track                               --> Shift + Control + T
+[v] - Insert Track                               --> T
+[v] - Delete Track                               --> Control + W
 [d] - Duplicate Track                            --> Control + D
 [d] - Duplicate Track (incl. Patterns)           --> Alt + Control + D
 [d] - Decrease Number of Columns                 --> Shift + Control + Left
@@ -250,19 +249,19 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [d] - Toggle Mute Note Column                    --> Shift + Control + Backslash
 [v] - Increase Pattern Number                    --> Control + Right
 [v] - Decrease Pattern Number                    --> Control + Left
-[v] - Go Up in Sequencer                         --> Control + Up
-[v] - Go Down in Sequencer                       --> Control + Down
-[v] - Goto Sequence Start                        --> Control + Home
-[v] - Goto Sequence End                          --> Control + End
-[v] - Jump One Page Up                           --> Control + Prior
-[v] - Jump One Page Down                         --> Control + Next
+[v] - Go Up in Sequencer                         --> Control + P
+[v] - Go Down in Sequencer                       --> Control + N
+[v] - Goto Sequence Start                        --> G
+[v] - Goto Sequence End                          --> Shift + G
+[d] - Jump One Page Up                           --> Control + Prior
+[d] - Jump One Page Down                         --> Control + Next
 [d] - Insert Pattern                             --> Control + Insert
-[v] - 2nd Insert Pattern                         --> Shift + Control + Back
+[v] - 2nd Insert Pattern                         --> Control + P
 [d] - Insert New Unique Pattern                  --> Alt + Control + Insert
-[v] - 2nd Insert New Unique Pattern              --> 
+[v] - 2nd Insert New Unique Pattern              --> Control + N
 [d] - Delete Pattern                             --> Control + Delete
-[v] - 2nd Delete Pattern                         --> Control + Back
-[v] - Clone Current Pattern                      --> Control + K
+[d] - 2nd Delete Pattern                         --> Control + Back
+[d] - Clone Current Pattern                      --> Shift + P
 [ ] - Clone 2 Pattern Block Sequence             --> 
 [ ] - Clone 3 Pattern Block Sequence             --> 
 [ ] - Clone 4 Pattern Block Sequence             --> 
@@ -272,8 +271,8 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [ ] - Clone 8 Pattern Block Sequence             --> 
 [ ] - Clone 9 Pattern Block Sequence             --> 
 [ ] - Clone Whole Song Sequence                  --> 
-[v] - Begin Selection                            --> Control + B
-[v] - End Selection                              --> Control + E
+[v] - Begin Selection                            --> V
+[v] - End Selection                              --> Shift + V
 [d] - Mark Column in Block Loop Range            --> Shift + Alt + Q
 [d] - Mark Column above current Line             --> Shift + Alt + A
 [d] - Mark Column below current Line             --> Shift + Alt + Z
@@ -285,26 +284,26 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [d] - Mark Pattern in Block Loop Range           --> Alt + W
 [d] - Mark Pattern above current Line            --> Alt + S
 [d] - Mark Pattern below current Line            --> Alt + X
-[v] - Transpose one Note up                      --> Alt + F2
-[v] - Transpose one Note down                    --> Alt + F1
-[v] - Transpose one Octave up                    --> Alt + F12
-[v] - Transpose one Octave down                  --> Alt + F11
-[v] - Copy and Clear                             --> Alt + F3
+[v] - Transpose one Note up                      --> Control + A
+[v] - Transpose one Note down                    --> Control + X
+[v] - Transpose one Octave up                    --> Shift + Control + A
+[v] - Transpose one Octave down                  --> Shift + Control + X
+[v] - Copy and Clear                             --> Shift + Y
 [d] - 2nd Copy and Clear                         --> Control + X
-[v] - Copy                                       --> Alt + F4
+[v] - Copy                                       --> Y
 [d] - 2nd Copy                                   --> Control + C
-[v] - Paste                                      --> Alt + F5
+[v] - Paste                                      --> P
 [d] - 2nd Paste                                  --> Control + V
 [d] - Paste Continuously                         --> Control + P
-[v] - Flip                                       --> Alt + F6
+[d] - Flip                                       --> Alt + F6
 [d] - 2nd Flip                                   --> Control + F
-[v] - Randomize                                  --> Alt + F7
-[v] - 2nd Randomize                              --> Control + R
-[v] - Interpolate Linear                         --> Control + I
-[v] - Interpolate Logarithmic                    --> Control + L
+[d] - Randomize                                  --> Alt + F7
+[v] - 2nd Randomize                              --> Shift + R
+[v] - Interpolate Linear                         --> Shift + Control + I
+[v] - Interpolate Logarithmic                    --> Shift + Control + L
 [v] - Interpolate Exponential                    --> 
-[v] - Humanize                                   --> Control + H
-[v] - Quantize Notes                             --> Control + Q
+[ ] - Humanize                                   -->
+[ ] - Quantize Notes                             -->
 [ ] - Quantize Notes (Preserve Lengths)          --> 
 [d] - Transpose one Note up                      --> Shift + Control + F2
 [d] - Transpose one Note down                    --> Shift + Control + F1
@@ -315,41 +314,41 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [d] - Paste                                      --> Shift + Control + F5
 [d] - Flip                                       --> Shift + Control + F6
 [d] - Randomize                                  --> Shift + Control + F7
-[d] - Interpolate Linear                         --> Shift + Control + I
-[d] - Interpolate Logarithmic                    --> Shift + Control + L
+[ ] - Interpolate Linear                         -->
+[ ] - Interpolate Logarithmic                    -->
 [ ] - Interpolate Exponential                    --> 
-[d] - Humanize                                   --> Shift + Control + H
-[d] - Quantize Notes                             --> Shift + Control + Q
+[ ] - Humanize                                   -->
+[ ] - Quantize Notes                             -->
 [ ] - Quantize Notes (Preserve Lengths)          --> 
-[d] - Transpose one Note up                      --> Shift + F2
-[d] - Transpose one Note down                    --> Shift + F1
-[d] - Transpose one Octave up                    --> Shift + F12
-[d] - Transpose one Octave down                  --> Shift + F11
-[d] - Clear Muted Columns                        --> Shift + Alt + F3
-[d] - Clear and Copy                             --> Shift + F3
-[d] - Copy                                       --> Shift + F4
-[d] - Paste                                      --> Shift + F5
-[d] - Flip                                       --> Shift + F6
-[d] - Randomize                                  --> Shift + F7
-[d] - Interpolate Linear                         --> Shift + I
-[d] - Interpolate Logarithmic                    --> Shift + L
-[ ] - Interpolate Exponential                    --> 
-[d] - Humanize                                   --> Shift + H
-[d] - Quantize Notes                             --> Shift + Q
-[ ] - Quantize Notes (Preserve Lengths)          --> 
-[d] - Transpose one Note up                      --> Control + F2
-[d] - Transpose one Note down                    --> Control + F1
-[d] - Transpose one Octave up                    --> Control + F12
-[d] - Transpose one Octave down                  --> Control + F11
-[ ] - Clear Muted Tracks                         --> 
-[d] - Clear And Copy                             --> Control + F3
-[d] - Copy                                       --> Control + F4
-[d] - Paste                                      --> Control + F5
-[d] - Flip                                       --> Control + F6
-[d] - Randomize                                  --> Control + F7
-[ ] - Interpolate Linear                         --> 
-[ ] - Interpolate Logarithmic                    --> 
-[ ] - Interpolate Exponential                    --> 
+[ ] - Transpose one Note up                      -->
+[ ] - Transpose one Note down                    -->
+[ ] - Transpose one Octave up                    -->
+[ ] - Transpose one Octave down                  -->
+[ ] - Clear Muted Columns                        -->
+[ ] - Clear and Copy                             -->
+[ ] - Copy                                       -->
+[ ] - Paste                                      -->
+[ ] - Flip                                       -->
+[ ] - Randomize                                  -->
+[ ] - Interpolate Linear                         -->
+[ ] - Interpolate Logarithmic                    -->
+[ ] - Interpolate Exponential                    -->
+[ ] - Humanize                                   -->
+[ ] - Quantize Notes                             -->
+[ ] - Quantize Notes (Preserve Lengths)          -->
+[ ] - Transpose one Note up                      -->
+[ ] - Transpose one Note down                    -->
+[ ] - Transpose one Octave up                    -->
+[ ] - Transpose one Octave down                  -->
+[ ] - Clear Muted Tracks                         -->
+[ ] - Clear And Copy                             -->
+[ ] - Copy                                       -->
+[ ] - Paste                                      -->
+[ ] - Flip                                       -->
+[ ] - Randomize                                  -->
+[ ] - Interpolate Linear                         -->
+[ ] - Interpolate Logarithmic                    -->
+[ ] - Interpolate Exponential                    -->
 [ ] - Humanize                                   --> 
 [ ] - Quantize Notes                             --> 
 [ ] - Quantize Notes (Preserve Lengths)          --> 
@@ -359,30 +358,30 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [ ] - Toggle Show Control Panel                  --> 
 
     <Identifier>Sample Editor</Identifier>
-[v] - Move Cursor Left                           --> Left
-[v] - Move Cursor Right                          --> Right
-[v] - Move Cursor Left Big Step                  --> 
-[v] - Move Cursor Right Big Step                 --> 
-[v] - Move Cursor to Visible Start               --> Control + Left
-[v] - Move Cursor to Sample Start                --> Home
-[v] - Move Cursor to Visible End                 --> Control + Right
-[v] - Move Cursor to Sample End                  --> End
-[v] - Move Cursor to Visible Start and Select    --> Shift + Control + Left
-[v] - Move Cursor to Visible End and Select      --> Shift + Control + Right
-[v] - Zoom In                                    --> Down
-[v] - Zoom Out                                   --> Up
-[v] - Zoom In Vertical                           --> Next
-[v] - Zoom Out Vertical                          --> Prior
-[v] - Zoom Selection                             --> Alt + Control + S
-[v] - Zoom Out Full                              --> Alt + Control + A
+[v] - Move Cursor Left                           --> H
+[v] - Move Cursor Right                          --> L
+[v] - Move Cursor Left Big Step                  --> Shift + H
+[v] - Move Cursor Right Big Step                 --> Shift + L
+[v] - Move Cursor to Visible Start               --> Shift + 6
+[v] - Move Cursor to Sample Start                --> 0
+[d] - Move Cursor to Visible End                 --> Control + Right
+[v] - Move Cursor to Sample End                  --> Shift + 4
+[d] - Move Cursor to Visible Start and Select    --> Shift + Control + Left
+[d] - Move Cursor to Visible End and Select      --> Shift + Control + Right
+[v] - Zoom In                                    --> J
+[v] - Zoom Out                                   --> K
+[v] - Zoom In Vertical                           --> Shift + N
+[v] - Zoom Out Vertical                          --> Shift + P
+[d] - Zoom Selection                             --> Alt + Control + S
+[d] - Zoom Out Full                              --> Alt + Control + A
 [ ] - Select Previous Sample                     --> 
 [ ] - Select Next Sample                         --> 
-[v] - Select All                                 --> Control + A
+[d] - Select All                                 --> Control + A
 [ ] - Unselect All                               --> 
 [d] - Select Loop                                --> Control + L
 [ ] - Select Current Slice                       --> 
-[v] - Begin Selection                            --> Control + B
-[v] - End Selection                              --> Control + E
+[v] - Begin Selection                            --> V
+[v] - End Selection                              --> Shift + V
 [d] - Select All Slice Markers                   --> Shift + Control + A
 [d] - Toggle Snapping                            --> Control + 0
 [d] - Set Snap Mode1                             --> Control + 1
@@ -394,8 +393,8 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [d] - Set Snap Mode7                             --> Control + 7
 [d] - Set Snap Mode8                             --> Control + 8
 [d] - Set Snap Mode9                             --> Control + 9
-[v] - Toggle Draw Mode                           --> Alt + Control + D
-[v] - View/Hide Loop Editor                      --> Alt + Control + L
+[v] - Toggle Draw Mode                           --> I
+[d] - View/Hide Loop Editor                      --> Alt + Control + L
 [v] - Playback                                   --> Return
 [v] - Playback                                   --> Escape
 [v] - Clear Sample                               --> Control + Delete
@@ -421,7 +420,7 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [v] - Normalize Volume                           --> Control + P
 [v] - Reverse                                    --> Control + R
 [ ] - XReverse                                   --> 
-[v] - Smooth                                     --> 
+[v] - Smooth                                     --> Shift + S
 [v] - Process Track DSPs                         --> 
 [d] - Set Loop Start/Range                       --> Shift + Control + L
 [d] - Set Loop End/Range                         --> Shift + Control + E
@@ -433,21 +432,21 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [ ] - Delete All Slice Markers                   --> 
 
     <Identifier>Mixer</Identifier>
-[v] - Move Left                                  --> Left
-[v] - Move Right                                 --> Right
-[v] - Move Up                                    --> Up
-[v] - Move Down                                  --> Down
-[v] - Move One Page Up                           --> Prior
-[v] - Move One Page Down                         --> Next
-[v] - Jump to first Device                       --> Home
-[v] - Jump to last Device                        --> End
-[v] - Jump to first Track                        --> Shift + Control + Home
-[v] - Jump to Master Track                       --> Shift + Control + End
+[v] - Move Left                                  --> H
+[v] - Move Right                                 --> L
+[v] - Move Up                                    --> K
+[v] - Move Down                                  --> J
+[d] - Move One Page Up                           --> Prev
+[d] - Move One Page Down                         --> Next
+[v] - Jump to first Device                       --> Shift + H
+[v] - Jump to last Device                        --> Shift + L
+[v] - Jump to first Track                        --> 0
+[v] - Jump to Master Track                       --> Shift + 4
 [ ] - Jump to Sends                              --> 
-[v] - Select next Track                          --> Tab
-[v] - Select previous Track                      --> Shift + Tab
-[v] - Delete Device                              --> Delete
-[v] - 2nd Delete Device                          --> Back
+[d] - Select next Track                          --> Tab
+[d] - Select previous Track                      --> Shift + Tab
+[d] - Delete Device                              --> Delete
+[d] - 2nd Delete Device                          --> Back
 [v] - Copy and Cut Device                        --> Control + X
 [v] - Copy Device                                --> Control + C
 [v] - Insert Device                              --> Control + V
@@ -469,22 +468,22 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 [v] - Delete Track                               --> Shift + Control + T
 [v] - Duplicate Track                            --> Control + D
 [v] - Duplicate Track (incl. Patterns)           --> Alt + Control + D
-[v] - Increase Volume                            --> Shift + Control + Up
-[v] - Decrease Volume                            --> Shift + Control + Down
+[v] - Increase Volume                            --> Control + Y
+[v] - Decrease Volume                            --> Control + E
 [v] - Increase Panning                           --> Shift + Control + Right
 [v] - Decrease Panning                           --> Shift + Control + Left
 [v] - Increase Pattern Number                    --> Control + Right
 [v] - Decrease Pattern Number                    --> Control + Left
-[v] - Go Up in Sequencer                         --> Control + Up
-[v] - Go Down in Sequencer                       --> Control + Down
-[v] - Goto Sequence Start                        --> Control + Home
-[v] - Goto Sequence End                          --> Control + End
-[v] - Jump One Page Up                           --> Control + Prior
-[v] - Jump One Page Down                         --> Control + Next
-[v] - Insert Pattern                             --> Control + Insert
-[v] - 2nd Insert Pattern                         --> Shift + Control + Back
-[v] - Delete Pattern                             --> Control + Delete
-[v] - 2nd Delete Pattern                         --> Control + Back
+[v] - Go Up in Sequencer                         --> Shift + P
+[v] - Go Down in Sequencer                       --> Shift + N
+[v] - Goto Sequence Start                        --> G
+[v] - Goto Sequence End                          --> Shift + G
+[d] - Jump One Page Up                           --> Control + Prior
+[d] - Jump One Page Down                         --> Control + Next
+[d] - Insert Pattern                             --> Control + Insert
+[d] - 2nd Insert Pattern                         --> Shift + Control + Back
+[d] - Delete Pattern                             --> Control + Delete
+[d] - 2nd Delete Pattern                         --> Control + Back
 
     <Identifier>Pattern Sequencer</Identifier>
 [v] - Schedule Edited Sequence for Playback      --> Control + Return
@@ -693,10 +692,10 @@ Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and
 
     <Identifier>Track DSPs Chain</Identifier>
 [v] - Set Focus To List                          --> Tab
-[v] - Select Previous Device                     --> Left
-[v] - Select Next Device                         --> Right
-[v] - Select First Device                        --> Home
-[v] - Select Last Device                         --> End
+[v] - Select Previous Device                     --> H
+[v] - Select Next Device                         --> L
+[v] - Select First Device                        --> 0
+[v] - Select Last Device                         --> Shift + 4
 [v] - Move Device Left                           --> Control + Left
 [v] - Move Device Right                          --> Control + Right
 [v] - Maximize Device                            --> Up
