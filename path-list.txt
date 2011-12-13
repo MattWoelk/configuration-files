@@ -25,6 +25,9 @@
 /home/matt/.festivalrc
 /home/matt/.inputrc
 /home/matt/.pentadactylrc
+/home/matt/.renoise/V2.7.2/Config.xml
+/home/matt/.renoise/V2.7.2/KeyBindings.xml
+/home/matt/.renoise/V2.7.2/KeyBindings.xslt
 /home/matt/.stalonetrayrc
 /home/matt/.vim/after/
 /home/matt/.vim/autoload/
