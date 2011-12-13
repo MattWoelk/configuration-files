@@ -1,0 +1,723 @@
+Notes: - You can see what Renoise calls certain keys and key combinations by going into the preferences dialog and typing in the "New assignment" box.
+Legend: [ ] - unnecessary OR will interfere with vim commands (there was one and it should be deleted, or there wasn't one there already, but it doesn't matter)
+        [v] - must make vim-like (change it; it already existed)
+        [d] - keep the default (it existed; don't change it)
+        [m] - make a hotkey for this ( because it didn't have one already)
+
+    <Identifier>Global</Identifier>
+[m] - Quit                                       --> 
+[d] - Preferences...                             --> Control + Comma
+[ ] - Minimize Renoise                           --> 
+[ ] - Switch to other Application                --> Alt + Tab
+[d] - New Song                                   --> Control + N
+[d] - New Song (no Template)                     --> Shift + Control + N
+[d] - Open Song...                               --> Control + O
+[d] - Save Song...                               --> Control + S
+[d] - Save Song As...                            --> Shift + Control + S
+[v] - Undo                                       --> Control + Z
+[v] - Redo                                       --> Shift + Control + Z
+[ ] - Select Clipboard 1                         --> 
+[ ] - Select Clipboard 2                         --> 
+[ ] - Select Clipboard 3                         --> 
+[ ] - Select Clipboard 4                         --> 
+[d] - Toggle Fullscreen/Windowed Mode            --> Alt + Return
+[m] - Show/Hide Upper Frame                      --> 
+[m] - Show/Hide Lower Frame                      --> 
+[v] - Focus Next View                            --> Control + Tab
+[v] - Focus Previous View                        --> Shift + Control + Tab
+[d] - Recall View Preset 1                       --> F1
+[d] - Recall View Preset 2                       --> F2
+[d] - Recall View Preset 3                       --> F3
+[d] - Recall View Preset 4                       --> F4
+[d] - Recall View Preset 5                       --> F5
+[d] - Recall View Preset 6                       --> F6
+[d] - Recall View Preset 7                       --> F7
+[d] - Recall View Preset 8                       --> F8
+[m] - Focus/Show Diskop/Scopes                   --> 
+[m] - Focus/Show Instrument Box                  --> 
+[m] - Focus/Show Sequencer                       --> 
+[m] - Focus/Show Pattern Matrix                  --> 
+[m] - Focus/Show Pattern Editor                  --> 
+[m] - Focus/Show Mixer                           --> 
+[m] - Focus/Show Key-Zone Editor                 --> 
+[m] - Focus/Show Sample Editor                   --> 
+[m] - Focus/Show Track DSP                       --> 
+[m] - Focus/Show Automation                      --> 
+[m] - Focus/Show Instrument Settings             --> 
+[m] - Focus/Show Song Settings                   --> 
+[m] - Open MIDI Mapping Dialog...                --> Control + M
+[d] - Show Used MIDI Mappings...                 --> Shift + Control + M
+[ ] - Show Song Comments...                      --> 
+[d] - Open Render Dialog...                      --> Shift + Control + R
+[d] - Open Render Plugin To Instrument Dialog... --> Alt + Control + R
+[d] - Open Sample Record Dialog...               --> Shift + Alt + R
+[ ] - Panic                                      --> 
+[v] - Play/Stop/Edit                             --> Space
+[v] - Toggle Loop Pattern                        --> Control + Scroll
+[v] - Play Pattern                               --> RAlt
+[v] - Play Pattern from Current Line             --> Shift + RAlt
+[v] - Play Song                                  --> RControl
+[v] - Play Song from Current Line                --> Shift + RControl
+[v] - Pause/Continue                             --> Apps
+[v] - Schedule Edited Sequence for Playback      --> Control + Space
+[v] - Play from Edited Sequence                  --> Shift + Control + Space
+[v] - Record Song                                --> RShift
+[v] - Record Pattern                             --> Shift + RShift
+[v] - Stop Song                                  --> 
+[v] - Play From Cursor                           --> Shift + Space
+[v] - Toggle Block Playing                       --> NumpadEnter
+[v] - Select Previous LoopBlock                  --> Control + NumpadMinus
+[v] - Select Next LoopBlock                      --> Control + NumpadPlus
+[v] - Go To Previous Pattern in Sequence         --> 
+[v] - Go To Next Pattern in Sequence             --> 
+[v] - Note Off                                   --> Shift + Capital
+[v] - Smart Note Off                             --> Capital
+[v] - Note Off Row                               --> Shift + Control + Capital
+[v] - Smart Note Off Row                         --> Control + Capital
+[v] - Toggle Auto Solo                           --> Alt + Backslash
+[ ] - Toggle automatic Plugin Delay Compensation --> 
+[d] - Toggle Metronome                           --> Grave
+[ ] - Toggle Metronome Precount                  --> 
+[d] - Toggle Follow Pattern                      --> Scroll
+[v] - Select Previous Instrument                 --> NumpadMinus
+[d] - 2nd Select Previous Instrument             --> Alt + Up
+[v] - Select Next Instrument                     --> NumpadPlus
+[d] - 2nd Select Next Instrument                 --> Alt + Down
+[d] - Select Previous Instrument Page            --> Alt + Left
+[d] - Select Next Instrument Page                --> Alt + Right
+[d] - Select First Instrument                    --> Alt + Home
+[d] - Select Last Instrument                     --> Alt + End
+[d] - Select 1st Instrument                      --> Numpad1
+[d] - Select 2nd Instrument                      --> Numpad2
+[d] - Select 3rd Instrument                      --> Numpad3
+[d] - Select 4th Instrument                      --> Numpad4
+[d] - Select 5th Instrument                      --> Numpad5
+[d] - Select 6th Instrument                      --> Numpad6
+[d] - Select 7th Instrument                      --> Numpad7
+[d] - Select 8th Instrument                      --> Numpad8
+[d] - Select 9th Instrument                      --> Numpad9
+[d] - Open Instrument Editor                     --> Numpad0
+[d] - Select Previous Sample In Instrument       --> Shift + NumpadMinus
+[d] - 2nd Select Previous Sample In Instrument   --> Shift + Alt + Up
+[d] - Select Next Sample In Instrument           --> Shift + NumpadPlus
+[d] - 2nd Select Next Sample In Instrument       --> Shift + Alt + Down
+[v] - Increase Octave                            --> NumpadMultiply
+[v] - Decrease Octave                            --> NumpadDivide
+[d] - 2nd Increase Octave                        --> Control + RBracket
+[d] - 2nd Decrease Octave                        --> Control + LBracket
+[ ] - Set Octave to 0                            --> 
+[ ] - Set Octave to 1                            --> 
+[ ] - Set Octave to 2                            --> 
+[ ] - Set Octave to 3                            --> 
+[ ] - Set Octave to 4                            --> 
+[ ] - Set Octave to 5                            --> 
+[ ] - Set Octave to 6                            --> 
+[ ] - Set Octave to 7                            --> 
+[ ] - Set Octave to 8                            --> 
+[d] - Mute Track                                 --> Backslash
+[v] - Mute Track Secondary                       --> Shift + Backslash
+[v] - Solo Track                                 --> Control + Backslash
+[v] - Unmute All Tracks                          --> 
+[v] - Mute Track 1                               --> Control + Numpad1
+[v] - Mute Track 2                               --> Control + Numpad2
+[v] - Mute Track 3                               --> Control + Numpad3
+[v] - Mute Track 4                               --> Control + Numpad4
+[v] - Mute Track 5                               --> Control + Numpad5
+[v] - Mute Track 6                               --> Control + Numpad6
+[v] - Mute Track 7                               --> Control + Numpad7
+[v] - Mute Track 8                               --> Control + Numpad8
+[v] - Mute Track 9                               --> Control + Numpad9
+[ ] - Mute Track 10                              --> 
+[ ] - Mute Track 11                              --> 
+[ ] - Mute Track 12                              --> 
+[ ] - Mute Track 13                              --> 
+[ ] - Mute Track 14                              --> 
+[ ] - Mute Track 15                              --> 
+[ ] - Mute Track 16                              --> 
+[ ] - Mute Track 17                              --> 
+[ ] - Mute Track 18                              --> 
+[ ] - Mute Track 19                              --> 
+[ ] - Mute Track 20                              --> 
+[ ] - Mute Track 21                              --> 
+[ ] - Mute Track 22                              --> 
+[ ] - Mute Track 23                              --> 
+[ ] - Mute Track 24                              --> 
+[ ] - Mute Track 25                              --> 
+[ ] - Mute Track 26                              --> 
+[ ] - Mute Track 27                              --> 
+[ ] - Mute Track 28                              --> 
+[ ] - Mute Track 29                              --> 
+[ ] - Mute Track 30                              --> 
+[ ] - Mute Track 31                              --> 
+[ ] - Mute Track 32                              --> 
+
+    <Identifier>Pattern Editor</Identifier>
+[ ] - Toggle Advanced Edit                       --> 
+[d] - Toggle Pattern Matrix                      --> Minus
+[d] - Focus Pattern Matrix                       --> Shift + Escape
+[v] - Move to Previous Column                    --> Left
+[v] - Move to Next Column                        --> Right
+[v] - Move to Previous Row                       --> Up
+[v] - Move to Next Row                           --> Down
+[v] - Move to Previous Row with EditStep         --> Shift + Control + Up
+[v] - Move to Next Row with EditStep             --> Shift + Control + Down
+[v] - Move to Previous Row with Note             --> Shift + Control + Prior
+[v] - Move to Next Row with Note                 --> Shift + Control + Next
+[d] - Toggle Auto Capture Instrument             --> Shift + Alt + Backslash
+[d] - Capture Instrument                         --> Shift + Control + Return
+[d] - Capture Nearest Instrument                 --> Shift + Return
+[d] - Jump 16 Rows Up                            --> Prior
+[d] - Jump 16 Rows Down                          --> Next
+[d] - Jump to First Row                          --> Home
+[d] - Jump to Last Row                           --> End
+[v] - Jump to Row 0                              --> F9
+[v] - Jump to Row 16                             --> F10
+[v] - Jump to Row 32                             --> F11
+[v] - Jump to Row 48                             --> F12
+[v] - Jump To Previous Column                    --> Shift + Tab
+[v] - Jump To Next Column                        --> Tab
+[ ] - Jump to Previous Track                     --> 
+[ ] - Jump to Next Track                         --> 
+[ ] - Jump to Previous Track Page                --> 
+[ ] - Jump to Next Track Page                    --> 
+[v] - Jump To MasterTrack                        --> Shift + Control + End
+[v] - Jump To First Track                        --> Shift + Control + Home
+[d] - Delete Current Note or Effect              --> Delete
+[v] - 2nd Delete Current Note or Effect          --> 
+[d] - Delete Whole Row                           --> Alt + Delete
+[d] - Insert New Row                             --> Insert
+[v] - 2nd Insert New Row                         --> 
+[v] - Delete Current Row                         --> Back
+[ ] - Delete Previous Row                        --> 
+[ ] - Insert new Row in Column                   --> Shift + Control + Insert
+[ ] - Delete current Row in Column               --> Shift + Control + Delete
+[ ] - Delete previous Row in Column              --> 
+[ ] - Insert new Row in Pattern                  --> 
+[ ] - Delete current Row in Pattern              --> 
+[ ] - Delete previous Row in Pattern             --> 
+[ ] - Increase Pattern Length                    --> 
+[ ] - Decrease Pattern Length                    --> 
+[ ] - Toggle EditMode                            --> Escape
+[ ] - Play current Line                          --> Return
+[ ] - Render Selection To Sample                 --> Shift + Alt + Control + R
+[ ] - Increase EditStep                          --> Control + Equals
+[ ] - Decrease EditStep                          --> Control + Minus
+[ ] - Double EditStep                            --> Alt + Equals
+[ ] - Halve EditStep                             --> Alt + Minus
+[ ] - Set EditStep To 0                          --> Control + 0
+[ ] - Set EditStep To 1                          --> Control + 1
+[ ] - Set EditStep To 2                          --> Control + 2
+[ ] - Set EditStep To 3                          --> Control + 3
+[ ] - Set EditStep To 4                          --> Control + 4
+[ ] - Set EditStep To 5                          --> Control + 5
+[ ] - Set EditStep To 6                          --> Control + 6
+[ ] - Set EditStep To 7                          --> Control + 7
+[ ] - Set EditStep To 8                          --> Control + 8
+[ ] - Set EditStep To 9                          --> Control + 9
+[ ] - Set EditStep To 12                         --> 
+[ ] - Set EditStep To 16                         --> 
+[ ] - Set EditStep To 18                         --> 
+[ ] - Set EditStep To 24                         --> 
+[ ] - Set EditStep To 32                         --> 
+[ ] - Toggle Chord Mode                          --> Control + Grave
+[ ] - Toggle Record To Envelopes                 --> Shift + Grave
+[ ] - Toggle Record Quantized                    --> Shift + Control + Grave
+[ ] - Increase Quantization                      --> Shift + Control + Equals
+[ ] - Decrease Quantization                      --> Shift + Control + Minus
+[ ] - Set Quantization To 1                      --> Shift + Control + 1
+[ ] - Set Quantization To 2                      --> Shift + Control + 2
+[ ] - Set Quantization To 3                      --> Shift + Control + 3
+[ ] - Set Quantization To 4                      --> Shift + Control + 4
+[ ] - Set Quantization To 5                      --> Shift + Control + 5
+[ ] - Set Quantization To 6                      --> Shift + Control + 6
+[ ] - Set Quantization To 7                      --> Shift + Control + 7
+[ ] - Set Quantization To 8                      --> Shift + Control + 8
+[ ] - Set Quantization To 9                      --> Shift + Control + 9
+[ ] - Set Quantization To 12                     --> 
+[ ] - Set Quantization To 16                     --> 
+[ ] - Set Quantization To 18                     --> 
+[ ] - Set Quantization To 24                     --> 
+[ ] - Set Quantization To 32                     --> 
+[ ] - Insert Track                               --> Control + T
+[ ] - Delete Track                               --> Shift + Control + T
+[ ] - Duplicate Track                            --> Control + D
+[ ] - Duplicate Track (incl. Patterns)           --> Alt + Control + D
+[ ] - Decrease Number of Columns                 --> Shift + Control + Left
+[ ] - Increase Number of Columns                 --> Shift + Control + Right
+[ ] - View/Hide Volume Column                    --> Shift + Control + V
+[ ] - View/Hide Panning Column                   --> Shift + Control + P
+[ ] - View/Hide Delay Column                     --> Shift + Control + D
+[ ] - Toggle Mute Note Column                    --> Shift + Control + Backslash
+[ ] - Increase Pattern Number                    --> Control + Right
+[ ] - Decrease Pattern Number                    --> Control + Left
+[ ] - Go Up in Sequencer                         --> Control + Up
+[ ] - Go Down in Sequencer                       --> Control + Down
+[ ] - Goto Sequence Start                        --> Control + Home
+[ ] - Goto Sequence End                          --> Control + End
+[ ] - Jump One Page Up                           --> Control + Prior
+[ ] - Jump One Page Down                         --> Control + Next
+[ ] - Insert Pattern                             --> Control + Insert
+[ ] - 2nd Insert Pattern                         --> Shift + Control + Back
+[ ] - Insert New Unique Pattern                  --> Alt + Control + Insert
+[ ] - 2nd Insert New Unique Pattern              --> 
+[ ] - Delete Pattern                             --> Control + Delete
+[ ] - 2nd Delete Pattern                         --> Control + Back
+[ ] - Clone Current Pattern                      --> Control + K
+[ ] - Clone 2 Pattern Block Sequence             --> 
+[ ] - Clone 3 Pattern Block Sequence             --> 
+[ ] - Clone 4 Pattern Block Sequence             --> 
+[ ] - Clone 5 Pattern Block Sequence             --> 
+[ ] - Clone 6 Pattern Block Sequence             --> 
+[ ] - Clone 7 Pattern Block Sequence             --> 
+[ ] - Clone 8 Pattern Block Sequence             --> 
+[ ] - Clone 9 Pattern Block Sequence             --> 
+[ ] - Clone Whole Song Sequence                  --> 
+[ ] - Begin Selection                            --> Control + B
+[ ] - End Selection                              --> Control + E
+[ ] - Mark Column in Block Loop Range            --> Shift + Alt + Q
+[ ] - Mark Column above current Line             --> Shift + Alt + A
+[ ] - Mark Column below current Line             --> Shift + Alt + Z
+[ ] - Mark whole Track                           --> Alt + T
+[ ] - Mark Track in Block Loop Range             --> Alt + Q
+[ ] - Mark Track above current Line              --> Alt + A
+[ ] - Mark Track below current Line              --> Alt + Z
+[ ] - Mark whole Pattern                         --> Control + A
+[ ] - Mark Pattern in Block Loop Range           --> Alt + W
+[ ] - Mark Pattern above current Line            --> Alt + S
+[ ] - Mark Pattern below current Line            --> Alt + X
+[ ] - Transpose one Note up                      --> Alt + F2
+[ ] - Transpose one Note down                    --> Alt + F1
+[ ] - Transpose one Octave up                    --> Alt + F12
+[ ] - Transpose one Octave down                  --> Alt + F11
+[ ] - Copy and Clear                             --> Alt + F3
+[ ] - 2nd Copy and Clear                         --> Control + X
+[ ] - Copy                                       --> Alt + F4
+[ ] - 2nd Copy                                   --> Control + C
+[ ] - Paste                                      --> Alt + F5
+[ ] - 2nd Paste                                  --> Control + V
+[ ] - Paste Continuously                         --> Control + P
+[ ] - Flip                                       --> Alt + F6
+[ ] - 2nd Flip                                   --> Control + F
+[ ] - Randomize                                  --> Alt + F7
+[ ] - 2nd Randomize                              --> Control + R
+[ ] - Interpolate Linear                         --> Control + I
+[ ] - Interpolate Logarithmic                    --> Control + L
+[ ] - Interpolate Exponential                    --> 
+[ ] - Humanize                                   --> Control + H
+[ ] - Quantize Notes                             --> Control + Q
+[ ] - Quantize Notes (Preserve Lengths)          --> 
+[ ] - Transpose one Note up                      --> Shift + Control + F2
+[ ] - Transpose one Note down                    --> Shift + Control + F1
+[ ] - Transpose one Octave up                    --> Shift + Control + F12
+[ ] - Transpose one Octave down                  --> Shift + Control + F11
+[ ] - Clear and Copy                             --> Shift + Control + F3
+[ ] - Copy                                       --> Shift + Control + F4
+[ ] - Paste                                      --> Shift + Control + F5
+[ ] - Flip                                       --> Shift + Control + F6
+[ ] - Randomize                                  --> Shift + Control + F7
+[ ] - Interpolate Linear                         --> Shift + Control + I
+[ ] - Interpolate Logarithmic                    --> Shift + Control + L
+[ ] - Interpolate Exponential                    --> 
+[ ] - Humanize                                   --> Shift + Control + H
+[ ] - Quantize Notes                             --> Shift + Control + Q
+[ ] - Quantize Notes (Preserve Lengths)          --> 
+[ ] - Transpose one Note up                      --> Shift + F2
+[ ] - Transpose one Note down                    --> Shift + F1
+[ ] - Transpose one Octave up                    --> Shift + F12
+[ ] - Transpose one Octave down                  --> Shift + F11
+[ ] - Clear Muted Columns                        --> Shift + Alt + F3
+[ ] - Clear and Copy                             --> Shift + F3
+[ ] - Copy                                       --> Shift + F4
+[ ] - Paste                                      --> Shift + F5
+[ ] - Flip                                       --> Shift + F6
+[ ] - Randomize                                  --> Shift + F7
+[ ] - Interpolate Linear                         --> Shift + I
+[ ] - Interpolate Logarithmic                    --> Shift + L
+[ ] - Interpolate Exponential                    --> 
+[ ] - Humanize                                   --> Shift + H
+[ ] - Quantize Notes                             --> Shift + Q
+[ ] - Quantize Notes (Preserve Lengths)          --> 
+[ ] - Transpose one Note up                      --> Control + F2
+[ ] - Transpose one Note down                    --> Control + F1
+[ ] - Transpose one Octave up                    --> Control + F12
+[ ] - Transpose one Octave down                  --> Control + F11
+[ ] - Clear Muted Tracks                         --> 
+[ ] - Clear And Copy                             --> Control + F3
+[ ] - Copy                                       --> Control + F4
+[ ] - Paste                                      --> Control + F5
+[ ] - Flip                                       --> Control + F6
+[ ] - Randomize                                  --> Control + F7
+[ ] - Interpolate Linear                         --> 
+[ ] - Interpolate Logarithmic                    --> 
+[ ] - Interpolate Exponential                    --> 
+[ ] - Humanize                                   --> 
+[ ] - Quantize Notes                             --> 
+[ ] - Quantize Notes (Preserve Lengths)          --> 
+[ ] - Toggle PatternWrap                         --> Shift + Scroll
+[ ] - Single Track Edit Mode                     --> 
+[ ] - Toggle Show Track Colors                   --> 
+[ ] - Toggle Show Control Panel                  --> 
+
+    <Identifier>Sample Editor</Identifier>
+[ ] - Move Cursor Left                           --> Left
+[ ] - Move Cursor Right                          --> Right
+[ ] - Move Cursor Left Big Step                  --> 
+[ ] - Move Cursor Right Big Step                 --> 
+[ ] - Move Cursor to Visible Start               --> Control + Left
+[ ] - Move Cursor to Sample Start                --> Home
+[ ] - Move Cursor to Visible End                 --> Control + Right
+[ ] - Move Cursor to Sample End                  --> End
+[ ] - Move Cursor to Visible Start and Select    --> Shift + Control + Left
+[ ] - Move Cursor to Visible End and Select      --> Shift + Control + Right
+[ ] - Zoom In                                    --> Down
+[ ] - Zoom Out                                   --> Up
+[ ] - Zoom In Vertical                           --> Next
+[ ] - Zoom Out Vertical                          --> Prior
+[ ] - Zoom Selection                             --> Alt + Control + S
+[ ] - Zoom Out Full                              --> Alt + Control + A
+[ ] - Select Previous Sample                     --> 
+[ ] - Select Next Sample                         --> 
+[ ] - Select All                                 --> Control + A
+[ ] - Unselect All                               --> 
+[ ] - Select Loop                                --> Control + L
+[ ] - Select Current Slice                       --> 
+[ ] - Begin Selection                            --> Control + B
+[ ] - End Selection                              --> Control + E
+[ ] - Select All Slice Markers                   --> Shift + Control + A
+[ ] - Toggle Snapping                            --> Control + 0
+[ ] - Set Snap Mode1                             --> Control + 1
+[ ] - Set Snap Mode2                             --> Control + 2
+[ ] - Set Snap Mode3                             --> Control + 3
+[ ] - Set Snap Mode4                             --> Control + 4
+[ ] - Set Snap Mode5                             --> Control + 5
+[ ] - Set Snap Mode6                             --> Control + 6
+[ ] - Set Snap Mode7                             --> Control + 7
+[ ] - Set Snap Mode8                             --> Control + 8
+[ ] - Set Snap Mode9                             --> Control + 9
+[ ] - Toggle Draw Mode                           --> Alt + Control + D
+[ ] - View/Hide Loop Editor                      --> Alt + Control + L
+[ ] - Playback                                   --> Return
+[ ] - Playback                                   --> Escape
+[ ] - Clear Sample                               --> Control + Delete
+[ ] - 2nd Clear Sample                           --> Control + Back
+[ ] - Delete                                     --> Delete
+[ ] - 2nd Delete                                 --> Back
+[ ] - Cut                                        --> Control + X
+[ ] - Trim                                       --> Control + T
+[ ] - Copy                                       --> Control + C
+[ ] - Copy Into New Sample                       --> Shift + Control + C
+[ ] - Copy Into New Instrument                   --> Shift + Alt + Control + C
+[ ] - Paste                                      --> Control + V
+[ ] - Mix Paste                                  --> Shift + Control + V
+[ ] - Save Sample As...                          --> Control + F11
+[ ] - Fade In                                    --> Shift + Control + I
+[ ] - Fade In Log                                --> Shift + Alt + Control + I
+[ ] - Fade Out                                   --> Shift + Control + O
+[ ] - Fade Out Log                               --> Shift + Alt + Control + O
+[ ] - Cross Fade                                 --> Control + F
+[ ] - Create or Adjust Type                      --> F11
+[ ] - Adjust Volume                              --> F10
+[ ] - DC Adjust                                  --> Control + D
+[ ] - Normalize Volume                           --> Control + P
+[ ] - Reverse                                    --> Control + R
+[ ] - XReverse                                   --> 
+[ ] - Smooth                                     --> 
+[ ] - Process Track DSPs                         --> 
+[ ] - Set Loop Start/Range                       --> Shift + Control + L
+[ ] - Set Loop End/Range                         --> Shift + Control + E
+[ ] - Toggle Slice Tool                          --> Control + G
+[ ] - Toggle Single Slice Trigger                --> Control + H
+[ ] - Detect Beats                               --> Control + J
+[ ] - Add Slice Marker                           --> Control + K
+[ ] - Delete Slice Marker                        --> 
+[ ] - Delete All Slice Markers                   --> 
+
+    <Identifier>Mixer</Identifier>
+[ ] - Move Left                                  --> Left
+[ ] - Move Right                                 --> Right
+[ ] - Move Up                                    --> Up
+[ ] - Move Down                                  --> Down
+[ ] - Move One Page Up                           --> Prior
+[ ] - Move One Page Down                         --> Next
+[ ] - Jump to first Device                       --> Home
+[ ] - Jump to last Device                        --> End
+[ ] - Jump to first Track                        --> Shift + Control + Home
+[ ] - Jump to Master Track                       --> Shift + Control + End
+[ ] - Jump to Sends                              --> 
+[ ] - Select next Track                          --> Tab
+[ ] - Select previous Track                      --> Shift + Tab
+[ ] - Delete Device                              --> Delete
+[ ] - 2nd Delete Device                          --> Back
+[ ] - Copy and Cut Device                        --> Control + X
+[ ] - Copy Device                                --> Control + C
+[ ] - Insert Device                              --> Control + V
+[ ] - Rename Device                              --> Control + R
+[ ] - Paste Device Settings                      --> Shift + Control + V
+[ ] - Init Device Settings                       --> Shift + Control + Delete
+[ ] - 2nd Init Device Settings                   --> 
+[ ] - Delete all Devices                         --> 
+[ ] - Cut all Devices                            --> Shift + Alt + X
+[ ] - Copy all Devices                           --> Shift + Alt + C
+[ ] - Paste all Devices                          --> Shift + Alt + V
+[ ] - Load DSP Chain                             --> 
+[ ] - Load DSP Chain With Options                --> 
+[ ] - Save DSP Chain                             --> 
+[ ] - Bypass/Activate Device                     --> Return
+[ ] - Open Editor                                --> Control + Return
+[ ] - Show Track Colors                          --> 
+[ ] - Insert Track                               --> Control + T
+[ ] - Delete Track                               --> Shift + Control + T
+[ ] - Duplicate Track                            --> Control + D
+[ ] - Duplicate Track (incl. Patterns)           --> Alt + Control + D
+[ ] - Increase Volume                            --> Shift + Control + Up
+[ ] - Decrease Volume                            --> Shift + Control + Down
+[ ] - Increase Panning                           --> Shift + Control + Right
+[ ] - Decrease Panning                           --> Shift + Control + Left
+[ ] - Increase Pattern Number                    --> Control + Right
+[ ] - Decrease Pattern Number                    --> Control + Left
+[ ] - Go Up in Sequencer                         --> Control + Up
+[ ] - Go Down in Sequencer                       --> Control + Down
+[ ] - Goto Sequence Start                        --> Control + Home
+[ ] - Goto Sequence End                          --> Control + End
+[ ] - Jump One Page Up                           --> Control + Prior
+[ ] - Jump One Page Down                         --> Control + Next
+[ ] - Insert Pattern                             --> Control + Insert
+[ ] - 2nd Insert Pattern                         --> Shift + Control + Back
+[ ] - Delete Pattern                             --> Control + Delete
+[ ] - 2nd Delete Pattern                         --> Control + Back
+
+    <Identifier>Pattern Sequencer</Identifier>
+[ ] - Schedule Edited Sequence for Playback      --> Control + Return
+[ ] - Play from Edited Sequence                  --> Shift + Return
+[ ] - Increase Pattern Number                    --> Right
+[ ] - Decrease Pattern Number                    --> Left
+[ ] - Jump to Previous Pos                       --> Up
+[ ] - Jump to Next Pos                           --> Down
+[ ] - Jump to Start                              --> Home
+[ ] - Jump to End                                --> End
+[ ] - Jump one Page Up                           --> Prior
+[ ] - Jump one Page Down                         --> Next
+[ ] - Begin Selection                            --> Control + B
+[ ] - End Selection                              --> Control + E
+[ ] - Unset Selection                            --> 
+[ ] - Select All                                 --> Control + A
+[ ] - Insert Pattern                             --> Insert
+[ ] - 2nd Insert Pattern                         --> Control + Back
+[ ] - Insert New Unique Pattern                  --> Alt + Insert
+[ ] - 2nd Insert New Unique Pattern              --> Alt + Back
+[ ] - Delete Pattern                             --> Delete
+[ ] - 2nd Delete Pattern                         --> Back
+[ ] - Clone Current Pattern                      --> Control + K
+[ ] - Set Pattern                                --> Return
+[ ] - Clear Muted Tracks In Selection            --> Control + G
+[ ] - Cut Selection                              --> Control + X
+[ ] - Clone Selection                            --> Shift + Control + K
+[ ] - Copy Selection                             --> Control + C
+[ ] - Paste Selection                            --> Control + V
+[ ] - Insert Selection                           --> Control + I
+[ ] - Join Selection                             --> Control + J
+[ ] - Duplicate Selection                        --> Control + D
+[ ] - Make Selection Unique                      --> Control + U
+[ ] - Make Selection Block Unique                --> Shift + Control + U
+[ ] - Loop Selection                             --> Control + L
+[ ] - Eliminate Duplicate Patterns               --> 
+[ ] - Sort &amp; Delete Unused Patterns          --> 
+[ ] - Clone 1 Pattern Block                      --> Control + 1
+[ ] - Clone 2 Pattern Block                      --> Control + 2
+[ ] - Clone 3 Pattern Block                      --> Control + 3
+[ ] - Clone 4 Pattern Block                      --> Control + 4
+[ ] - Clone 5 Pattern Block                      --> Control + 5
+[ ] - Clone 6 Pattern Block                      --> Control + 6
+[ ] - Clone 7 Pattern Block                      --> Control + 7
+[ ] - Clone 8 Pattern Block                      --> Control + 8
+[ ] - Clone 9 Pattern Block                      --> Control + 9
+[ ] - Clone Whole Song                           --> Control + 0
+
+    <Identifier>Pattern Matrix</Identifier>
+[ ] - Focus Pattern Editor                       --> Shift + Escape
+[ ] - Select Previous Track                      --> Left
+[ ] - 2nd Select Previous Track                  --> Shift + Tab
+[ ] - Select Next Track                          --> Right
+[ ] - 2nd Select Next Track                      --> Tab
+[ ] - Select First Track                         --> Home
+[ ] - Select Last Track                          --> End
+[ ] - Select Previous Sequence                   --> Up
+[ ] - Select Next Sequence                       --> Down
+[ ] - Select Previous Sequence Page              --> Prior
+[ ] - Select Next Sequence Page                  --> Next
+[ ] - Select First Sequence                      --> Control + Home
+[ ] - Select Last Sequence                       --> Control + End
+[ ] - Toggle Mute Selection                      --> Return
+[ ] - Deselect                                   --> 
+[ ] - Select All                                 --> Control + A
+[ ] - Select Whole Pattern                       --> Alt + P
+[ ] - Select Whole Track                         --> Alt + T
+[ ] - Select Whole Previous Pattern              --> Shift + Control + Up
+[ ] - Select Whole Next Pattern                  --> Shift + Control + Down
+[ ] - Clear                                      --> Delete
+[ ] - 2nd Clear                                  --> Back
+[ ] - Cut                                        --> Control + X
+[ ] - Copy                                       --> Control + C
+[ ] - Paste                                      --> Control + V
+[ ] - Insert                                     --> Control + I
+[ ] - Clone Selection                            --> Control + K
+[ ] - Insert Track                               --> Control + T
+[ ] - Delete Track                               --> Shift + Control + T
+[ ] - Duplicate Track                            --> Control + D
+[ ] - Duplicate Track (incl. Patterns)           --> Alt + Control + D
+[ ] - Increase Pattern Number                    --> Control + Right
+[ ] - Decrease Pattern Number                    --> Control + Left
+[ ] - Insert Pattern                             --> Control + Insert
+[ ] - 2nd Insert Pattern                         --> Shift + Control + Back
+[ ] - Insert New Unique Pattern                  --> Alt + Control + Insert
+[ ] - 2nd Insert New Unique Pattern              --> 
+[ ] - Delete Pattern                             --> Control + Delete
+[ ] - 2nd Delete Pattern                         --> Control + Back
+[ ] - Eliminate Duplicate Patterns               --> 
+[ ] - Sort &amp; Delete Unused Patterns          --> 
+[ ] - Loop Sequence Selection                    --> Control + L
+[ ] - Make Sequence Selection Unique             --> Control + U
+[ ] - Clear Muted Tracks in Sequence Selection   --> 
+[ ] - Decrease Slot Height                       --> Control + Up
+[ ] - Increase Slot Height                       --> Control + Down
+[ ] - Decrease Slot Width                        --> 
+[ ] - Increase Slot Width                        --> 
+[ ] - Toggle Track Names                         --> 
+[ ] - Toggle Track Meters                        --> 
+[ ] - Toggle Show Track Colors                   --> 
+[ ] - Toggle Show Content Repeats                --> 
+
+    <Identifier>Disk Browser</Identifier>
+[ ] - Select Previous File                       --> Up
+[ ] - Select Next File                           --> Down
+[ ] - Collapse Folder                            --> Left
+[ ] - Expand Folder                              --> Right
+[ ] - Select First Entry                         --> Home
+[ ] - Select Last Entry                          --> End
+[ ] - Select on Previous Page                    --> Prior
+[ ] - Select On Next Page                        --> Next
+[ ] - Select All Files                           --> Control + A
+[ ] - Toggle Dir/File List                       --> Tab
+[ ] - 2nd Toggle Dir/File List                   --> Shift + Tab
+[ ] - Load Selected Files                        --> Return
+[ ] - Load Selected Files with Options           --> Shift + Return
+[ ] - Select CurrentDir as Root                  --> Control + Right
+[ ] - Switch to parent root directory            --> Control + Left
+[ ] - Select Previous Category Browser           --> Control + Up
+[ ] - Select Next Category Browser               --> Control + Down
+[ ] - Rescan Contents                            --> Control + U
+[ ] - Rename Selected File or Dir                --> Control + R
+[ ] - Create a new Directory                     --> Control + D
+[ ] - Trash the selected File or Dir             --> Control + Delete
+[ ] - Show selected File or Dir in File Explorer --> Control + F
+[ ] - RecallFavorites1                           --> Control + 1
+[ ] - RecallFavorites2                           --> Control + 2
+[ ] - RecallFavorites3                           --> Control + 3
+[ ] - RecallFavorites4                           --> Control + 4
+[ ] - StoreFavorites1                            --> Shift + Control + 1
+[ ] - StoreFavorites2                            --> Shift + Control + 2
+[ ] - StoreFavorites3                            --> Shift + Control + 3
+[ ] - StoreFavorites4                            --> Shift + Control + 4
+
+    <Identifier>Instrument Box</Identifier>
+[ ] - Select Previous Instrument                 --> Up
+[ ] - Select Next Instrument                     --> Down
+[ ] - Select Previous Instrument Page            --> Prior
+[ ] - Select Next Instrument Page                --> Next
+[ ] - Select First Instrument                    --> Home
+[ ] - Select Last Instrument                     --> End
+[ ] - Insert New Instrument                      --> Insert
+[ ] - 2nd Insert New Instrument                  --> Control + Back
+[ ] - Delete Instrument                          --> Delete
+[ ] - 2nd Delete Instrument                      --> Back
+[ ] - Duplicate Instrument                       --> Control + D
+[ ] - Copy Instrument                            --> Control + C
+[ ] - Paste Instrument                           --> Control + V
+[ ] - Copy And Clear Instrument                  --> Control + X
+[ ] - Clear Instrument                           --> Shift + Delete
+[ ] - 2nd Clear Instrument                       --> Shift + Back
+[ ] - Rename Instrument                          --> Control + R
+[ ] - Render Plugin To Instrument                --> Control + F
+[ ] - Render Plugin To New Instrument            --> Shift + Control + F
+[ ] - Open Editor                                --> Return
+
+    <Identifier>Instrument Keyzone</Identifier>
+[ ] - Select Previous By Note                    --> Left
+[ ] - Select Next By Note                        --> Right
+[ ] - Select Previous By Velocity                --> Up
+[ ] - Select Next By  Velocity                   --> Down
+[ ] - Select All                                 --> Control + A
+[ ] - Delete Selected                            --> Delete
+[ ] - 2nd Delete Selected                        --> Back
+[ ] - Distributed Range Map                      --> Control + E
+[ ] - Drum Kit Map                               --> Control + D
+
+    <Identifier>Automation</Identifier>
+[ ] - Move to Previous Line                      --> Left
+[ ] - Move to Next Line                          --> Right
+[ ] - Move to Start                              --> Control + Left
+[ ] - Move to End                                --> Control + Right
+[ ] - Move to Start and Select                   --> Shift + Control + Left
+[ ] - Move to End and Select                     --> Shift + Control + Right
+[ ] - Create/Delete Point                        --> Return
+[ ] - Edit Points Value                          --> Shift + Return
+[ ] - Begin Selection                            --> Control + B
+[ ] - End Selection                              --> Control + E
+[ ] - Select whole Envelope                      --> Control + A
+[ ] - Unselect Envelope                          --> 
+[ ] - Draw Tool                                  --> 
+[ ] - Line Tool                                  --> 
+[ ] - Lock Zoom                                  --> 
+[ ] - Zoom Out Fully                             --> 
+[ ] - Zoom To Current                            --> 
+[ ] - Shift Values Up                            --> Up
+[ ] - Shift Values Down                          --> Down
+[ ] - Shift Values Left                          --> Shift + Tab
+[ ] - Shift Values Right                         --> Tab
+[ ] - Amplify Values Up                          --> Control + Up
+[ ] - Amplify Values Down                        --> Control + Down
+[ ] - Delete                                     --> Delete
+[ ] - Cut                                        --> Control + X
+[ ] - Cut Time                                   --> Control + K
+[ ] - Copy                                       --> Control + C
+[ ] - Paste                                      --> Control + V
+[ ] - Paste Continuously                         --> Control + P
+[ ] - Insert                                     --> Control + I
+[ ] - Delete Envelope                            --> 
+[ ] - Flip                                       --> Control + F
+[ ] - Mirror                                     --> Shift + Control + F
+[ ] - Humanize                                   --> Control + R
+[ ] - Create Linear Ramp                         --> 
+[ ] - Create Exp Ramp                            --> 
+[ ] - Create Random Points                       --> 
+
+    <Identifier>Track DSPs Chain</Identifier>
+[ ] - Set Focus To List                          --> Tab
+[ ] - Select Previous Device                     --> Left
+[ ] - Select Next Device                         --> Right
+[ ] - Select First Device                        --> Home
+[ ] - Select Last Device                         --> End
+[ ] - Move Device Left                           --> Control + Left
+[ ] - Move Device Right                          --> Control + Right
+[ ] - Maximize Device                            --> Up
+[ ] - Minimize Device                            --> Down
+[ ] - Maximize All                               --> Control + Up
+[ ] - Minimize All                               --> Control + Down
+[ ] - Delete Device Chain                        --> 
+[ ] - Cut Device Chain                           --> Shift + Alt + X
+[ ] - Copy Device Chain                          --> Shift + Alt + C
+[ ] - Paste Device Chain                         --> Shift + Alt + V
+[ ] - Load DSP Chain                             --> 
+[ ] - Load DSP Chain With Options                --> 
+[ ] - Save DSP Chain                             --> 
+[ ] - Delete Device                              --> Delete
+[ ] - 2nd Delete Device                          --> Back
+[ ] - Cut Device                                 --> Control + X
+[ ] - Copy Device                                --> Control + C
+[ ] - Paste Device                               --> Control + V
+[ ] - Rename Device                              --> Control + R
+[ ] - Init Device Settings                       --> Shift + Control + Delete
+[ ] - 2nd Init Device Settings                   --> Shift + Control + Back
+[ ] - Paste Device Settings                      --> Shift + Control + V
+[ ] - Bypass/Activate Device                     --> Return
+[ ] - Open Editor                                --> Control + Return

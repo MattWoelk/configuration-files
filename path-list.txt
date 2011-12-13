@@ -28,6 +28,8 @@
 /home/matt/.renoise/V2.7.2/Config.xml
 /home/matt/.renoise/V2.7.2/KeyBindings.xml
 /home/matt/.renoise/V2.7.2/KeyBindings.xslt
+/home/matt/.renoise/V2.7.2/KeyBindings.xml.backup
+/home/matt/.renoise/V2.7.2/vimkeybindings.txt
 /home/matt/.stalonetrayrc
 /home/matt/.vim/after/
 /home/matt/.vim/autoload/
