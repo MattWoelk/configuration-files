@@ -62,10 +62,12 @@ xorg-xkill         : kill a program by clicking on it
 arandr             : adjust external monitors and resolutions of displays
 bison              : The GNU general-purpose parser generator (whatever that means...)
 gparted            : the best way to partition or reformat a drive or media. Totally kicks the butt.
-recoll             : find anything on your computer in zero seconds.
+recoll             : find (search for) anything on your computer in zero seconds.
 xclip              : get and set the clipboard(s) (usage: pipe to it to copy into the clipboard; xclip -o to print the selection to standard out; -selection (primary (the default) | secondary | clipboard))
 scrot              : take screenshots from the terminal
 xcalib             : used to invert the screen colours (usage: xcalib -invert -alter)
+9menu              : Simple and easily configurable X-menu / program launcher.
+figlet             : A program for making large letters out of ordinary text
 
 --FILE HANDLERS    : 
 gv                 : pdf viewer
@@ -326,6 +328,7 @@ tp_smapi
 transcode
 twmn
 uniconvertor
+unrar
 unrtf
 untex
 usbutils

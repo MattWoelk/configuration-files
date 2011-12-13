@@ -26,7 +26,16 @@
 /home/matt/.inputrc
 /home/matt/.pentadactylrc
 /home/matt/.stalonetrayrc
-/home/matt/.vim
+/home/matt/.vim/after/
+/home/matt/.vim/autoload/
+/home/matt/.vim/colors/
+/home/matt/.vim/doc/
+/home/matt/.vim/ftplugin/
+/home/matt/.vim/lib/
+/home/matt/.vim/plugin/
+/home/matt/.vim/snippets/
+/home/matt/.vim/spell/
+/home/matt/.vim/syntax/
 /home/matt/.vimrc
 /home/matt/.xbindkeysrc
 /home/matt/.xinitrc
