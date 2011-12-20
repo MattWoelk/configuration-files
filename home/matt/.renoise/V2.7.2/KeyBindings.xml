@@ -670,6 +670,18 @@
           <Topic>Track Muting</Topic>
           <Binding>Mute Track 32</Binding>
         </KeyBinding>
+        <KeyBinding>
+          <Topic>ReSynth</Topic>
+          <Binding>∿ New Resynth Instrument</Binding>
+        </KeyBinding>
+        <KeyBinding>
+          <Topic>ReSynth</Topic>
+          <Binding>∿ Open as Resynth Instrument</Binding>
+        </KeyBinding>
+        <KeyBinding>
+          <Topic>ReSynth</Topic>
+          <Binding>∿ Open Waveforms Folder</Binding>
+        </KeyBinding>
       </KeyBindings>
     </Category>
     <Category>

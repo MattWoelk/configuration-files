@@ -67,7 +67,7 @@ xclip              : get and set the clipboard(s) (usage: pipe to it to copy int
 scrot              : take screenshots from the terminal
 xcalib             : used to invert the screen colours (usage: xcalib -invert -alter)
 9menu              : Simple and easily configurable X-menu / program launcher.
-figlet             : A program for making large letters out of ordinary text
+figlet             : A program for making large letters out of ordinary text AKA ASCII art. -f name is used where name is a file (no extension) from /usr/share/figlet/fonts/
 
 --FILE HANDLERS    : 
 gv                 : pdf viewer
@@ -241,6 +241,7 @@ rxvt-unicode : urxvt, an excellent terminal which has unicode support
 atool
 autoconf
 automake
+bittriprunner
 blocks-that-matter
 catdoc
 celt
@@ -257,6 +258,7 @@ festival-us-awb-multisyn
 festival-us-jmk-multisyn
 flex
 frozensynapse
+gdb
 gfontview
 gftp
 gksu
@@ -274,6 +276,7 @@ initscripts
 inotify-tools
 iputils
 ivory-mahjongg-bin
+jamestown
 jaspers-journeys-hb
 jfsutils
 jokosher
@@ -304,6 +307,7 @@ man-pages
 mdadm
 mediainfo
 mediainfo-gui
+minecraft
 moreutils
 mtools
 ntfsprogs
@@ -313,20 +317,26 @@ paprefs
 patch
 pcmciautils
 pdfedit
+perl-ipc-run
+perl-timedate
+perl-time-duration
 pkg-config
 pkgtools
 playonlinux
+pogo
 promptool-git
 python-pychm
 pywebkitgtk
 reiserfsprogs
 stk
+supermeatboy
 texlive-latexextra
 texlive-publishers
 thinkfinger
 tp_smapi
 transcode
 twmn
+tx
 uniconvertor
 unrar
 unrtf

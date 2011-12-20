@@ -2,10 +2,10 @@
 <RenoisePrefs doc_version="3">
 <!--Window Metrics-->
   <WindowedMode>false</WindowedMode>
-  <WindowedModePosition>1479,1</WindowedModePosition>
-  <WindowedModeSize>990,700</WindowedModeSize>
+  <WindowedModePosition>26,2</WindowedModePosition>
+  <WindowedModeSize>1107,1076</WindowedModeSize>
   <WindowedModeIsMaximized>false</WindowedModeIsMaximized>
-  <FullScreenMonitorMatchPos>1669,540</FullScreenMonitorMatchPos>
+  <FullScreenMonitorMatchPos>494,540</FullScreenMonitorMatchPos>
 <!--Window Performance-->
   <VisualEffects>true</VisualEffects>
   <EnableExternEditorKeyboardAccess>false</EnableExternEditorKeyboardAccess>
@@ -18,14 +18,14 @@
   <ApplyMouseWheelAcceleration>true</ApplyMouseWheelAcceleration>
 <!--Application Prefs-->
   <RecentFiles>
-    <RecentFile>/home/matt/Projects/Renoise/Chippy1.xrns</RecentFile>
     <RecentFile>/usr/share/renoise-2.7.2/Songs/DemoSong - Keith303 - The Masquerade.xrns</RecentFile>
+    <RecentFile>/home/matt/Projects/Renoise/Chippy1.xrns</RecentFile>
     <RecentFile>/usr/share/renoise-2.7.2/Songs/DemoSong - It-Alien - Complex Life Forms.xrns</RecentFile>
     <RecentFile>/usr/share/renoise-2.7.2/Songs/DemoSong - Hunz - Soon Soon.xrns</RecentFile>
   </RecentFiles>
   <RecentLoadedFiles>
-    <RecentLoadedFile>/home/matt/Projects/Renoise/Chippy1.xrns</RecentLoadedFile>
     <RecentLoadedFile>/usr/share/renoise-2.7.2/Songs/DemoSong - Keith303 - The Masquerade.xrns</RecentLoadedFile>
+    <RecentLoadedFile>/home/matt/Projects/Renoise/Chippy1.xrns</RecentLoadedFile>
     <RecentLoadedFile>/usr/share/renoise-2.7.2/Songs/DemoSong - It-Alien - Complex Life Forms.xrns</RecentLoadedFile>
     <RecentLoadedFile>/usr/share/renoise-2.7.2/Songs/DemoSong - Hunz - Soon Soon.xrns</RecentLoadedFile>
   </RecentLoadedFiles>
@@ -41,7 +41,7 @@
 <!--GUI-->
   <ShowTooltips>true</ShowTooltips>
   <ShowTipOfTheDayOnStartup>true</ShowTipOfTheDayOnStartup>
-  <LastShownPreferencePane>0</LastShownPreferencePane>
+  <LastShownPreferencePane>4</LastShownPreferencePane>
 <!--Keyboard/Mouse-->
   <LockFocusToMiddleFrame>true</LockFocusToMiddleFrame>
   <RightMouseButtonRepeatRate>60</RightMouseButtonRepeatRate>
@@ -89,7 +89,7 @@
   <RecordMidiMappedParameters>true</RecordMidiMappedParameters>
   <RecordBatchManeuverTimeout>500</RecordBatchManeuverTimeout>
   <KeyboardChordMode>true</KeyboardChordMode>
-  <PatternEditStep>1</PatternEditStep>
+  <PatternEditStep>4</PatternEditStep>
   <ComputerKeyboardNoteVelocity>-1</ComputerKeyboardNoteVelocity>
   <FollowPlayer>true</FollowPlayer>
   <DetachSequencerWithPatternFollow>true</DetachSequencerWithPatternFollow>
@@ -135,7 +135,7 @@
 <!--Pattern Editor-->
   <PatternNrFormatIsHex>false</PatternNrFormatIsHex>
   <HideZeroPatternEffects>true</HideZeroPatternEffects>
-  <ContinuesPatternEditing>false</ContinuesPatternEditing>
+  <ContinuesPatternEditing>true</ContinuesPatternEditing>
   <ShowPreviousAndNextPattern>true</ShowPreviousAndNextPattern>
   <SyntaxHighlightingInPattern>true</SyntaxHighlightingInPattern>
   <PatternVSpacing>2</PatternVSpacing>
@@ -148,8 +148,8 @@
   <PatternEditorSingleTrackModeInMatrix>false</PatternEditorSingleTrackModeInMatrix>
   <AdvancedEditIsVisible>false</AdvancedEditIsVisible>
   <AdvancedEditMaskPaneIsVisible>false</AdvancedEditMaskPaneIsVisible>
-  <AdvancedEditCutCopyPaneIsVisible>true</AdvancedEditCutCopyPaneIsVisible>
-  <AdvancedEditEffectPaneIsVisible>false</AdvancedEditEffectPaneIsVisible>
+  <AdvancedEditCutCopyPaneIsVisible>false</AdvancedEditCutCopyPaneIsVisible>
+  <AdvancedEditEffectPaneIsVisible>true</AdvancedEditEffectPaneIsVisible>
   <AdvancedEditInstrumentPaneIsVisible>false</AdvancedEditInstrumentPaneIsVisible>
   <AdvancedEditNotePaneIsVisible>false</AdvancedEditNotePaneIsVisible>
 <!--Sample Editor-->
@@ -160,7 +160,7 @@
 <!--GUI-->
   <GlobalViewPresets>
     <GlobalViewPreset>
-      <UpperFrameIsVisible>true</UpperFrameIsVisible>
+      <UpperFrameIsVisible>false</UpperFrameIsVisible>
       <LowerFrameIsVisible>true</LowerFrameIsVisible>
       <ActiveUpperFrameView>Disk Browser</ActiveUpperFrameView>
       <ActiveMiddleFrameView>Pattern Editor</ActiveMiddleFrameView>
@@ -256,7 +256,7 @@
       <DiskBrowserIsExpanded>false</DiskBrowserIsExpanded>
     </GlobalViewPreset>
   </GlobalViewPresets>
-  <UpperFrameIsVisible>true</UpperFrameIsVisible>
+  <UpperFrameIsVisible>false</UpperFrameIsVisible>
   <LowerFrameIsVisible>true</LowerFrameIsVisible>
   <DiskBrowserIsExpanded>false</DiskBrowserIsExpanded>
   <DspDeviceListWidth>175</DspDeviceListWidth>
@@ -323,11 +323,11 @@
       <SelectedNodeName>/usr/share/renoise-2.7.2/DSP Chains/</SelectedNodeName>
     </LastBrowsedDirectory>
     <LastBrowsedDirectory>
-      <TreeInfo>?0?/usr/share/renoise-2.7.2/</TreeInfo>
+      <TreeInfo>?0?/usr/share/renoise-2.7.2/?1?DSP Chains?1?Factory Presets?1?Instruments?1?Samples?1?Schemas?1?Scripts?1?Skin?1?Songs?1?Stylesheets?1?Themes</TreeInfo>
       <SelectedNodeName>/usr/share/renoise-2.7.2/Instruments/</SelectedNodeName>
     </LastBrowsedDirectory>
     <LastBrowsedDirectory>
-      <TreeInfo>?0?/usr/share/renoise-2.7.2/</TreeInfo>
+      <TreeInfo>?0?/usr/share/renoise-2.7.2/?1?DSP Chains?1?Factory Presets?1?Instruments?1?Samples?1?Schemas?1?Scripts?1?Skin?1?Songs?1?Stylesheets?1?Themes</TreeInfo>
       <SelectedNodeName>/usr/share/renoise-2.7.2/Samples/</SelectedNodeName>
     </LastBrowsedDirectory>
     <LastBrowsedDirectory>
@@ -721,7 +721,7 @@
 <!--Audio IO-->
   <AudioIO>
 <!--Devices-->
-    <ActiveDeviceType>1</ActiveDeviceType>
+    <ActiveDeviceType>0</ActiveDeviceType>
     <ActiveInputDriverIndices>
       <ActiveInputDriverIndex>-1</ActiveInputDriverIndex>
       <ActiveInputDriverIndex>-1</ActiveInputDriverIndex>

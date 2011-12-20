@@ -246,6 +246,7 @@ alias char_major_116_33 snd_timer
 alias char_major_14_* soundcore
 alias char_major_161_* ircomm_tty
 alias char_major_166_* cdc_acm
+alias char_major_195_* nvidia
 alias char_major_19_* cyclades
 alias char_major_204_* altera_uart
 alias char_major_206_* osst
@@ -533,7 +534,7 @@ alias hid:b0003v00000C12p00000030 hid_zpff
 alias hid:b0003v00000C16p00000002 hid_gyration
 alias hid:b0003v00000C16p00000003 hid_gyration
 alias hid:b0003v00000C16p00000008 hid_gyration
-alias hid:b0003v00000DFCp00000001 hid_multitouch
+alias hid:b0003v00000DFCp00000003 hid_multitouch
 alias hid:b0003v00000E8Fp00000003 hid_pl
 alias hid:b0003v00000E8Fp00000012 hid_gaff
 alias hid:b0003v00000EEFp0000480D hid_multitouch
@@ -2039,6 +2040,14 @@ alias pci:v00001002d00006768sv*sd*bc*sc*i* radeon
 alias pci:v00001002d00006770sv*sd*bc*sc*i* radeon
 alias pci:v00001002d00006778sv*sd*bc*sc*i* radeon
 alias pci:v00001002d00006779sv*sd*bc*sc*i* radeon
+alias pci:v00001002d00006840sv*sd*bc*sc*i* radeon
+alias pci:v00001002d00006841sv*sd*bc*sc*i* radeon
+alias pci:v00001002d00006842sv*sd*bc*sc*i* radeon
+alias pci:v00001002d00006843sv*sd*bc*sc*i* radeon
+alias pci:v00001002d00006849sv*sd*bc*sc*i* radeon
+alias pci:v00001002d00006850sv*sd*bc*sc*i* radeon
+alias pci:v00001002d00006858sv*sd*bc*sc*i* radeon
+alias pci:v00001002d00006859sv*sd*bc*sc*i* radeon
 alias pci:v00001002d00006880sv*sd*bc*sc*i* radeon
 alias pci:v00001002d00006888sv*sd*bc*sc*i* radeon
 alias pci:v00001002d00006889sv*sd*bc*sc*i* radeon
@@ -3129,6 +3138,8 @@ alias pci:v000010DBd00008802sv*sd*bc02sc00i* pch_gbe
 alias pci:v000010DBd00008808sv*sd*bc0Csc03iFE* pch_udc
 alias pci:v000010DEd*sv*sd*bc03sc*i* nvidiafb
 alias pci:v000010DEd*sv*sd*bc03sc*i* nouveau
+alias pci:v000010DEd*sv*sd*bc03sc00i00* nvidia
+alias pci:v000010DEd*sv*sd*bc03sc02i00* nvidia
 alias pci:v000010DEd*sv*sd*bc04sc03i00* snd_hda_intel
 alias pci:v000010DEd00000020sv*sd*bc*sc*i* rivafb
 alias pci:v000010DEd00000028sv*sd*bc*sc*i* rivafb
@@ -3311,6 +3322,7 @@ alias pci:v000010DEd000007F9sv*sd*bc*sc*i* ahci
 alias pci:v000010DEd000007FAsv*sd*bc*sc*i* ahci
 alias pci:v000010DEd000007FBsv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000AA2sv*sd*bc*sc*i* i2c_nforce2
+alias pci:v000010DEd00000AA3sv*sd*bc0Bsc40i00* nvidia
 alias pci:v000010DEd00000AB0sv*sd*bc*sc*i* forcedeth
 alias pci:v000010DEd00000AB1sv*sd*bc*sc*i* forcedeth
 alias pci:v000010DEd00000AB2sv*sd*bc*sc*i* forcedeth
@@ -3353,6 +3365,7 @@ alias pci:v000010DEd00000D8Csv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000D8Dsv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000D8Esv*sd*bc*sc*i* ahci
 alias pci:v000010DEd00000D8Fsv*sd*bc*sc*i* ahci
+alias pci:v000010DEd00000E00sv*sd*bc04sc80i00* nvidia
 alias pci:v000010DFd00001AE5sv*sd*bc*sc*i* lpfc
 alias pci:v000010DFd0000E100sv*sd*bc*sc*i* lpfc
 alias pci:v000010DFd0000E131sv*sd*bc*sc*i* lpfc
@@ -8019,6 +8032,7 @@ alias usb:v0403pD578d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pD678d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pD6EAd*dc*dsc*dp*ic*isc*ip* ftdi_elan
 alias usb:v0403pD738d*dc*dsc*dp*ic*isc*ip* ftdi_sio
+alias usb:v0403pD739d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pD780d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pDA70d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v0403pDA71d*dc*dsc*dp*ic*isc*ip* ftdi_sio
@@ -9620,6 +9634,7 @@ alias usb:v05C6p1000d*dc*dsc*dp*ic*isc*ip* usb_storage
 alias usb:v05C6p3197d*dc*dsc*dp*ic*isc*ip* moto_modem
 alias usb:v05C6p6000d*dc*dsc*dp*ic*isc*ip* option
 alias usb:v05C6p6613d*dc*dsc*dp*ic*isc*ip* option
+alias usb:v05C6p9000d*dc*dsc*dp*ic*isc*ip* option
 alias usb:v05C6p9001d*dc*dsc*dp*ic*isc*ip* qcserial
 alias usb:v05C6p9002d*dc*dsc*dp*ic*isc*ip* qcserial
 alias usb:v05C6p9008d*dc*dsc*dp*ic*isc*ip* qcserial
@@ -11858,6 +11873,9 @@ alias usb:v12D1p14CBd*dc*dsc*dp*icFFisc01ip32* option
 alias usb:v12D1p14CCd*dc*dsc*dp*icFFisc01ip31* option
 alias usb:v12D1p14CCd*dc*dsc*dp*icFFisc01ip32* option
 alias usb:v12D1p1506d*dc*dsc*dp*icFFisc01ip01* option
+alias usb:v12D1p1506d*dc*dsc*dp*icFFisc01ip02* option
+alias usb:v12D1p1506d*dc*dsc*dp*icFFisc01ip03* option
+alias usb:v12D1p1506d*dc*dsc*dp*icFFisc01ip08* option
 alias usb:v12D1p1803d*dc*dsc*dp*icFFiscFFipFF* option
 alias usb:v12D1p1C05d*dc*dsc*dp*icFFiscFFipFF* option
 alias usb:v12EFp0100d*dc*dsc*dp*ic*isc*ip* visor
@@ -11952,6 +11970,7 @@ alias usb:v13D8p0002d*dc*dsc*dp*ic*isc*ip* usbdux
 alias usb:v13D8p0010d*dc*dsc*dp*ic*isc*ip* usbduxfast
 alias usb:v13D8p0011d*dc*dsc*dp*ic*isc*ip* usbduxfast
 alias usb:v13E5p0001d*dc*dsc*dp*ic*isc*ip* snd_usb_audio
+alias usb:v13FEp3600d0100dc*dsc*dp*ic*isc*ip* usb_storage
 alias usb:v1404pCDDCd*dc*dsc*dp*ic*isc*ip* funsoft
 alias usb:v1410p1100d*dc*dsc*dp*ic*isc*ip* option
 alias usb:v1410p1110d*dc*dsc*dp*ic*isc*ip* option
@@ -17752,6 +17771,11 @@ alias symbol:nlmsvc_ops lockd
 alias symbol:nlmsvc_unlock_all_by_ip lockd
 alias symbol:nlmsvc_unlock_all_by_sb lockd
 alias symbol:notify_wx_assoc_event_rsl r8192u_usb
+alias symbol:nvidia_p2p_destroy_mapping nvidia
+alias symbol:nvidia_p2p_free_page_table nvidia
+alias symbol:nvidia_p2p_get_pages nvidia
+alias symbol:nvidia_p2p_init_mapping nvidia
+alias symbol:nvidia_p2p_put_pages nvidia
 alias symbol:nvram_check_checksum nvram
 alias symbol:nvram_read_byte nvram
 alias symbol:nvram_write_byte nvram
