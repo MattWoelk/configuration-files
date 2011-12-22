@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Wiktionary (en)</os:ShortName>
+<os:Description>Wiktionary (en)</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAAEgAAABIAAAAAAAAAAAAAAAAAAAAAADk5+iYt8idusuvw87CzNLW2Nn4+PgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUrLqDqsGIrsWFrcWAq8R5p8Bum7KHr8Waucqsws6/y9LS1df29vYAAAAAAAAAAAB1kaGm0Ouq0uyt1O2x1u612O6uzeGcuMqWtcmQs8eIr8Z+qsN3m6/z8/MAAADw8PB2mK2l0Oup0uyt1OyUlZ+szuS42e+82/C31ObD3/LH4fPK4/S0zNzLzc8AAADP09WGrMSkz+qo0eunzeWLLhucrLu32e+72/CWV0i40+XG4fPJ4/TK4/TM0dUAAACut7uVv9qkz+qn0euLf4eEGgSWipC22e+lrruxKACqsr3F4PLJ4vPK4/TR1NUAAACToKifzemjz+qhyeJ8JBeCbnKGZma12O+XUECOOCKnkpPE4PLI4vO70uLp6ekAAACCmKWezOmizuqBdoB4IRWny+J6WFadp7SaIAKeq7iZcGrE3/LH4fOvwc8AAAAAAABxj6GezOmaxN5tGxOEeYKs1Ox4VlWKRTqSW1O72/CLYVrD3/LH4fO3xtAAAADp6el2nLOdzOl3bHloHBeiyeKs0+yIa26JGgOlucq72/CKYFrC3/LG4fPAytEAAADK0NOErMWUvtldEQ97dYKn0eur0ux8OzSHWVa22e+62vCWcW2zzN3F4PLJz9MAAACutLiJscphVmJYGBlvdYOext+AeoV9EQCYqrq12O+52u+gkJSmqrTE3/LT1dYAAADKztCdzOmdzOmezOmdyOOavtaKkJ6HdX2Bh5K02O6mwNOJXViXa2Ssxdbw8PAAAADz8/OOr8Scy+iezOmhzuql0Oup0uus1Oyw1e201+632e+xz+KmtMGhsr8AAAAAAAAAAAD29vbT1dfCzNKzxM6nvcybt8mXuM6t0uqz1+632e+62/C+3fG2xc4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4+PjX2dnIz9O+ydGzxM+yws3n6OkAAAAAAADAfwAAwAEAAMAAAACAAAAAgAAAAIAAAACAAAAAgAEAAIABAAAAAQAAAAEAAAABAAAAAQAAAAMAAIADAAD+AwAA</os:Image>
+<UpdateInterval>7</UpdateInterval>
+<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/wiktionary.xml</UpdateUrl>
+<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/wiktionary.ico</IconUpdateUrl>
+<SearchForm>http://en.wiktionary.org/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://en.wiktionary.org/?search={searchTerms}">
+</os:Url>
+</SearchPlugin>

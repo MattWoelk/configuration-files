@@ -121,6 +121,10 @@ nnoremap <CR> :noh<CR>
 "make word-wrapped lines look kind of nice
 let &showbreak=repeat('.', 20)
 
+"show tabs and trailing whitespace
+set listchars=tab:>-,trail:-
+set list
+
 "For taglist"
 nmap <leader>l :TlistToggle<CR>
 

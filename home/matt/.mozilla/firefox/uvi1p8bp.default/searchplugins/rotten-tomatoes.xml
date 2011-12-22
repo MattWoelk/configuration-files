@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Rotten Tomatoes</os:ShortName>
+<os:Description>Rotten Tomatoes Database Search</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAD///8A////AP///wDp6elJs7O1r3Z2iv9SUnf/RkZ4/0ZGe/9XV4b/goKi/8PDy6/09PRJ////AP///wD///8A////APn5+Rq3t7m2R0di8BERX/8AAG//AAB8/wAAg/8AAIf/AACJ/wIChv8aGoX/ZWWR8NnZ3Vz9/f0A////APn5+SiXl5vXDAxG/wAAe/8AAIb/AACI/wAAi/8AAI3/AACQ/wAAk/8AAJf/AACb/wAAmv8pKYX/x8fPXP///wC+vr91Hh5L/wAAg/8AAIv/AACN/wAAkP8AAJP/AACW/wAAmf8AAJ3/AACf/wAAo/8AAKb/AACp/zk5mfDY2N5jaWl0/wAAbf8AAJH/AACT/wAAlv8AAJn/AACc/wAAn/8AAKL/AACl/wAAqP8AAKz/AACv/wAAsv8DA63/f3+t/zg4W/8AAI3/AACZ/wAAnP8AAKD/AACj/wAApf8AAKn/AACs/wAAr/8AALL/AAC1/wAAuP8AALv/AADA/zg4k/8qKln/AACa/wAAof8GBqb/BgaE/wwLqv8JCbH/AACx/wAAtf8AALj/AAC9/wAAvv8AAMH/AADE/wAAy/8WFpT/QEBw/wAAov8SErD/Jye8/xomd/8KK1b/IyG7/xkZwv8CAr//AADE/wAAnP8AAL3/AADL/wAAz/8AANX/FhaY/3p6nfgFBaP/MjLC/zw7yf8yNK3/BV4c/xAodv82NdD/DQ3K/wAFrf8ADFP/AADN/wAA1P8AANb/AADZ/zk5mP/R0dZaLS2b/0pK1v9SUtb/T0vS/xFjLf8AaRL/JSWw/xMWwv8ARC7/ABt1/wAA3v8AAN//AADk/wgIzv+Tk7r/+fn5FZmZsbU7O6T/WFjG/2Jg3f8rU2D/AJEA/wUtQf8DSzf/AGYZ/wAKtv8AAeH/AAbG/wIIif9TU5v25+fqd////wD39/cKg4OQuiImR/8YPjn/DmMe/wCNAP8AgQD/AJMA/wBRIP8AMmL/ADNP/wIyMv9EU17/4+Plaf///wD///8A/Pz8EcfHyOhCTUr/F0Mh/wV4Bf8AhwD/AHYA/wB8AP8AiwD/AFYL/wclSv9pcYnz3t/icP39/QP///8A////APz8/Afc3NxwyMnIcL7GvnBwj3DtJ18n/wduB/8CdgL/TopO/1eCWf87WEL/b3pv6NXV1Y79/f0K////AP///wD///8A////AP///wD///8A6OjooeLi4lU7Xzv1VnFW/NfX13X19fUU7/HvFMrMypykpKS29/f3Dv///wD///8A////AP///wD///8A////AP///wD///8AYXZh87fEt/P///8A////AP///wD///8A////AP///wD///8A8A8AAMAHAACAAwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIABAADAAwAAwAcAAPgDAAD6cwAA/n8AAA==</os:Image>
+<UpdateInterval>7</UpdateInterval>
+<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/rotten_tomatoes.xml</UpdateUrl>
+<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/rotten_tomatoes.ico</IconUpdateUrl>
+<SearchForm>http://www.rottentomatoes.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.rottentomatoes.com/search/search.php?sitesearch=rt&amp;search={searchTerms}">
+</os:Url>
+</SearchPlugin>

@@ -24,6 +24,7 @@
 /home/matt/.config/ranger/rc.conf
 /home/matt/.festivalrc
 /home/matt/.inputrc
+/home/matt/.mozilla/firefox/uvi1p8bp.default/searchplugins/
 /home/matt/.pentadactylrc
 /home/matt/.renoise/V2.7.2/Config.xml
 /home/matt/.renoise/V2.7.2/KeyBindings.xml

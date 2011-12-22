@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Yacyfox</os:ShortName>
+<os:Description>Yacy p2p-Search Engine</os:Description>
+<os:InputEncoding>ISO-8859-1</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH1goeEQsC4tscPwAAAB10RVh0Q29tbWVudABDcmVhdGVkIHdpdGggVGhlIEdJTVDvZCVuAAAAIklEQVQoz2P8//8/AymAiYFEMKphVAOpGhgZGRkZGQfCSQBYOgMjzpfKdQAAAABJRU5ErkJggg==</os:Image>
+<UpdateInterval>7</UpdateInterval>
+<UpdateUrl>http://mycroft.mozdev.org/update.php/id0/yacyfox.src</UpdateUrl>
+<IconUpdateUrl>http://mycroft.mozdev.org/update.php/id0/yacyfox.png</IconUpdateUrl>
+<SearchForm>http://localhost:8080/yacysearch.html</SearchForm>
+<os:Url type="text/html" method="GET" template="http://localhost:8080/yacysearch.html?sourceid=Mozilla-search&amp;search={searchTerms}">
+</os:Url>
+</SearchPlugin>

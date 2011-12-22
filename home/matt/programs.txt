@@ -24,6 +24,9 @@ uplink-hib          : a game about hacking into computer systems
 crayonphysicsdeluxe : amazing game about drawing things which have physics acting on them
 dungeons-of-dredmor : new-age dungeon crawler. biased toward wizards apparently
 aquaria-hib-hg      : excellent game. can't really describe it. side-scrolling, I guess...
+jamestown           : top-down steampunk game on mars
+bittriprunner       : rythmic side-scroller
+supermeatboy        : floaty side-scroller that runs way too fast right now
 
 --HARDWARE MONITORING : 
 yacpi                 : monitor battery level with ncurses
@@ -241,7 +244,6 @@ rxvt-unicode : urxvt, an excellent terminal which has unicode support
 atool
 autoconf
 automake
-bittriprunner
 blocks-that-matter
 catdoc
 celt
@@ -263,6 +265,7 @@ gfontview
 gftp
 gksu
 glances-git
+gnome-do-plugins
 gnome-screenruler
 google-talkplugin
 grub
@@ -271,12 +274,10 @@ heirloom-mailx
 highlight
 iftop
 ifuse
-inetutils
 initscripts
 inotify-tools
 iputils
 ivory-mahjongg-bin
-jamestown
 jaspers-journeys-hb
 jfsutils
 jokosher
@@ -325,11 +326,12 @@ pkgtools
 playonlinux
 pogo
 promptool-git
+python2-opensearch
 python-pychm
+python-whoosh
 pywebkitgtk
 reiserfsprogs
 stk
-supermeatboy
 texlive-latexextra
 texlive-publishers
 thinkfinger
@@ -354,4 +356,5 @@ xorg-xinit
 xpyb-git
 xsane
 xsnow
+yacy
 zen-puzzle-garden

@@ -7,6 +7,10 @@ xmodmap -e 'add Control = Control_L'
 #   list of characters and combinations is located in /usr/share/X11/locale/en_US.UTF-8/Compose
 xmodmap -e 'keycode 135 = Multi_key'
 
+#use the windows key as a level 3 modifier (chooser key). 
+#  THIS IS NOT YET CONFIRMED TO WORK
+xmodmap -e 'keycode 133 = ISO_Level3_Shift'
+
 # set the key delay and repeat rate (in milliseconds) to be nicer
 xset r rate 330 20
 

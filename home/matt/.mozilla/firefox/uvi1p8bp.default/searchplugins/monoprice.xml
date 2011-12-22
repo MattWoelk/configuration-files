@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Monoprice</os:ShortName>
+<os:Description>Search Monoprice.com</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,R0lGODlhEAAQAIAAALsAG////yH5BAEAAAEALAAAAAAQABAAAAIZjI+py+1vADxAzmofzm3ztUHY9XXTiaZBAQA7</os:Image>
+<UpdateInterval>7</UpdateInterval>
+<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/monop1.xml</UpdateUrl>
+<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/monop1.gif</IconUpdateUrl>
+<SearchForm>http://www.monoprice.com</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.monoprice.com/products/search.asp?keyword={searchTerms}&amp;x=26&amp;y=11">
+</os:Url>
+</SearchPlugin>
