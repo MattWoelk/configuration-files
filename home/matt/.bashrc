@@ -67,3 +67,4 @@ export _humblevoxatronkey=`cat /home/matt/.humblekeys/voxatron.txt`
 export _humblebundle3key=`cat /home/matt/.humblekeys/humbleindiebundle3.txt`
 export _humbleintbundlekey=`cat /home/matt/.humblekeys/introversion.txt`
 export _humblebundle4key=`cat /home/matt/.humblekeys/humbleindiebundle4.txt`
+export _humblefsbundle=`cat /home/matt/.humblekeys/humblefsbundle.txt`

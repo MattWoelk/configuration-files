@@ -19,5 +19,5 @@ map yt -js dactyl.open( String.replace(buffer.URL, /watch/, "watch_popup") )
 "press yd to break the current tab into its own window
 map yd -ex tabdetach
 
-"press H to hide/show the tab bar. This actually just toggles firefox's fullscreen mode
-map H -ex set invfullscreen
+"press x to hide/show the tab bar. This actually just toggles firefox's fullscreen mode
+map x -ex set invfullscreen

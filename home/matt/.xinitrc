@@ -9,7 +9,8 @@ xmodmap -e 'keycode 135 = Multi_key'
 
 #use the windows key as a level 3 modifier (chooser key). 
 #  THIS IS NOT YET CONFIRMED TO WORK
-xmodmap -e 'keycode 133 = ISO_Level3_Shift'
+#xmodmap -e 'keycode 133 = ISO_Level3_Shift'
+# this broke stuff, and didn't seem to do anything of its own...
 
 # set the key delay and repeat rate (in milliseconds) to be nicer
 xset r rate 330 20

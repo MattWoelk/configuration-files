@@ -1,0 +1,11 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>LinkedIn</os:ShortName>
+<os:Description>LinkedIn search by keyword, enabling accented characters</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGklEQVR42qWTO2sUURTHf3dmdp0kTnZJzErSrPjKYqNY2GljodhoLRLB1sLCD2DrZxAsfCAE/AaCgrY+SBQSFTSCxizGzZ3MTiYz92UxY5KNYuOBP+eew/3/73lwxfWHT9yjuR8YL0CwyxygAAPoCqr0ntFcvjBBcH++x8WzJzm8v/EnWVdks0PEgNWO95/XePD4HZ4ADk6MAhD6Hs26/08yBjwrODrZBK0JADyvLP7GsX2Evse9xR5Lsvgr+XfsO7ctoKwj9AWh7wEQIFCF+3sFGjCmgiJwQFwYYge3X3cZrwXMr2SDg9tJ1rokaw1alRXI3NAO61w60AAHTkE7qtNu1PjSUywsb3L60AgjNcHzhZgXb39WApoAC3FqsIGjMxYC8OZbxlQU0GmFTLdCznWireV0pobYSDKevuzilMZDg0wN/cxuXdrMLVqX53TTcu3OJ87cmmdlrQBgemoYKTMwqhSI+4Z0QMBhjANgcTnj1UdJHGd8Xc0AmBitEcu0moGGODH0h7cF8tyidSmgjSWWG6AUWpkypw1xLwXA4z8tQINcN/T3moEWtLZbr0mZQV5s55RFJuU8RHR11iWtIzQ8nxOtIVCw9D2lWbM06w4ZZ8wtrEJRcLw9TDMUyKRg7kOPSHQR0ZVZlyRjMDkOOVAUFfLS57viHRaJLsHM+THuPtuDUgLTW2U0X672t47rrw82vOu/z9w8xS+MkDzVFoh2OAAAAABJRU5ErkJggg==</os:Image>
+<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/linkedin-es.xml</UpdateUrl>
+<SearchForm>http://www.linkedin.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.linkedin.com/search?sourceid=Mozilla-search&amp;keywords={searchTerms}&amp;sortCriteria=3&amp;search=1&amp;sik=1">
+</os:Url><os:Url type="application/opensearchdescription+xml" method="GET" template="http://mycroft.mozdev.org/updateos.php/id0/linkedin-es.xml" rel="self">
+</os:Url>
+</SearchPlugin>

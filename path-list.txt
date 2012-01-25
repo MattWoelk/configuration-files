@@ -50,3 +50,5 @@
 /home/matt/.xmonad/xmonad.hs
 /home/matt/programs.txt
 /home/matt/scripts/writepackageinfofile.sh
+/home/matt/scripts/OCR_Recipe.sh
+/home/matt/scripts/vimrc-from-internet.txt

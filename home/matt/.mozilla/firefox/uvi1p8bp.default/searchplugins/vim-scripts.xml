@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>vim scripts</os:ShortName>
+<os:Description>search vim.org for scripts</os:Description>
+<os:InputEncoding>ISO-8859-1</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAABi0lEQVQ4y4WToU8cQRSHv7lcq9iUk2wFbk9UleEPWIE8CRbVzAhcV+DRXVnB1JCa2grkhZ6q2kcNQbTJJpg5AoKELQbSbsWyc1yPu/slY+b33jdv3puBxaof11ypNjDLMqqqCoaIsPYh5fj8BPZ+8JwvIioAvPd470OAc47jgcffXsHoCn/wfcZ3zqlOu5HnOVEUPaXjx2O4+wOX9xRFMXV6WZYAtAA1AzCTe6bxBv1+P3jWWobDoXoKmKtU1jjMcqqqapIP96f8FlDHabIwGcCNvsD7BD6+bSdEB6gH3zJIomeT8zwPZUvsm568ehEgCqjZ7cGlwh+dTXVaRACw1kKWTA65/g1ff0Hxly6g+HxTs/5y5grtNBjEmCpFRj/RUYKUp+iNd7jCTabAxf0MQGuN1hr6Kxhj0OsJxhh2trYxphlTd1732/Il9miSppryNLyBR1915yVbazHGIHqMduB6n+CmRlYlwJvSJwr/QUSQNyVsvobbh9Cw/+KXqma3V7PZWfojF0OWJP8D2NvUHTsb2CoAAAAASUVORK5CYII=</os:Image>
+<UpdateInterval>7</UpdateInterval>
+<UpdateUrl>http://mycroft.mozdev.org/update.php/id0/vim-scripts.src</UpdateUrl>
+<IconUpdateUrl>http://mycroft.mozdev.org/update.php/id0/vim-scripts.png</IconUpdateUrl>
+<SearchForm>http://www.vim.org/scripts/script_search_results.php</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.vim.org/scripts/script_search_results.php?keywords={searchTerms}&amp;order_by=rating&amp;direction=descending&amp;search=search&amp;result_ptr=0&amp;sourceid=Mozilla-search">
+</os:Url>
+</SearchPlugin>

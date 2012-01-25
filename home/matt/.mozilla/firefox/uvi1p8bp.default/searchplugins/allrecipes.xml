@@ -1,0 +1,11 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Allrecipes</os:ShortName>
+<os:Description>Search Allrecipes.com</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAEAgQABJr8ADTO/AAEZvwA/P78AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARERDMzM0REREQzMzMzM0REQzMzMjMzNEQzMzMyMzMzRDMzMzIzMzNDM0RDMjNDMzM0M0MyM0MzMzQzQzIzQzMzM0RDMjNEQzMzMzMyMzMzMzMzMxITMzM0MzMzIiMzM0QzMzMiIzMzREMzMxITMzRERDMzMzMzRERERDMzM0RET4HwAA4AcAAMADAACAAQAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAOAHAAD4HwAA</os:Image>
+<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/allrecipes.xml</UpdateUrl>
+<SearchForm>http://www.allrecipes.com</SearchForm>
+<os:Url type="text/html" method="GET" template="http://allrecipes.com/Search/Recipes.aspx?WithTerm={searchTerms}">
+</os:Url><os:Url type="application/opensearchdescription+xml" method="GET" template="http://mycroft.mozdev.org/updateos.php/id0/allrecipes.xml" rel="self">
+</os:Url>
+</SearchPlugin>

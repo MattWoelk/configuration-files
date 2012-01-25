@@ -58,7 +58,7 @@ artha              : dictionary and thesaurus program
 giggle             : git viewer
 gpasswd            : add a user to a group with the following                                                 : sudo gpasswd -a username groupname
 dasher             : alternative text-input method
-devmon             : currently being used to mount usb things and cd things
+devmon             : currently (not) being used to mount usb things and cd things
 less               : view text with vim-like keybindings
 xorg-server-xephyr : run an x server inside an x server
 xorg-xkill         : kill a program by clicking on it
@@ -71,6 +71,7 @@ scrot              : take screenshots from the terminal
 xcalib             : used to invert the screen colours (usage: xcalib -invert -alter)
 9menu              : Simple and easily configurable X-menu / program launcher.
 figlet             : A program for making large letters out of ordinary text AKA ASCII art. -f name is used where name is a file (no extension) from /usr/share/figlet/fonts/
+tesseract          : The best OCR program I've found.
 
 --FILE HANDLERS    : 
 gv                 : pdf viewer
@@ -241,9 +242,11 @@ pnmixer               : like volumeicon, but better! has direct access to pavuco
 rxvt-unicode : urxvt, an excellent terminal which has unicode support
 
 --UNSORTED:
+asciijump
 atool
 autoconf
 automake
+bbswitch
 blocks-that-matter
 catdoc
 celt
@@ -253,12 +256,14 @@ cogs
 consolekit
 cryptsetup
 dosfstools
+eclipse-android
 emovix
 ethtool
 fakeroot
 festival-us-awb-multisyn
 festival-us-jmk-multisyn
 flex
+freemat
 frozensynapse
 gdb
 gfontview
@@ -268,6 +273,7 @@ glances-git
 gnome-do-plugins
 gnome-screenruler
 google-talkplugin
+gourmet
 grub
 handbrake
 heirloom-mailx
@@ -282,6 +288,8 @@ jaspers-journeys-hb
 jfsutils
 jokosher
 kdegraphics-kruler
+kookie
+krecipes
 ldm-git
 lib32-alsa-oss
 lib32-giflib
@@ -298,6 +306,7 @@ libva-driver-intel
 libwpg
 licenses
 lico-update
+lirc
 lmms
 logrotate
 lomoco
@@ -309,28 +318,35 @@ mdadm
 mediainfo
 mediainfo-gui
 minecraft
+mkhexgrid
 moreutils
 mtools
 ntfsprogs
+nvidia
 openresolv
+openrpg
 openssh
 paprefs
 patch
 pcmciautils
 pdfedit
 perl-ipc-run
-perl-timedate
 perl-time-duration
+perl-timedate
 pkg-config
 pkgtools
 playonlinux
 pogo
+postgresql
 promptool-git
-python2-opensearch
 python-pychm
+python-sqlalchemy
 python-whoosh
+python2-opensearch
 pywebkitgtk
 reiserfsprogs
+sfk
+sickbeard-git
 stk
 texlive-latexextra
 texlive-publishers
@@ -343,13 +359,15 @@ uniconvertor
 unrar
 unrtf
 untex
-usbutils
 vcdimager
 vdpau-video
 voxatron
 vte
 wine_gecko
+xaos
+xbmc
 xfsprogs
+xorg-utils
 xorg-xclock
 xorg-xeyes
 xorg-xinit

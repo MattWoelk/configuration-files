@@ -46,9 +46,6 @@
 "xcalib -invert -alter"
     m:0x4c + c:17
     Control+Alt+Mod4 + 8
-"xcalib -invert -alter"
-    m:0x4c + c:17
-    Control+Alt+Mod4+Mod5 + 8
 
 #speak the selected text
 "xclip -o | sed 's/\[.*\]//g' | sed 's/  / /g' | festival --tts"
@@ -59,24 +56,15 @@
 "fswebcam --no-banner --resolution 1280x720 ~/Pictures/Webcam_$(date +%Y-%M-%d-%k-%M-%S).jpg"
     m:0x4c + c:10
     Control+Alt+Mod4 + 1
-"fswebcam --no-banner --resolution 1280x720 ~/Pictures/Webcam_$(date +%Y-%M-%d-%k-%M-%S).jpg"
-    m:0x4c + c:10
-    Control+Alt+Mod4+Mod5 + 1
 
 #screenshot the entire screen
 "scrot ~/Pictures/Screenshot_$(date +%Y-%m-%d-%k:%M:%S).jpg"
     m:0x4c + c:12
     Control+Alt+Mod4 + 3
-"scrot ~/Pictures/Screenshot_$(date +%Y-%m-%d-%k:%M:%S).jpg"
-    m:0x4c + c:12
-    Control+Alt+Mod4+Mod5 + 3
 #screenshot a selection of the screen
 "sleep 0.2; scrot -s ~/Pictures/Screenshot_$(date +%Y-%m-%d-%k:%M:%S).jpg"
     m:0x4c + c:13
     Control+Alt+Mod4 + 4
-"sleep 0.2; scrot -s ~/Pictures/Screenshot_$(date +%Y-%m-%d-%k:%M:%S).jpg"
-    m:0x4c + c:13
-    Control+Alt+Mod4+Mod5 + 4
 
 #mute and volume keys:
 "amixer set Master toggle"

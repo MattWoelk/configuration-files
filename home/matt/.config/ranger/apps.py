@@ -282,7 +282,7 @@ CustomApplications.generic('fceux', 'wine', 'zsnes', deps=['X'])
 
 # Add those which should only run in X AND should be detached/forked here:
 CustomApplications.generic('opera', 'firefox', 'apvlv', 'okular','evince',
-		'zathura', 'gimp', 'mirage', 'eog', 'jumanji',
+		'zathura', 'gimp', 'mirage', 'eog', 'jumanji', 'inkscape',
 			flags='d', deps=['X'])
 
 # What filetypes are recognized as scripts for interpreted languages?
