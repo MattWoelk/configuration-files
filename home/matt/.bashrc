@@ -7,7 +7,6 @@
 
 #--ALIASES--
 alias ls='ls -l --color=auto'
-alias pacman=pacman-color
 alias vlc-for-remote='vlc -I http'
 alias bc='bc -q'
 alias info='info --vi-keys'

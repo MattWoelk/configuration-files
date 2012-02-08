@@ -246,6 +246,7 @@ asciijump
 atool
 autoconf
 automake
+baudline-bin
 bbswitch
 blocks-that-matter
 catdoc
@@ -264,6 +265,7 @@ festival-us-awb-multisyn
 festival-us-jmk-multisyn
 flex
 freemat
+freqtweak
 frozensynapse
 gdb
 gfontview
@@ -274,6 +276,7 @@ gnome-do-plugins
 gnome-screenruler
 google-talkplugin
 gourmet
+grip
 grub
 handbrake
 heirloom-mailx
@@ -284,9 +287,11 @@ initscripts
 inotify-tools
 iputils
 ivory-mahjongg-bin
+jaaa
 jaspers-journeys-hb
 jfsutils
 jokosher
+kdegraphics-kcolorchooser
 kdegraphics-kruler
 kookie
 krecipes
@@ -345,6 +350,7 @@ python-whoosh
 python2-opensearch
 pywebkitgtk
 reiserfsprogs
+rtspeccy-git
 sfk
 sickbeard-git
 stk
@@ -362,8 +368,8 @@ untex
 vcdimager
 vdpau-video
 voxatron
-vte
 wine_gecko
+xanalyser
 xaos
 xbmc
 xfsprogs
@@ -372,7 +378,7 @@ xorg-xclock
 xorg-xeyes
 xorg-xinit
 xpyb-git
-xsane
+xsane-gimp
 xsnow
 yacy
 zen-puzzle-garden

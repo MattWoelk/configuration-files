@@ -4,6 +4,7 @@
 /etc/inittab
 /etc/issue
 /etc/issue.backup
+/etc/locale.gen
 /etc/modprobe.d/modprobe.conf
 /etc/modprobe.d/beep_blacklist.conf
 /etc/modprobe.d/nouveau_blacklist.conf
