@@ -326,6 +326,7 @@ minecraft
 mkhexgrid
 moreutils
 mtools
+nopaste
 ntfsprogs
 nvidia
 openresolv
@@ -339,6 +340,7 @@ perl-ipc-run
 perl-time-duration
 perl-timedate
 pkg-config
+pkgstats
 pkgtools
 playonlinux
 pogo
