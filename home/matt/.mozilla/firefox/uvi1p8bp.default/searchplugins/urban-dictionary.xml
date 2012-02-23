@@ -3,10 +3,8 @@
 <os:Description>Search Urban Dictionary, a slang dictionary with your definitions.</os:Description>
 <os:InputEncoding>ISO-8859-1</os:InputEncoding>
 <os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAACMuAAAjLgAAAAAAAAAAAADi4uL/4uLi/+Li4v/i4uL/4uLi/+Li4v/i4uL/4uLi/+Li4v/i4uL/4uLi/+Li4v/i4uL/4uLi/+Li4v/i4uL/4uLi////////////////////////////////////////////////////////////////////////////4uLi/+Li4v///////////////////////////////////////////////////////////////////////////+Li4v/i4uL/////////////////x8jk/0ZIpf8aHY//GBuO/0tNp/9vcbn/LC+Y/yUnlf8fIpL/Ki2X///////i4uL/4uLi/////////////////3l7vv8VGI3/YmSz/4CCwf8xM5r/FRiN/xUYjf8VGI3/LzGa/56f0P//////4uLi/+Li4v////////////////+AgsH/SUym////////////9/f7/4GDwv8VGI3/Oz2f//T0+v///////////+Li4v/i4uL/////////////////iovF/2pst//////////////////f3+//FRiN/09Rqf/////////////////i4uL/4uLi/////////////////4WHxP+AgsH/////////////////+Pj7/ycqlv9iZLP/////////////////4uLi/+Li4v////////////////9wcrn/dni8//////////////////////9AQ6L/YmSz/////////////////+Li4v/i4uL/////////////////g4XD/3l7vv//////////////////////S02n/2Nls//////////////////i4uL/4uLi/////////////////4uNx/9oarX//////////////////////25wuP9xc7r/////////////////4uLi/+Li4v//////2Njs/46QyP80N5z/REak////////////29zu/8/Q6P9iZLP/SUym/////////////////+Li4v/i4uL//////4OFw/8eIZH/NTid/5WWy////////////4KEwv88P6D/U1ar/5WXzP/////////////////i4uL/4uLi////////////////////////////////////////////////////////////////////////////4uLi/+Li4v///////////////////////////////////////////////////////////////////////////+Li4v/i4uL/4uLi/+Li4v/i4uL/4uLi/+Li4v/i4uL/4uLi/+Li4v/i4uL/4uLi/+Li4v/i4uL/4uLi/+Li4v/i4uL/AAAAAwAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</os:Image>
-<UpdateInterval>7</UpdateInterval>
-<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/urbandictionary_os.xml</UpdateUrl>
-<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/urbandictionary_os.ico</IconUpdateUrl>
 <SearchForm>http://www.urbandictionary.com</SearchForm>
 <os:Url type="text/html" method="GET" template="http://www.urbandictionary.com/define.php?term={searchTerms}">
+</os:Url><os:Url type="application/opensearchdescription+xml" method="GET" template="http://mycroft.mozdev.org/updateos.php/id0/urbandictionary_os.xml" rel="self">
 </os:Url>
 </SearchPlugin>

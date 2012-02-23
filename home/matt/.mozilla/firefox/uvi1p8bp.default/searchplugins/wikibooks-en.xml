@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Wikibooks (EN)</os:ShortName>
+<os:Description>English Wikibooks</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAB3RJTUUH2QYIEjcexrvQQQAAABd0RVh0U29mdHdhcmUAR0xEUE5HIHZlciAzLjRxhaThAAAACHRwTkdHTEQzAAAAAEqAKR8AAAAEZ0FNQQAAsY8L/GEFAAAABnRSTlMAwADAAMCNeLu6AAACXElEQVR4nE2S60+SURzHn3+iF71oq1fWWs0X1WZbmTl7U7O5xmLmWlNXKrOcSLpYN5c6ty7oBmmmZjAWIEESFZcEBqRL0REMpOQaFyHkjg/wAPWjh9vZ92y/nX0/O+e780WUpTU5x992eGDAsjme6id+GN3DVn9FlFULgZ3P5weeMPbVXh6eWEDT2S6a/Fjn251QMpzABtkWMnMrn/9bAbK5HOk+7UhDK+Uh9Wjj9bZRMeGx8MaY4ClvncKyTMmcIwKr3hmrAD3U58eb2r5rFhwm3sE6wqU7jIDPKNGunO3jzClcWSy1svWH9tlRAU5ebN9cZfqtAhDp7mAraSgRMsd2zefJ7xSbtlw2lU6jt9+Y4XlFwLTBw92gZenM/hMtTtsaMDSOvIcmBQDE1riFa/4isOtWlAHQmZb2F1PTANjt+tqbTF8wDIAnGCtHR2KBjWpggj5W19wBAKjrmYgu1OGXjJaiI3tRazVgNXAOnLqi1kgAgOiNAzwMQwHQlqIjGTRYDYA6+vp77w0XogdNDWQOHj2VRnvnzaFEBsnnML9VWA2Il14eOk2IBIz/oy+TJuX4q1jqQvTCT4e92mqAMT1+gXgLj8GVqa+NfMQBvSM0xLYUADTuKruF7+mHzxF16zJwO50/mihcvsoM7nA8Ob5kg1/Hu5QN2EXgln15VVNPVChF4Pa4Dc3URZbMAG61KdA9a5r5+hvN5JBiKwO6b6r5mvqrIok0lfDueI2ER/wPWgu4xTpf92tTubNFIB71d/ZTmdzFQr0zyQezMrluG2ajK0L75AjGMuUu/QNpZD2ic7WedwAAAABJRU5ErkJggg==</os:Image>
+<UpdateInterval>7</UpdateInterval>
+<UpdateUrl>http://mycroft.mozdev.org/update.php/id2/wikibooks.src</UpdateUrl>
+<IconUpdateUrl>http://mycroft.mozdev.org/update.php/id2/wikibooks.png</IconUpdateUrl>
+<SearchForm>http://en.wikibooks.org/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://en.wikibooks.org/wiki/Special:Search?search={searchTerms}&amp;fulltext=Search&amp;ns0=1&amp;ns1=1&amp;ns2=1&amp;ns3=1&amp;ns4=1&amp;ns5=1&amp;ns6=1&amp;ns7=1&amp;ns8=1&amp;ns9=1&amp;ns10=1&amp;ns11=1&amp;ns12=1&amp;ns13=1&amp;ns14=1&amp;ns15=1&amp;limit=20&amp;offset=0&amp;sourceid=mozilla-search">
+</os:Url>
+</SearchPlugin>

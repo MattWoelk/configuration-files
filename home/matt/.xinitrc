@@ -1,3 +1,7 @@
+# Fix the fighting between libreoffice and xmonad when a dialog box (example, Ctrl-O) is opened,
+# and focus is switched away from it using the mouse.
+export SAL_USE_VCLPLUGIN=gen
+
 #remap caps lock to control
 #echo %%% CAPS LOCK TO CTRL
 xmodmap -e 'remove Lock = Caps_Lock'

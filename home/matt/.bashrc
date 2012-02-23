@@ -17,6 +17,7 @@ alias unmount='udiskie-umount'
 alias twitter='tyrs'
 alias feh='feh -B black -.'
 alias u='urxvt&'
+alias pacman='pacman-color'
 
 #so that I don't have to think when untarring things:
 alias 'tar-tar'='tar xvf'

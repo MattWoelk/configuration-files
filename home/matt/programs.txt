@@ -6,7 +6,7 @@
 /var/log/boot       : pretty much identical to what is sown on the screen.
 dmesg               : more detail about boot messages
 
---GAMES             : 
+--GAMES             :
 rubix               : excellent rubix's cube simulator
 trine               : wizard game? from humble bundle
 spacechem           : sweet game; fake chemistry; it's like programming
@@ -24,69 +24,109 @@ uplink-hib          : a game about hacking into computer systems
 crayonphysicsdeluxe : amazing game about drawing things which have physics acting on them
 dungeons-of-dredmor : new-age dungeon crawler. biased toward wizards apparently
 aquaria-hib-hg      : excellent game. can't really describe it. side-scrolling, I guess...
-jamestown           : top-down steampunk game on mars
+jamestown           : top-down steampunk game on mars. Very awesome.
 bittriprunner       : rythmic side-scroller
 supermeatboy        : floaty side-scroller that runs way too fast right now
+asciijump           : skijumping with text art
+blocks-that-matter  : minecraft meets puzzling side-scroller (clever)
+chocolate-castle    : puzzle game
+cogs                : "A game in which you build machines from sliding tiles"
+frozensynapse       : a complicated game of some kind
+ivory-mahjongg-bin  : tile matching game Mahjongg
+minecraft           : lego, but endless and with zombies
+playonlinux         : do wine things automatically for popular games
+voxatron            : voxel game of shooting and destroying
+xaos                : fractal viewer
+zen-puzzle-garden   : zen garden puzzles
 
---HARDWARE MONITORING : 
+--HARDWARE MONITORING :
 yacpi                 : monitor battery level with ncurses
 xclock                : check the time
 alsamizer             : change sound levels
 fswebcam              : take a picture with the webcam
 df -h                 : hard drive usage
 udiskie               : automount devices (udiskie-umount /media/device-name to unmount). An alternative might be to use nautilus -n or something to get it to do the things in the background. Or thunar; it can do it too.
+ldm-git               : "lightweight device mounter"
 mkinitcpio            : See which kernel modules are available with `mkinitcpio -M`
 
---UTILITIES        : 
-vipe               : edit what is being sent through a pipe in vim (ex                                        : `ls | vipe | grep home`)
-vidir              : edit a directory in vim. delete, rename, etc. It's crazy!
-chronic            : silence output...unless it fails
-cpio               : copy into and out of zips and tars and things (archives)
-free               : see how much ram is being used and whether the swap partition is being mounted (free -m)
-fdisk              : see what HDDs are mounted on the system (sudo fdisk -l)
-xdotool            : (xdotool mousemove 1900 1080) to move mouse to a corner using keys
-k3b                : disk burner for disk images and dvds and cds and things
-which              : shows the whole path of where a program is located
-sudo               : do a task as root (the super user)
-xdiskusage         : graphical display of disc usage (really awesome)
-ranger             : vi/vim-like file manager/browser
-gvim               : best text-editor on the planet
-ctags              : addon for vim                                                                            : organizes and displays file methods and classes
-nano               : a simple text-editor
-nautilus           : file browser
-artha              : dictionary and thesaurus program
-giggle             : git viewer
-gpasswd            : add a user to a group with the following                                                 : sudo gpasswd -a username groupname
-dasher             : alternative text-input method
-devmon             : currently (not) being used to mount usb things and cd things
-less               : view text with vim-like keybindings
-xorg-server-xephyr : run an x server inside an x server
-xorg-xkill         : kill a program by clicking on it
-arandr             : adjust external monitors and resolutions of displays
-bison              : The GNU general-purpose parser generator (whatever that means...)
-gparted            : the best way to partition or reformat a drive or media. Totally kicks the butt.
-recoll             : find (search for) anything on your computer in zero seconds.
-xclip              : get and set the clipboard(s) (usage: pipe to it to copy into the clipboard; xclip -o to print the selection to standard out; -selection (primary (the default) | secondary | clipboard))
-scrot              : take screenshots from the terminal
-xcalib             : used to invert the screen colours (usage: xcalib -invert -alter)
-9menu              : Simple and easily configurable X-menu / program launcher.
-figlet             : A program for making large letters out of ordinary text AKA ASCII art. -f name is used where name is a file (no extension) from /usr/share/figlet/fonts/
-tesseract          : The best OCR program I've found.
+--UTILITIES               :
+vipe                      : edit what is being sent through a pipe in vim (ex                                                                                                        : `ls | vipe | grep home`)
+vidir                     : edit a directory in vim. delete, rename, etc. It's crazy!
+chronic                   : silence output...unless it fails
+cpio                      : copy into and out of zips and tars and things (archives)
+free                      : see how much ram is being used and whether the swap partition is being mounted (free -m)
+fdisk                     : see what HDDs are mounted on the system (sudo fdisk -l)
+xdotool                   : (xdotool mousemove 1900 1080) to move mouse to a corner using keys
+k3b                       : disk burner for disk images and dvds and cds and things
+grip                      : rip cds
+transcode                 : rip dvds
+which                     : shows the whole path of where a program is located
+sudo                      : do a task as root (the super user)
+xdiskusage                : graphical display of disc usage (really awesome)
+ranger                    : vi/vim-like file manager/browser
+gvim                      : best text-editor on the planet
+ctags                     : addon for vim                                                                                                                                            : organizes and displays file methods and classes
+nano                      : a simple text-editor
+nautilus                  : file browser
+artha                     : dictionary and thesaurus program
+giggle                    : git viewer
+gpasswd                   : add a user to a group with the following                                                                                                                 : sudo gpasswd -a username groupname
+dasher                    : alternative text-input method
+devmon                    : currently (not) being used to mount usb things and cd things
+less                      : view text with vim-like keybindings
+xorg-server-xephyr        : run an x server inside an x server
+xorg-xkill                : kill a program by clicking on it
+arandr                    : adjust external monitors and resolutions of displays
+bison                     : The GNU general-purpose parser generator (whatever that means...)
+gparted                   : the best way to partition or reformat a drive or media. Totally kicks the butt.
+recoll                    : find (search for) anything on your computer in zero seconds.
+xclip                     : get and set the clipboard(s) (usage                                                                                                                      : pipe to it to copy into the clipboard; xclip -o to print the selection to standard out; -selection (primary (the default) | secondary | clipboard))
+scrot                     : take screenshots from the terminal
+xcalib                    : used to invert the screen colours (usage                                                                                                                 : xcalib -invert -alter)
+9menu                     : Simple and easily configurable X-menu / program launcher.
+figlet                    : A program for making large letters out of ordinary text AKA ASCII art. -f name is used where name is a file (no extension) from /usr/share/figlet/fonts/
+cheese                    : take pictures with the webcam in a fun way
+fakeroot
+gftp                      : nice ftp client
+gksu                      : "a graphical frontend for su"
+glances-git               : curses based system monitor
+gnome-do-plugins          : quicksilver-like program
+gnome-screenruler         : see how big things on your screen are
+kdegraphics-kruler        : see how big things on your screen are
+heirloom-mailx            : "A commandline utility for sending and receiving email"
+iftop                     : like top, but for network monitoring
+initscripts
+kdegraphics-kcolorchooser : color picker
+lico-update               : linux counter auto-updater
+pkgstats                  : submit a list of installed packages to the Arch Linux project automatically
+mkhexgrid                 : make images of hex grids with many options
+moreutils                 : many sweet unix tools
+movgrab                   : command-line video grabber from url for many popular sites
+nload                     : monitor network usage with nice cli graphic
+nopaste                   : paste script for pastie.org; copy clipboard to website for easy linking
+sfk                       : a command-line tools collection
+tx                        : "Qt4 based tabular XML editor"
+unrar                     : unrar things! simple! :)
+xsnow                     : make it snow on the desktop background
+yacy                      : peer-to-peer search engine. (haven't gotten it working yet...)
 
---FILE HANDLERS    : 
-gv                 : pdf viewer
-apvlv              : pdf viewer like vim
+
+--FILE HANDLERS    :
+kdegraphics-okular : THE BEST PDF READER with annotations, too. : ) (run with `okular`)
 xpdf               : pdf viewer (a good one)
 epdfview           : pdf viewer (a good one)
 evince             : xps viewer (does pdfs too)
-kdegraphics-okular : THE BEST PDF READER with annotations, too. : ) (run with `okular`)
-fontforge          : view fonts; a font viewer
+apvlv              : pdf viewer like vim
+gv                 : pdf viewer
 foxitreader        : pdf reader. may read other things as well
+pdfedit            : edit pdfs!
+fontforge          : view fonts; a font viewer
+gfontview          : another font viewer
 
---VNC  : 
+--VNC  :
 x11vnc : currently the best option for vnc
 
---PACKAGE INSTALLATION AND KNOWLEDGE : 
+--PACKAGE INSTALLATION AND KNOWLEDGE :
 pkgfile                              : to find out to which package a command belongs.
 yaourt                               : install from the AUR
 pacman-color                         : pacman ... in colour!! (currently aliased)
@@ -95,72 +135,85 @@ pacman-color                         : pacman ... in colour!! (currently aliased
 espeak
 festival-english
 festival-us
+festival-us-awb-multisyn
+festival-us-jmk-multisyn
 
---NETWORK THINGS       : 
+--NETWORK THINGS       :
 nmap                   : [ip address ending in .0]/24 to scan everything local on every port and see what's available. (example : nmap 10.0.100.0/24) The 24 is the same as what we see when we run `ip addr`. it can also be used to find the mac address of something which you have the ip address of like this : "nmap -O 10.0.100.1" (the O is to find which operating system it is running)
 network-manager-applet : to connect to wireless and wired networks.
 wget                   : download files from the internet
 
---COMMUNICATIONS : 
+--COMMUNICATIONS :
 skype            : currently the best option for video calls : (
-tyrs             : ncurses twitter client
 qirssi           : show irssi notifications
 gpodder          : download podcasts
 transmission-cli : cli interface for transmission torrent downloader
 transmission-qt  : torrent downloader
+sickbeard-git    : not currently in use; audo tv show downloader
+tribler          : torrents without trackers!
 
---SOUND/AUDIO/MUSIC-RELATED : 
+--SOUND/AUDIO/VIDEO/MUSIC-RELATED :
 qjackctl                    : used to start a jack server (BEFORE starting renoise)
 renoise-demo                : sequencer / tracker / awesome!! (run with `renoise`)
 alsa-utils                  : used to let alsa a jack play nice (related            : /etc/asound.conf)
-cmus
+cmus                        : simple music player -> current favourite
 amarok                      : like itunes
 audacity                    : excellent sound file editor
-banshee                     : crappy audio player
+banshee                     : crappy audio player; rips cds well
 pulseaudio-alsa             : necessary to get audio working with pulseaudio and alsa
 exfalso                     : bundled with quod libet; tag audio files by folder with excellent file renaming and grabbing metadeta from filename, too.
 kid3                        : good tagger for converting between .mp3 ID3 versions
 puddletag                   : good tagger for finding all related artists and albums in a bunch of folders
 quodlibet                   : simple audio player; not sure why I have it -- likely an optional dependency
 pavucontrol                 : adjust individual programs' volume level!!!!!!!!!!!! awesome!!!
+baudline-bin                : " Time-frequency browser designed for scientific visualization of the spectral domain"
+freqtweak                   : FFT audio spectrum display and manipulation
+rtspeccy-git                : real-time spectrum analyzer for audio
+xanalyser                   : "A program to analyse a stereo audio signal."
+handbrake                   : convert videos to different formats
+jaaa                        : jack and alsa audio analyser
+jokosher                    : "A simple and easy-to-use Open Source multi-track editor" I guess it's like garage band
+lmms                        : sequencer or recorder; one of the two
+pogo                        : "Probably the simplest and fastest audio player for Linux"
 
---MATHEMATICS : 
+--MATHEMATICS :
 bc            : simple calculator
 octave        : like matlab, but better/worse
 gnuplot       : for octave; lets it show diagrams
 units         : convert units (usage: `units` 1.5m<CR> feet<CR> * -> answer / -> the other way)
 num-utils     : contains {numsum normalize interval average bound numgrep numprocess random range round}
-numsum        : 
-normalize     : 
-interval      : 
-average       : 
-bound         : 
-numgrep       : 
-numprocess    : 
-random        : 
-range         : 
-round         : 
+numsum        :
+normalize     :
+interval      :
+average       :
+bound         :
+numgrep       :
+numprocess    :
+random        :
+range         :
+round         :
 qtoctave      : matlab clone. does a good job. this is the gui frontend
 nwdiag        : easily create network diagrams (blockdiag.com)
 seqdiag       : easily create sequential diagrams (blockdiag.com)
 actdiag       : easily create activity diagrams (blockdiag.com)
 blockdiag     : easily create block diagrams (blockdiag.com)
+freemat       : alternative to octave (and therefore, matlab); made by different people for the same purpose. I don't like it as much.
 
---WEB BROWSERS : 
-firefox
+--WEB BROWSERS :
+firefox        : <3
 chromium
 arora          : webkit-based browser
 elinks
-links          : current favourite
+links          : current favourite cli browser
 lynx
 uzbl-tabbed    : unixy browser
 opera          : sturdy browser
 icedtea-web    : provides a Free Software web browser plugin running applets written in the Java programming language and an implementation of Java Web Start, originally based on the NetX project (whatever that means...)
 flashplugin    : flash...sigh :(
 
---IMAGE EDITORS/DISPLAYERS : 
+--IMAGE EDITORS/DISPLAYERS :
 feh                        : image viewer (use feh -. to fit it to the window
-hugin		; panorama creator
+hugin                      : panorama creator
 inkscape                   : vectors!
 vlmc-git                   : video editor by the vlc people
 gimp-devel                 : gimp, in one window! :D
@@ -182,24 +235,25 @@ libreoffice-kde4
 libreoffice-math
 libreoffice-sdk-doc
 libreoffice-writer
-kile                : apparently a good IDE for LaTeX
+kile                : apparently a good IDE for LaTeX (currently using pdflatex and vim instead for simplicity)
 
---WINDOW MANAGERS : 
+--WINDOW MANAGERS :
 xmonad
 xmonad-contrib    : third-party extensions for xmonad
 xorg-twm          : xorg default wm
 
---VIRTUALIZATION     : 
+--VIRTUALIZATION     :
 virtualbox-additions : so that guest additions can be installed in virtualboxes
 virtualbox           : Optional dependencies for virtualbox
 qt                   : for VirtualBox GUI
 vde2                 : Virtual Distributed Ethernet support
 virtualbox-sdk       : developer kit
 
---OCR : 
-yagf  : front end for cuneiForm OCR
+--OCR     :
+tesseract : The best OCR program I've found.
+yagf      : front end for cuneiForm OCR
 
---CUSTOMIZATION : 
+--CUSTOMIZATION :
 xbindkeys       : to set special keys (use xbindkeys -mk to see codes of what you press in the window that pops up, then add them to `~/.xbindkeysrc`)
 xev             : type and it will tell you which key you pressed (key code); this is good for xmodmap
 xmodmap         : change what a key does
@@ -207,15 +261,19 @@ xwininfo        : then click a window and it will tell you what x knows about it
 xprop           : window information, similar to xwininfo
 xset            : used to set screen timeout off wait time, key repeats, and likely more things
 
---CIRCUITS AND ELECTRONICS : 
+--CIRCUITS, ELECTRONICS, and CODING :
 arduino                    : arduino programming environment
+eclipse-android            : android development platform
+gdb                        : debug C programs
 
---LIBRARIES                       : 
+--LIBRARIES                       :
 antiword                          : microsoft word support
 aspell-en                         : english dictionary
 cups-pdf                          : print to a pdf
 brscan3                           : scan from network scanner (haven't got it working yet)
-bumblebee-thinkpad_w520_t520_t420 : allow use of integrated and discrete optimus graphics capabilities
+bumblebee                         : allow use of integrated and discrete optimus graphics capabilities
+nvidia-bumblebee                  : replacement for the nvidia driver from the bumblebee project
+bbswitch                          : to turn off graphics card when not in use to save energy
 pstotext                          : convert ps files to text. I think LaTeX uses it
 dvd+rw-tools                      : will hopefully allow me to use by cd/dvd burner
 xf86-video-intel
@@ -226,8 +284,84 @@ python-musicbrainz2               : audo-tag music
 pstoedit                          : Translates PostScript and PDF graphics into other vector formats
 smartmontools                     : "Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives." -- whatever that means...
 syslog-ng                         : part of core, "Next-generation syslogd with advanced networking and filtering capabilities"
+atool                             : "A script for managing file archives of various types"
+autoconf
+automake
+catdoc
+cdfplayer                         : play wolfram computational document files
+celt
+consolekit
+cryptsetup
+dosfstools                        : dos filesystem utilities
+emovix                            : plugin for k3b for "Movidx-CD's"
+ethtool
+flex
+google-talkplugin
+grub                              : start my computer properly
+lib32-alsa-oss
+lib32-giflib
+lib32-lcms
+lib32-libvdpau
+lib32-mpg123
+lib32-v4l-utils
+lib32-virtualgl
+libdvdcss
+libffado
+libreoffice-extension-wiki-publisher
+libva-driver-intel
+libwpg
+highlight                         : "Fast and flexible source code highlighter (CLI version)"
+ifuse                             : access contents of iphones and itouches
+inotify-tools
+iputils
+licenses
+logrotate
+lomoco                            : configure logitech mouses/mice
+lvm2
+man-db
+man-pages
+mdadm
+mediainfo
+mediainfo-gui
+mtools                            : utilities for MS-DOS disks
+ntfsprogs
+openresolv
+paprefs
+pcmciautils
+patch
+perl-ipc-run
+perl-time-duration
+perl-timedate
+pkg-config
+pkgtools
+postgresql
+promptool-git
+python-pychm
+python-sqlalchemy
+python-whoosh
+python2-opensearch
+pywebkitgtk
+reiserfsprogs
+stk
+thinkfinger                      : access to the thinkpad finger print hardware
+texlive-latexextra
+texlive-publishers
+tp_smapi
+uniconvertor
+unrtf
+untex
+vcdimager
+wine_gecko
+xfsprogs
+xorg-utils
+xorg-xclock
+xorg-xeyes
+xorg-xinit
+xsane-gimp
+jfsutils
+vdpau-video
 
---SYSTEM TRAY RELATED : 
+--SYSTEM TRAY RELATED :
 networkled-git        : show network usage in tray
 trayclock             : clock for the tray
 volumeicon            : volume indicator for tray
@@ -237,150 +371,14 @@ statnot               : notifications daemon (not sure if it does anything yet..
 clipit                : clipboard manager for the tray
 qbat                  : show battery level in tray
 pnmixer               : like volumeicon, but better! has direct access to pavucontrol
+twmn                  : "a notification system for tiling window managers" I use it all the time; it's lovely.
 
---TERMINALS  : 
+--TERMINALS  :
 rxvt-unicode : urxvt, an excellent terminal which has unicode support
 
+--COOKING :
+gourmet   : currently being used to keep track of all my recipes
+kookie    : also keeps track of recipes
+krecipes  : also keeps track of recipes
+
 --UNSORTED:
-asciijump
-atool
-autoconf
-automake
-baudline-bin
-bbswitch
-blocks-that-matter
-catdoc
-celt
-cheese
-chocolate-castle
-cogs
-consolekit
-cryptsetup
-dosfstools
-eclipse-android
-emovix
-ethtool
-fakeroot
-festival-us-awb-multisyn
-festival-us-jmk-multisyn
-flex
-freemat
-freqtweak
-frozensynapse
-gdb
-gfontview
-gftp
-gksu
-glances-git
-gnome-do-plugins
-gnome-screenruler
-google-talkplugin
-gourmet
-grip
-grub
-handbrake
-heirloom-mailx
-highlight
-iftop
-ifuse
-initscripts
-inotify-tools
-iputils
-ivory-mahjongg-bin
-jaaa
-jaspers-journeys-hb
-jfsutils
-jokosher
-kdegraphics-kcolorchooser
-kdegraphics-kruler
-kookie
-krecipes
-ldm-git
-lib32-alsa-oss
-lib32-giflib
-lib32-lcms
-lib32-libvdpau
-lib32-mpg123
-lib32-nvidia-utils-bumblebee
-lib32-v4l-utils
-lib32-virtualgl
-libdvdcss
-libffado
-libreoffice-extension-wiki-publisher
-libva-driver-intel
-libwpg
-licenses
-lico-update
-lirc
-lmms
-logrotate
-lomoco
-loudmouth
-lvm2
-man-db
-man-pages
-mdadm
-mediainfo
-mediainfo-gui
-minecraft
-mkhexgrid
-moreutils
-mtools
-nopaste
-ntfsprogs
-nvidia
-openresolv
-openrpg
-openssh
-paprefs
-patch
-pcmciautils
-pdfedit
-perl-ipc-run
-perl-time-duration
-perl-timedate
-pkg-config
-pkgstats
-pkgtools
-playonlinux
-pogo
-postgresql
-promptool-git
-python-pychm
-python-sqlalchemy
-python-whoosh
-python2-opensearch
-pywebkitgtk
-reiserfsprogs
-rtspeccy-git
-sfk
-sickbeard-git
-stk
-texlive-latexextra
-texlive-publishers
-thinkfinger
-tp_smapi
-transcode
-twmn
-tx
-uniconvertor
-unrar
-unrtf
-untex
-vcdimager
-vdpau-video
-voxatron
-wine_gecko
-xanalyser
-xaos
-xbmc
-xfsprogs
-xorg-utils
-xorg-xclock
-xorg-xeyes
-xorg-xinit
-xpyb-git
-xsane-gimp
-xsnow
-yacy
-zen-puzzle-garden
