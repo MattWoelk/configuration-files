@@ -3,7 +3,6 @@
 <os:Description>Look up a word on Wordnik, the most comprehensive dictionary in the known universe!</os:Description>
 <os:InputEncoding>UTF-8</os:InputEncoding>
 <os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABRUlEQVQ4EaVTPU7DUAz+XDjAo5S9R8jEAggGRiTKCXiVGBjpCSpO0G5dkPKACzAwIrW9ATegB6hCtzYMGPuFl5L+oAYsObY/+3PsvDxiZvxHtpVMROC4ZkCwoudgjAS+JzseiAW7WkPwS3GN5BR3HpeXk5+gt2dQQV+KIk3kwrgQPxK8nWPqMBxdj5vK9RMg5ZslcsaIxZjMLTwtd3aHgriswQzHhfQ8WEUO2bo6WYNpwMrb7wn4VfY6KUUnTLS+4klTDKFTlNEUT8r1p+CP8ar6JnFdwQ3E0V3y4xSUkaKJT+5vQJ5gi25DXbaCRPSYDKRJFzMJftMPtOghGYUG+QoB4LOdWD6oDXHBErr0/N4KmP5ISw00yacrmij5ZU72dXqP1l0mPjQdPjDs9chYJSyK565roMW8bxqi0SIxxPkKAfiL/QIw5I8dg796qwAAAABJRU5ErkJggg==</os:Image>
-<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/wordnik.xml</UpdateUrl>
 <SearchForm>http://www.wordnik.com/</SearchForm>
 <os:Url type="text/html" method="GET" template="http://www.wordnik.com/words/{searchTerms}">
 </os:Url><os:Url type="application/opensearchdescription+xml" method="GET" template="http://mycroft.mozdev.org/updateos.php/id0/wordnik.xml" rel="self">

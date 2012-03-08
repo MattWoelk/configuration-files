@@ -3,10 +3,8 @@
 <os:Description>Ask any question you like</os:Description>
 <os:InputEncoding>UTF-8</os:InputEncoding>
 <os:Image width="16" height="16">data:image/x-icon;base64,R0lGODlhEAAQANUxAM9vgtBwhfLW3NN1jOe/wPPf4O3P0KgaHsRNZu7M0/Xl5rdARKkaHtWPkeCsrdufoeGvsMlwcvLW3fDX1+7N1KwjJvnv77AwM8NgYs5tgdF6hs9tge/N1NN2jLU5Pd2Wpp8ABs9ugc5tgOGvsb1QU8RMZdmKnLwyUM+AgtF5hs5wf8VNZrwyUZ4ABJ8ABP///58ABf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAADEALAAAAAAQABAAAAadwJgwlhCxYK5ThjNsAmCwVssVhQGaMQQISni9DCQkYjiAtibf7gtDHcQESFjjFWnBLq/CFCYJTF0OCnZUXXEBR1ENClBUBS8uLi0sVFAVHpEwEC8jcVVUdlIWX5BULoifMI4on1QsAVVQCy8PjHYwAQKlUbImkZF2AjFlfwcqDJBRLh1DK8kaLymMMCVYAJAMHweYV1hEG5OSIRRNQQA7</os:Image>
-<UpdateInterval>7</UpdateInterval>
-<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/trueknowledge.xml</UpdateUrl>
-<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/trueknowledge.ico</IconUpdateUrl>
 <SearchForm>http://www.trueknowledge.com/</SearchForm>
 <os:Url type="text/html" method="GET" template="http://www.trueknowledge.com/q/{searchTerms}">
+</os:Url><os:Url type="application/opensearchdescription+xml" method="GET" template="http://mycroft.mozdev.org/updateos.php/id0/trueknowledge.xml" rel="self">
 </os:Url>
 </SearchPlugin>

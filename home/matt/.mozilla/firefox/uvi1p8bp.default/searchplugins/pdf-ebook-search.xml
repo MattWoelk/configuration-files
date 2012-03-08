@@ -3,10 +3,8 @@
 <os:Description>PDF Ebook Search</os:Description>
 <os:InputEncoding>ISO-8859-1</os:InputEncoding>
 <os:Image width="16" height="16">data:image/x-icon;base64,R0lGODlhEAAQAOYAAPX19d/f3/b29v39/fLy8uLi4svLy/I8QfRKTe/v7/T09PWAhOrq6vHx8fVbX+np6fiNj/V0d+zs7Pf39/t1cPVJTPx+ePvo6ft4c/t8dvI8QPrk5cXFxffHyNGxsepgY+Pj4/ltafvY2fpybfdgYfWChP3t7vrW18LCwvZXWvRITPPz8+fn5/t4cvDw8PrV1vvu7/nAwvhlYvrd3veIicPDw/yEfPm9ve3t7fJARedRVviBg/E5P/z7+/dydPWDhvE1O+vr6/Z4evnLzebm5vE/RPFKT/dcW/dXWfvr6/I6P/7+/vj4+Pn5+fr6+vv7+8nJyczMzP////z8/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAQABAAAAe9gFJSIFFQhoeGAQOCglFMT1ORkkwoioxQTwoAmw0JD1MsNZZLUFMTTR00JS4MUwIKHAFSpFNNNyQ2FQRBklNQs6UzSBQpEQANEgxEvsA9OxlCSU9MAAQJOMykIkcIMTBT0wIrBNlQEBgWGguRTk0CAtkeCC0HPOvgTU1MzCYfIzlDTmx48sSJEyb7oPhwUETGj0gEDUr0peJACCMXJBHcCAmKEiA6XvQaGemXFANNSPZqEkVQAQOIYkKJUiAQADs=</os:Image>
-<UpdateInterval>7</UpdateInterval>
-<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/pdf_ebook.xml</UpdateUrl>
-<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/pdf_ebook.gif</IconUpdateUrl>
 <SearchForm>http://www.pdf-search-engine.com</SearchForm>
 <os:Url type="text/html" method="GET" template="http://www.pdf-search-engine.com/pdf-search.php?search={searchTerms}">
+</os:Url><os:Url type="application/opensearchdescription+xml" method="GET" template="http://mycroft.mozdev.org/updateos.php/id0/pdf_ebook.xml" rel="self">
 </os:Url>
 </SearchPlugin>

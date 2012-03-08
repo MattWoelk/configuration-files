@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>RhymeZone - Rhymes</os:ShortName>
+<os:Description>Search RhymeZone.com for rhymes!</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAACAAACAgAAAAACAAIAAgAAAgIAAwMDAAICAgAD/AAAAAP8AAP//AAAAAP8A/wD/AAD//wD///8AAAAAAAAAAAAO7u7u7u7u4A7u7u7u7u7gDu7u7u7u7uAO7u7u7u7u4A4OHuEe4eDgDgDh4R4eAOAO4A4REeAO4A7uAOEeAO7gDu7gARAO7uAO7u4AAO7u4A7u7uAO7u7gDu7u7u7u7uAO7u7u7u7u4A7u7u7u7u7gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</os:Image>
+<SearchForm>http://www.rhymezone.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.rhymezone.com/r/rhyme.cgi?Word={searchTerms}&amp;typeofrhyme=perfect&amp;org1=syl&amp;org2=l">
+</os:Url><os:Url type="application/opensearchdescription+xml" method="GET" template="http://mycroft.mozdev.org/updateos.php/id0/rhymezone_rhyme.xml" rel="self">
+</os:Url>
+</SearchPlugin>

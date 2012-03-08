@@ -81,6 +81,7 @@ bison                     : The GNU general-purpose parser generator (whatever t
 gparted                   : the best way to partition or reformat a drive or media. Totally kicks the butt.
 recoll                    : find (search for) anything on your computer in zero seconds.
 xclip                     : get and set the clipboard(s) (usage                                                                                                                      : pipe to it to copy into the clipboard; xclip -o to print the selection to standard out; -selection (primary (the default) | secondary | clipboard))
+sselp                     : copy the clipboard to stdout
 scrot                     : take screenshots from the terminal
 xcalib                    : used to invert the screen colours (usage                                                                                                                 : xcalib -invert -alter)
 9menu                     : Simple and easily configurable X-menu / program launcher.
@@ -109,6 +110,7 @@ tx                        : "Qt4 based tabular XML editor"
 unrar                     : unrar things! simple! :)
 xsnow                     : make it snow on the desktop background
 yacy                      : peer-to-peer search engine. (haven't gotten it working yet...)
+zip                       : usage: zip -9 -r name.zip file1 file2 ... folder1 folder2 ... fil* ...
 
 
 --FILE HANDLERS    :
@@ -360,6 +362,8 @@ xorg-xinit
 xsane-gimp
 jfsutils
 vdpau-video
+python2-pychm
+
 
 --SYSTEM TRAY RELATED :
 networkled-git        : show network usage in tray
@@ -382,3 +386,5 @@ kookie    : also keeps track of recipes
 krecipes  : also keeps track of recipes
 
 --UNSORTED:
+retroshare
+sscrotwm-git

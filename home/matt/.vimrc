@@ -140,6 +140,9 @@ inoremap <Right> &rarr;
 inoremap <Up> &uarr;
 inoremap <Down> &darr;
 
+"JAVA CONVENIENCE:"
+imap sout System.out.println();<Left><Left>
+
 "this is good to use in python maybe, but not as much generally. I wonder if I can set
 "it...
 "set foldmethod=indent"

@@ -3,10 +3,8 @@
 <os:Description>Dictionary.com</os:Description>
 <os:InputEncoding>UTF-8</os:InputEncoding>
 <os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A//f3APfv5wDv59YA3t69AN7GpQDOvYwAxqVrALWUUgC1jEIApXs5AK2EMQCUayEApXMQAJRrCAAAAAAAzepneKpD3dzO7CIiAAnu7e7u7u7nDe7tzu7tdiAu7u7KdiAiZwzu7MICad6CBe7uyt7uggZAjuzO7oIlpgMFnM7CIq5QeQICowKu0gnQXshCnuoCzkDe7c7u6V3uSO7uzu7u7u7u7uzO7u7u7u7u7s7u7u7u7u7szMzMzMzMzMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</os:Image>
-<UpdateInterval>7</UpdateInterval>
-<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/dictionary.xml</UpdateUrl>
-<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/dictionary.ico</IconUpdateUrl>
 <SearchForm>http://dictionary.reference.com/</SearchForm>
 <os:Url type="text/html" method="GET" template="http://dictionary.reference.com/search?q={searchTerms}">
+</os:Url><os:Url type="application/opensearchdescription+xml" method="GET" template="http://mycroft.mozdev.org/updateos.php/id0/dictionary.xml" rel="self">
 </os:Url>
 </SearchPlugin>

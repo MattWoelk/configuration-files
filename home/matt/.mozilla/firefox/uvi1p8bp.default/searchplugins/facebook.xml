@@ -3,10 +3,8 @@
 <os:Description>Search Facebook</os:Description>
 <os:InputEncoding>UTF-8</os:InputEncoding>
 <os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKx5Yf+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+seWH/AAAAAAAAAACeYkX/tIRt/7SEbf+0hG3/tIRt/7SEbf+0hG3/tIRt////////////tIRt/7SEbf+0hG3/nmJF/wAAAAAAAAAAnmJF/7SEbf+0hG3/tIRt/7SEbf+0hG3/tIRt/7SEbf///////////7SEbf+0hG3/tIRt/55iRf8AAAAAAAAAAJhZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv///////////+YWTv/mFk7/5hZO/+YWTv/AAAAAAAAAACYWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/mFk7////////////mFk7/5hZO/+YWTv/mFk7/wAAAAAAAAAAmFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO////////////5hZO/+YWTv/mFk7/5hZO/8AAAAAAAAAAJhZO/+YWTv/mFk7/5hZO/+YWTv/mFk7//Tu6//07uv////////////07uv/9O7r/5hZO/+YWTv/AAAAAAAAAACYWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/////////////////////////////////+YWTv/mFk7/wAAAAAAAAAAmFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO////////////5hZO/+YWTv/mFk7/5hZO/8AAAAAAAAAAJhZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv///////////+YWTv/mFk7/5hZO/+YWTv/AAAAAAAAAACYWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/mFk7//Tu6/////////////////+YWTv/mFk7/wAAAAAAAAAAmFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+reGD/9O7r////////////mFk7/5hZO/8AAAAAAAAAAJhZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/AAAAAAAAAACseWH/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/mFk7/5hZO/+YWTv/rHlh/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//+bvIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAA//8AAA==</os:Image>
-<UpdateInterval>7</UpdateInterval>
-<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/facebook.xml</UpdateUrl>
-<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/facebook.ico</IconUpdateUrl>
 <SearchForm>http://www.facebook.com/</SearchForm>
 <os:Url type="text/html" method="GET" template="http://www.facebook.com/search/?q={searchTerms}&amp;src=os">
+</os:Url><os:Url type="application/opensearchdescription+xml" method="GET" template="http://mycroft.mozdev.org/updateos.php/id0/facebook.xml" rel="self">
 </os:Url>
 </SearchPlugin>
