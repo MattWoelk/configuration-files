@@ -386,5 +386,8 @@ kookie    : also keeps track of recipes
 krecipes  : also keeps track of recipes
 
 --UNSORTED:
+joyutils
 retroshare
 sscrotwm-git
+xboxdrv
+xf86-input-joystick

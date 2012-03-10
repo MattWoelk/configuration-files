@@ -12,17 +12,18 @@ set expandtab
 set display=lastline "shows partial lines at end of view when wordwrapped
 
 filetype plugin on  
-filetype indent on "allow filetype-specific auto-indenting"
+filetype indent on "allow filetype-specific auto-indenting
+"filetype detection on "this apparently is broken now
 
 " rulers     
 set guioptions-=R
 set guioptions-=L
 set guioptions-=r
 set guioptions-=l
-set guioptions-=m "get rid of menu bar"
-set guioptions-=T         "disable toolbar"
+set guioptions-=m "get rid of menu bar
+set guioptions-=T         "disable toolbar
 
-"I have no idea why I'm using ack instead of grep..."
+"I have no idea why I'm using ack instead of grep...
 set grepprg=ack
 
 set hlsearch
@@ -30,7 +31,7 @@ set incsearch
 set ignorecase
 ""set smartcase
 
-set wildmenu "shows a tab-completion list in the command line"
+set wildmenu "shows a tab-completion list in the command line
 set wildmode=longest,full "Complete longest common string, then each full match
 
 

@@ -4,7 +4,8 @@
 #
 
 #because the archwiki beginner's guide told me to:
-for i in cdrom cdrw dvd dvdrw; do ln -s /dev/sr0 /dev/$i; done
+#for i in cdrom cdrw dvd dvdrw; do ln -s /dev/sr0 /dev/$i; done # cdrom "already exists" now.
+for i in cdrw dvd dvdrw; do ln -s /dev/sr0 /dev/$i; done
 
 #to load caps lock -> ctrl for ttys
 loadkeys -q /usr/share/kbd/keymaps/caps2ctrl.map
