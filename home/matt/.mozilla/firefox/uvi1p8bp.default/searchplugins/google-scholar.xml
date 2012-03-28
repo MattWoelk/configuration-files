@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Google Scholar</os:ShortName>
+<os:Description>Google Scholar</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAQAMAAAAAAAAAAAAAAAAAAAAAAAD///////////9gaW9VZ3f8/Pz////////////////////////////////////////////+/v5gkatYj68tV3MqLjb+/v7///////////////////////////////////////9if5FmnbxLgqVWnM2e5/eQiYf////////////////////////////////////7+/o2c5xNc4lpj6I4Vm2R3/9yyPTm3Nf///////+BPD/6+/v////////////////+/v4fYpE6YntVZ3fR+P+Y3v+a4P8+gK74+fn///+WcXbb6ur+/v7///////////////////+6tLOy8/6v6P+37f+M2/6a5/9rLi/1+Pi3ODr+/f28ubng2dj////////////////////08e6Gvtmw6v/b6v+E6P5gaW90Njivp6inkJGIU1X///////////////////////////////9ghZSu7v7G5P1pcYWVdn+IU1XT4+P///////////////////////////////////////9Yc3/e8f+j9P8uGhuhOz2qwMD///////////////////////////////////////////8xNku3ODqJQUB2vNqwQEP////////////////////////////////////////////09PVcnbK8+P+Q7f9cY2mHfXj+/v7////////////////////////////////////////08e629f/V7P+H2P530vyLhH7+/v7///////////////////////////////////////96g4fE6/+45fyU3/5nxPt6g4f///////////////////////////////////////////+e3vPV7P+U3/6R3/9Nc4n////////////////////////////////////////////KzM269f7B+f9zrcX+/f3////////////////////////////////////////////////7+vnq7fD///////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</os:Image>
+<SearchForm>http://scholar.google.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://scholar.google.com/scholar?q={searchTerms}">
+</os:Url><os:Url type="application/opensearchdescription+xml" method="GET" template="http://mycroft.mozdev.org/updateos.php/id0/googlescholar.xml" rel="self">
+</os:Url>
+</SearchPlugin>

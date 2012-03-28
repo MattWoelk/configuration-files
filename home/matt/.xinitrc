@@ -100,7 +100,11 @@ clipit&
 
 #start the tray
 #(sleep 9 && trayer --edge left --SetDockType true --SetPartialStrut true --transparent true --alpha 0 --tint 0x080808) &
-stalonetray -bg '#0C0C0C' &
+stalonetray -bg '#0C0C0C' --kludges force_icons_size &
+
+# restart stalonetray after a while (because it's a weirdo)
+# (sleep 10 && /home/matt/scripts/stalonetray.sh) &
+
 
 #start daemon to watch for changed files on behalf of recoll
 /usr/share/recoll/examples/rclmon.sh start &

@@ -238,6 +238,7 @@ libreoffice-math
 libreoffice-sdk-doc
 libreoffice-writer
 kile                : apparently a good IDE for LaTeX (currently using pdflatex and vim instead for simplicity)
+jabref              : a very good bibtex citation (cite) organiser
 
 --WINDOW MANAGERS :
 xmonad
@@ -363,6 +364,8 @@ xsane-gimp
 jfsutils
 vdpau-video
 python2-pychm
+joyutils                         : joystick utilities
+xf86-input-joystick              : more joystick utilities
 
 
 --SYSTEM TRAY RELATED :
@@ -386,8 +389,8 @@ kookie    : also keeps track of recipes
 krecipes  : also keeps track of recipes
 
 --UNSORTED:
-joyutils
+cclive
+docker
 retroshare
 sscrotwm-git
 xboxdrv
-xf86-input-joystick
