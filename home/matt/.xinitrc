@@ -83,6 +83,9 @@ artha &
 #start network indicator lights
 networkled wlan0 &
 
+#start keynav (move the mouse and click with just the keyboard with Ctrl-;)
+keynav &
+
 #start dropbox
 #echo %%% DROPBOX
 #echo GOT HERE 3

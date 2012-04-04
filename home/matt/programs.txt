@@ -45,6 +45,7 @@ xclock                : check the time
 alsamizer             : change sound levels
 fswebcam              : take a picture with the webcam
 df -h                 : hard drive usage
+dfc                   : a prettier version of df (has colours)
 udiskie               : automount devices (udiskie-umount /media/device-name to unmount). An alternative might be to use nautilus -n or something to get it to do the things in the background. Or thunar; it can do it too.
 ldm-git               : "lightweight device mounter"
 mkinitcpio            : See which kernel modules are available with `mkinitcpio -M`
@@ -62,7 +63,7 @@ grip                      : rip cds
 transcode                 : rip dvds
 which                     : shows the whole path of where a program is located
 sudo                      : do a task as root (the super user)
-xdiskusage                : graphical display of disc usage (really awesome)
+xdiskusage                : graphical display of disc usage (really awesome) Shows the sizes of files.
 ranger                    : vi/vim-like file manager/browser
 gvim                      : best text-editor on the planet
 ctags                     : addon for vim                                                                                                                                            : organizes and displays file methods and classes
@@ -86,7 +87,8 @@ scrot                     : take screenshots from the terminal
 xcalib                    : used to invert the screen colours (usage                                                                                                                 : xcalib -invert -alter)
 9menu                     : Simple and easily configurable X-menu / program launcher.
 figlet                    : A program for making large letters out of ordinary text AKA ASCII art. -f name is used where name is a file (no extension) from /usr/share/figlet/fonts/
-cheese                    : take pictures with the webcam in a fun way
+cheese                    : take pictures with the webcam in a fun way (doesn't save videos properly)
+wxcam                     : take videos with the webcam (saved in ~/Pictures/videos)
 fakeroot
 gftp                      : nice ftp client
 gksu                      : "a graphical frontend for su"
@@ -111,6 +113,7 @@ unrar                     : unrar things! simple! :)
 xsnow                     : make it snow on the desktop background
 yacy                      : peer-to-peer search engine. (haven't gotten it working yet...)
 zip                       : usage: zip -9 -r name.zip file1 file2 ... folder1 folder2 ... fil* ...
+keynav                    : move the cursor with the keyboard (mouseless) currently set to Ctrl-;
 
 
 --FILE HANDLERS    :
@@ -200,6 +203,7 @@ seqdiag       : easily create sequential diagrams (blockdiag.com)
 actdiag       : easily create activity diagrams (blockdiag.com)
 blockdiag     : easily create block diagrams (blockdiag.com)
 freemat       : alternative to octave (and therefore, matlab); made by different people for the same purpose. I don't like it as much.
+geg           : equation grapher
 
 --WEB BROWSERS :
 firefox        : <3
@@ -391,6 +395,9 @@ krecipes  : also keeps track of recipes
 --UNSORTED:
 cclive
 docker
+razor-qt
 retroshare
 sscrotwm-git
+vim-fugitive
+vim-repeat
 xboxdrv
