@@ -70,16 +70,16 @@
 "amixer set Master toggle"
   m:0x10 + c:121
   Mod2 + XF86AudioMute
-"amixer -c 0 set Master 1dB+ unmute"
+"pactl -- set-sink-volume 0 +1%"
   m:0x10 + c:123
   Mod2 + XF86AudioRaiseVolume
-"amixer -c 0 set Master 1dB- unmute"
+"pactl -- set-sink-volume 0 -1%"
   m:0x10 + c:122
   Mod2 + XF86AudioLowerVolume
-"amixer -c 0 set Master 7dB+ unmute"
+"pactl -- set-sink-volume 0 +10%"
   m:0x11 + c:123
   Shift+Mod2 + XF86AudioRaiseVolume
-"amixer -c 0 set Master 7dB- unmute"
+"pactl -- set-sink-volume 0 -10%"
   m:0x11 + c:122
   Shift+Mod2 + XF86AudioLowerVolume
 
