@@ -43,9 +43,6 @@ xinput set-prop "TPPS/2 IBM TrackPoint" 263 50
 #echo %%% DISABLE TOUCHPAD
 (sleep 3 && xinput set-prop "SynPS/2 Synaptics TouchPad" "Device Enabled" 0)
 
-#get special keys to work (mute, volume, etc.)
-xbindkeys &
-
 #start up a vnc server
 #echo %%% START VLC
 #echo GOT HERE a
@@ -74,6 +71,9 @@ qbat &
 #put volume indicator in the systray:
 #volumeicon &
 pnmixer & #pretty much the same, but has direct access to pavucontrol, which I really like. :)
+
+#get special keys to work (mute, volume, etc.)
+(sleep 5 && xbindkeys) &
 
 #start artha (ctrl+alt+w)
 #echo %%% ARTHA

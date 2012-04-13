@@ -243,6 +243,17 @@ libreoffice-sdk-doc
 libreoffice-writer
 kile                : apparently a good IDE for LaTeX (currently using pdflatex and vim instead for simplicity)
 jabref              : a very good bibtex citation (cite) organiser
+calligra-braindump  : The Calligra suite is made by KDE and is actually pretty nice! Braindump is for brainstorming and note taking
+calligra-filters
+calligra-flow
+calligra-handbook
+calligra-interfaces
+calligra-karbon
+calligra-kexi
+calligra-krita
+calligra-plan      : pretty good gantt chart program
+calligra-sheets
+calligra-stage
 
 --WINDOW MANAGERS :
 xmonad
@@ -395,9 +406,16 @@ krecipes  : also keeps track of recipes
 --UNSORTED:
 cclive
 docker
+gmrun
+gnumeric
+mobile-shell-git
+owncloud-client
+python3-zorro
 razor-qt
+residualvm-git
 retroshare
 sscrotwm-git
 vim-fugitive
 vim-repeat
+wayland
 xboxdrv

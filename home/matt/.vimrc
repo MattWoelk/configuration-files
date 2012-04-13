@@ -34,6 +34,8 @@ set ignorecase
 set wildmenu "shows a tab-completion list in the command line
 set wildmode=longest,full "Complete longest common string, then each full match
 
+set wildignorecase "ignore case in filename completion :)
+
 
 if has("gui_running")
   "set fuoptions=maxvert,maxhorz
