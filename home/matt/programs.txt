@@ -37,7 +37,9 @@ minecraft           : lego, but endless and with zombies
 playonlinux         : do wine things automatically for popular games
 voxatron            : voxel game of shooting and destroying
 xaos                : fractal viewer
+mandelbulber        : view 3D fractals (so crazy!)
 zen-puzzle-garden   : zen garden puzzles
+desura              : like steam for linux (and others)
 
 --HARDWARE MONITORING :
 yacpi                 : monitor battery level with ncurses
@@ -130,11 +132,13 @@ gfontview          : another font viewer
 
 --VNC  :
 x11vnc : currently the best option for vnc
+shelr  : record terminal and paste it online. great for tutorials.
 
 --PACKAGE INSTALLATION AND KNOWLEDGE :
 pkgfile                              : to find out to which package a command belongs.
 yaourt                               : install from the AUR
 pacman-color                         : pacman ... in colour!! (currently aliased)
+aurvote                              : vote on aur packages
 
 --TEXT TO SPEECH:
 espeak
@@ -156,6 +160,7 @@ transmission-cli : cli interface for transmission torrent downloader
 transmission-qt  : torrent downloader
 sickbeard-git    : not currently in use; audo tv show downloader
 tribler          : torrents without trackers!
+btlive           : live video torrent protocol
 
 --SOUND/AUDIO/VIDEO/MUSIC-RELATED :
 qjackctl                    : used to start a jack server (BEFORE starting renoise)
@@ -254,6 +259,7 @@ calligra-krita
 calligra-plan      : pretty good gantt chart program
 calligra-sheets
 calligra-stage
+calligra-tools
 
 --WINDOW MANAGERS :
 xmonad
@@ -381,6 +387,7 @@ vdpau-video
 python2-pychm
 joyutils                         : joystick utilities
 xf86-input-joystick              : more joystick utilities
+samba                            : communicate with windows computers (haven't got this working yet)
 
 
 --SYSTEM TRAY RELATED :

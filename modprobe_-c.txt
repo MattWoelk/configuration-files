@@ -12759,6 +12759,7 @@ alias usb:v22B8p4214d*dc*dsc*dp*ic*isc*ip* ipaq
 alias usb:v22B8p4224d*dc*dsc*dp*ic*isc*ip* ipaq
 alias usb:v22B8p4234d*dc*dsc*dp*ic*isc*ip* ipaq
 alias usb:v22B8p4244d*dc*dsc*dp*ic*isc*ip* ipaq
+alias usb:v22B8p6027d*dc*dsc*dp*ic02isc0Aip00* zaurus
 alias usb:v22B8p6425d*dc*dsc*dp*ic*isc*ip* cdc_acm
 alias usb:v22B8p6425d*dc*dsc*dp*ic02isc0Aip00* zaurus
 alias usb:v22B8p6426d0101dc*dsc*dp*ic*isc*ip* usb_storage
