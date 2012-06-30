@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Wikitravel</os:ShortName>
+<os:Description>Wikitravel-Eng</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAbUlEQVQ4jWP4//8/AyWYoAIph7D/FBlg3r6VcgPwuYIoA/C5gmgDSuZiN4QoA0CakTGyl4iKBXwYrtCpetZ/dEwoCjFcANSwB6ZZM6zgf8HSA6QZgOxskGayDQBhig2wz26mzACYKwbWAGKiEQAsM9ysOLkCyAAAAABJRU5ErkJggg==</os:Image>
+<SearchForm>http://wikitravel.org/en/Main_Page</SearchForm>
+<os:Url type="text/html" method="GET" template="http://wikitravel.org/en/Special:Search?search={searchTerms}&amp;go=Go">
+</os:Url><os:Url type="application/opensearchdescription+xml" method="GET" template="http://mycroft.mozdev.org/updateos.php/id0/wikitravel_enbyp.xml" rel="self">
+</os:Url>
+</SearchPlugin>

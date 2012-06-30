@@ -103,7 +103,7 @@ clipit&
 
 #start the tray
 #(sleep 9 && trayer --edge left --SetDockType true --SetPartialStrut true --transparent true --alpha 0 --tint 0x080808) &
-stalonetray -bg '#0C0C0C' --kludges force_icons_size &
+stalonetray -bg '#0C0C0C' --kludges force_icons_size --geometry 1x45&
 
 # restart stalonetray after a while (because it's a weirdo)
 # (sleep 10 && /home/matt/scripts/stalonetray.sh) &
@@ -127,8 +127,51 @@ stalonetray -bg '#0C0C0C' --kludges force_icons_size &
 
 #start up window manager
 #echo GOT HERE 4
-exec ck-launch-session xmonad
+#####exec ck-launch-session xmonad
 #exec ck-launch-session qtile
 #exec qtile # This hasn't yet worked
 
+case $WM in
+kde)
+  exec ck-launch-session startkde
+  ;;
+gnome)
+  exec ck-launch-session gnome-session
+  ;;
+kde)
+  exec ck-launch-session startkde
+  ;;
+lxde)
+  ~/bin/lxde&
+  exec ck-launch-session startlxde
+  ;;
+vb-ubuntu)
+  VirtualBox -startvm "TSAT-Ubuntu-10.04" -fullscreen
+  ;;
+openbox)
+  ~/bin/openbox&
+  exec ck-launch-session openbox
+  ;;
+twm)
+  exec ck-launch-session twm
+  ;;
+xmonad)
+  exec ck-launch-session xmonad
+  ;;
+razor)
+  exec ck-launch-session razor-session
+  ;;
+monsterwm)
+  exec ck-launch-session monsterwm
+  ;;
+goomwwm)
+  exec ck-launch-session goomwwm
+  ;;
+qtile)
+  exec ck-launch-session qtile
+  ;;
+*)
+  exec ck-launch-session xmonad
+  ;;
+esac
 # could start window manager before other programs by using https://wiki.archlinux.org/index.php/Xinitrc#Starting_the_WM_first

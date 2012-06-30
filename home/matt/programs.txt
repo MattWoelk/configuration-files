@@ -53,7 +53,7 @@ ldm-git               : "lightweight device mounter"
 mkinitcpio            : See which kernel modules are available with `mkinitcpio -M`
 
 --UTILITIES               :
-vipe                      : edit what is being sent through a pipe in vim (ex                                                                                                        : `ls | vipe | grep home`)
+vipe                      : edit what is being sent through a pipe in vim (ex - `ls | vipe | grep home`)
 vidir                     : edit a directory in vim. delete, rename, etc. It's crazy!
 chronic                   : silence output...unless it fails
 cpio                      : copy into and out of zips and tars and things (archives)
@@ -68,12 +68,12 @@ sudo                      : do a task as root (the super user)
 xdiskusage                : graphical display of disc usage (really awesome) Shows the sizes of files.
 ranger                    : vi/vim-like file manager/browser
 gvim                      : best text-editor on the planet
-ctags                     : addon for vim                                                                                                                                            : organizes and displays file methods and classes
+ctags                     : addon for vim - organizes and displays file methods and classes
 nano                      : a simple text-editor
 nautilus                  : file browser
 artha                     : dictionary and thesaurus program
 giggle                    : git viewer
-gpasswd                   : add a user to a group with the following                                                                                                                 : sudo gpasswd -a username groupname
+gpasswd                   : add a user to a group with the following - sudo gpasswd -a username groupname
 dasher                    : alternative text-input method
 devmon                    : currently (not) being used to mount usb things and cd things
 less                      : view text with vim-like keybindings

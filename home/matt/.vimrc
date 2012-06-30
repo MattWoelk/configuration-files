@@ -138,12 +138,12 @@ cmap w!! w !sudo tee >/dev/null %
 "autocmd BufEnter * lcd %:p:h
 
 
-"SPECIAL THINGS FOR THE MWWM WIKI CONVENIENCE:"
-inoremap <Right> &rarr;
-inoremap <Up> &uarr;
-inoremap <Down> &darr;
+"SPECIAL THINGS FOR THE MWWM WIKI CONVENIENCE:
+"inoremap <Right> &rarr;
+"inoremap <Up> &uarr;
+"inoremap <Down> &darr;
 
-"JAVA CONVENIENCE:"
+"JAVA CONVENIENCE:
 imap sout System.out.println();<Left><Left>
 
 "this is good to use in python maybe, but not as much generally. I wonder if I can set
@@ -152,3 +152,22 @@ imap sout System.out.println();<Left><Left>
 
 "ignore white space in vim diffs
 "set diffopt+=iwhite
+
+" THIS SECTION: use dmenu to autocomplete files :D coutesy of
+"   http://leafo.net/posts/using_dmenu_to_open_quickly.html
+" Strip the newline from the end of a string
+function! Chomp(str)
+  return substitute(a:str, '\n$', '', '')
+endfunction
+
+" Find a file and pass it to cmd
+function! DmenuOpen(cmd)
+  let fname = Chomp(system("git ls-files | dmenu_run -i -l 20 -p " . a:cmd))
+  if empty(fname)
+    return
+  endif
+  execute a:cmd . " " . fname
+endfunction
+
+map <c-t> :call DmenuOpen("tabe")<cr>
+map <c-f> :call DmenuOpen("e")<cr>

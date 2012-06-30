@@ -5,14 +5,16 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+PATH=$PATH:/home/matt/downloads/eclipse
+
 #--ALIASES--
-alias ls='ls -l --color=auto'
+alias ls='ls -lh --color=auto'
 alias vlc-for-remote='vlc -I http'
 alias bc='bc -q'
 alias info='info --vi-keys'
 alias grep='grep -i --color'
 alias urxvt='urxvt -bg black -fg white +sb'
-alias r='ranger-cd'
+alias r='ranger'
 alias unmount='udiskie-umount'
 alias twitter='tyrs'
 alias feh='feh -B black -.'
@@ -49,17 +51,18 @@ HISTSIZE=100000
 
 
 #This is a bash function (for ~/.bashrc) to change the directory to the last visited one after ranger quits.  You can always type "cd -" to go back to the original one.
-function ranger-cd {
-  tempfile='/tmp/chosendir'
-  /usr/bin/ranger --choosedir="$tempfile" "${@:-$(pwd)}"
-  test -f "$tempfile" &&
-  if [ "$(cat -- "$tempfile")" != "$(echo -n `pwd`)" ]; then
-    cd -- "$(cat "$tempfile")"
-  fi
-  rm -f -- "$tempfile"
-}
-
-alias ranger='ranger-cd'
+#function ranger-cd {
+#  tempfile='/tmp/chosendir'
+#  /usr/bin/ranger --choosedir="$tempfile" "${@:-$(pwd)}"
+#  test -f "$tempfile" &&
+#  if [ "$(cat -- "$tempfile")" != "$(echo -n `pwd`)" ]; then
+#    cd -- "$(cat "$tempfile")"
+#  fi
+#  rm -f -- "$tempfile"
+#}
+#
+#alias ranger='ranger-cd'
+# This is not as useful as I once thought because you can just use the S command
 
 
 # Humble Bundle Keys
